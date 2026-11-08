@@ -1,0 +1,558 @@
+name,lat,lon,osm_tags,osm_type
+19 Dal Chawal Masale,28.65725,77.22017,shop=supermarket;building=retail,w
+AKSS Electronics,28.65732,77.23632,shop=electronic_parts,n
+AU Small Finance Bank,28.65806,77.22329,amenity=atm,n
+Aam Aadmi Mohalla Clinic,28.66273,77.23684,amenity=clinic;healthcare=clinic,w
+Academic Branch,28.66407,77.2333,office=yes,w
+Adinath Tools Company,28.64765,77.2251,shop=hardware,n
+Aditya Textiles,28.65678,77.2257,shop=clothes,n
+Administration Block and Deptt. of Architecture and Planning,28.66437,77.23354,building=college,w
+Advance Protein Hub,28.65632,77.23354,shop=nutrition_supplements,n
+Aggarwal Cold Drinks,28.65876,77.22406,shop=convenience,n
+Airtel Store,28.64585,77.24021,shop=mobile_phone,n
+Ajanta,28.64578,77.21585,tourism=hotel,n
+Ajit Singh Harminder Singh Amritsari Papad and Badiyan,28.65565,77.23082,shop=convenience,n
+Ajmeri Gate,28.64623,77.22399,tourism=attraction;historic=city_gate,w
+Aljawahir,28.64954,77.23359,amenity=restaurant,n
+Alslam Chicken,28.64821,77.23366,amenity=restaurant,n
+American Tourister,28.65618,77.23089,shop=bag,n
+Amrood wali Masjid,28.64554,77.23137,amenity=place_of_worship;religion=muslim,n
+Anglo Arabic Public School,28.64574,77.22239,amenity=school;tourism=attraction,w
+Anglo Sanskrit Victoria Jubilee Senior Secondary School,28.64775,77.24117,amenity=school,w
+Anjuman Masjid,28.64591,77.23248,amenity=place_of_worship;religion=muslim,n
+Antennas,28.65679,77.23594,shop=electronics,n
+Anveshan Foundation CoE - Rekhi Foundation,28.66472,77.23128,office=foundation,w
+Archeological Survey of India,28.65709,77.24,tourism=museum,n
+Arya Orphanage,28.64754,77.23796,amenity=childcare,n
+Arya Orphanage,28.64769,77.23707,amenity=childcare,w
+Ashok Chaat Bhandar,28.64932,77.22684,amenity=fast_food,n
+Ashok Chaat Corner,28.65519,77.23181,amenity=fast_food,n
+Ashok Textiles,28.65827,77.22591,shop=clothes,n
+Asian Bridal Store,28.65624,77.22918,shop=clothes,n
+Assure Electronics,28.65709,77.23573,shop=electronic_parts,n
+Aviraj Creations,28.65676,77.22622,shop=clothes,n
+Axis Bank,28.6568,77.22365,amenity=bank,n
+Axis bank ATM,28.65682,77.22365,amenity=atm,n
+Ayaz Perfume,28.64546,77.24013,shop=perfumery,n
+Babu Ram Devi Dayal,28.65609,77.23067,amenity=restaurant,n
+Bagh Diwar Sabzi Mandi,28.65897,77.22472,amenity=marketplace,w
+Bahi Mati Dass museum,28.65651,77.23241,tourism=museum,n
+Bahuji Shoes,28.6565,77.22474,shop=shoes,n
+Balaji Creations,28.65646,77.22998,shop=clothes,n
+Ballimaran,28.65316,77.22544,place=neighbourhood,n
+Balujas,28.65629,77.22854,shop=shoes,n
+Banaras Saree Emporium,28.6567,77.22649,shop=clothes,n
+Bandhan Bank,28.65681,77.2238,amenity=bank,n
+Bank of India,28.65636,77.231,amenity=bank,n
+Bansal Hardware Store,28.64766,77.22497,shop=hardware,n
+Baoli (step well),28.65902,77.24087,tourism=attraction,n
+Bhagwan Das Jagnath,28.65634,77.22811,shop=hardware,n
+Bhargava's,28.64629,77.24045,shop=musical_instrument,n
+Bhatia,28.64567,77.21669,amenity=cafe,n
+Bhatia Pipe Traders,28.6498,77.22609,shop=hardware,n
+Bikaner Sweet Shop,28.65477,77.23348,shop=confectionery,n
+Bikanervala,28.65687,77.22444,amenity=fast_food,n
+Bina Shop,28.65537,77.22747,shop=music,n
+Bishan Swaroop,28.65634,77.2308,shop=confectionery,n
+Bloomrooms,28.64552,77.21778,tourism=hotel,n
+Blue Pearl Hotel,28.64528,77.21585,tourism=hotel,n
+Blue and yellow mosque,28.64631,77.2243,amenity=place_of_worship,w
+Bonus Electronics,28.65709,77.23567,shop=electronic_parts,n
+Bootery,28.65657,77.22381,shop=shoes,n
+Bose museum,28.65821,77.24201,tourism=museum,n
+Brahmin's Pure veg,28.64592,77.21543,amenity=restaurant,n
+Brownie Cafe,28.64559,77.21639,amenity=cafe,n
+Cafe Delhi heights®,28.65636,77.24015,amenity=fast_food,n
+Cafe Vagabond by Saffron,28.64577,77.21594,amenity=restaurant,n
+Café Brownie (coffee),28.64582,77.21544,amenity=cafe,n
+Canara Bank,28.65063,77.22515,amenity=bank,n
+Canara bank ATM,28.65688,77.22456,amenity=atm,n
+Cannon,28.65764,77.22948,tourism=attraction,n
+Capital Small Finance Bank,28.64519,77.24051,amenity=bank,n
+Central Baptist Church,28.65645,77.23385,amenity=place_of_worship;religion=christian,w
+Central Baptist Church Primary school,28.65641,77.23368,amenity=school,n
+Chanchal Continental,28.64565,77.21694,tourism=hotel,n
+Chanchal Deluxe,28.64538,77.21717,tourism=hotel,n
+Chandni Chowk,28.65598,77.23219,tourism=attraction;place=neighbourhood,n
+Chandni Chowk,28.6561,77.23544,shop=variety_store,n
+Chandni Chowk,28.65842,77.23031,railway=stop;public_transport=stop_position,n
+Chandni Chowk,28.65842,77.23034,railway=station;station=subway;public_transport=station,n
+Chandni Chowk,28.65842,77.23037,railway=stop;public_transport=stop_position,n
+Chandni Chowk Gate 5,28.65705,77.2302,railway=subway_entrance,n
+Chandni Chowk Metro Gate No. 1,28.65803,77.23023,railway=subway_entrance,n
+Chandni Chowk Metro Gate No. 2,28.65996,77.23032,railway=subway_entrance,n
+Chandni Chowk Metro Gate No. 3,28.6605,77.22978,railway=subway_entrance,n
+Charti Lal Goel Heritage Park,28.65257,77.23596,leisure=park,w
+Chaska Ram,28.65646,77.23032,amenity=restaurant,n
+Chatta Sheikh Manglo Masjid,28.6489,77.23238,amenity=place_of_worship;religion=muslim,n
+Chawla Textiles,28.65677,77.22591,shop=clothes,n
+Chawri Bazaar,28.64925,77.22654,railway=stop;public_transport=stop_position,n
+Chawri Bazaar,28.64926,77.22652,railway=station;station=subway;public_transport=station,n
+Chawri Bazaar,28.64928,77.22649,railway=stop;public_transport=stop_position,n
+Chawri Bazaar,28.64993,77.22979,place=neighbourhood,n
+Chawri Bazaar Gate No 1,28.64828,77.22585,railway=subway_entrance,n
+Chawri Bazaar Gate Number 3,28.64932,77.22675,railway=subway_entrance,n
+Chawri Bazaar Metro Gate Number 2,28.64923,77.22629,railway=subway_entrance,n
+Chawri Bazaar Metro Gate Number 2,28.64949,77.22642,railway=subway_entrance,n
+Chawri Bazar,28.64828,77.22594,public_transport=platform,w
+Chawri Bazar,28.64832,77.22586,public_transport=platform,w
+Chhatta Chowk,28.65592,77.23986,tourism=information,n
+Chillax And Relax,28.65676,77.22564,amenity=cafe,n
+Church view,28.64519,77.21655,tourism=hotel,n
+Citibank,28.65657,77.23193,amenity=atm,n
+Collection House,28.65643,77.22529,shop=clothes,n
+Company Bagh,28.6592,77.22768,leisure=park,w
+Computer Lab,28.66399,77.23319,office=yes,w
+Court of Special Railway Magistrate,28.66055,77.22943,amenity=courthouse,n
+Cycle Market Police Post,28.65592,77.23474,amenity=police,n
+DCB Bank,28.65624,77.23486,amenity=bank,n
+Dara Shikoh Library,28.66345,77.23304,historic=building,w
+Daryaganj,28.64609,77.24305,place=locality,n
+Daryaganj Sabzi Mandi,28.64615,77.23983,amenity=fixme,n
+Dawar Sarees,28.65628,77.22895,shop=clothes,n
+Dee Vee Fabric,28.65676,77.22635,shop=boutique,n
+Deep Traders,28.64773,77.22503,shop=trade,n
+Delhi GPO,28.66214,77.23529,amenity=post_office,w
+Delhi Gate,28.65224,77.24013,historic=city_gate,w
+Delhi Junction,28.66093,77.22765,railway=station;public_transport=station,n
+Delhi Junction,28.66174,77.2279,railway=stop;public_transport=stop_position,n
+Delhi Junction,28.66189,77.22791,railway=stop;public_transport=stop_position,n
+Delhi Metro Violet Line,28.65677,77.2365,railway=subway,w
+Delhi Metro Violet Line,28.66264,77.23321,railway=subway,w
+Delhi Police,28.64947,77.22657,amenity=police,n
+Delhi Public Library,28.6598,77.22996,amenity=library,w
+Delhi Safety House,28.64766,77.22511,shop=safety_equipment,n
+Delhi Town Hall,28.65725,77.22747,amenity=townhall,w
+Deluxe Toilets,28.65909,77.22828,amenity=toilets,n
+Department of Electronic and Communication Engineering,28.66443,77.23225,building=university,w
+Deptt. of Mechanical and Automation Engineering,28.6649,77.23326,building=college,w
+Dharampura,28.6539,77.23181,place=neighbourhood,n
+Dharamshala Rai Sahab Lala Lakshmi Narayan,28.65837,77.22348,tourism=hotel,n
+Dhingra Bag House,28.65656,77.21574,shop=bag,n
+Digital Library,28.66399,77.23336,amenity=internet_cafe,w
+Dilli Chalo Park,28.65233,77.24258,leisure=park,w
+Dilpasand Byriani Taufiq Byriani Wala,28.6472,77.23594,amenity=fast_food,n
+Diwan-e-Aam,28.65578,77.24231,tourism=attraction,n
+Diwan-e-Khaas,28.65645,77.24355,historic=monument,w
+Diwan-i-Aam,28.65574,77.24233,historic=monument,w
+Diwan-i-Am,28.65601,77.24221,tourism=information,n
+Diwan-i-Khas,28.65648,77.2434,tourism=information,n
+Dr Shroff Charity Eye Hospital Training,28.64696,77.24108,amenity=school,w
+Dr. Shroff Charity Eye Hospital,28.64594,77.24205,amenity=hospital;healthcare=hospital,n
+Drinking Water Station,28.65166,77.23473,amenity=drinking_water,n
+Dujana House,28.65043,77.23032,shop=confectionery,n
+Electronics Mart,28.64747,77.23998,shop=electronics,n
+Emtex Safety Devices,28.64838,77.22573,shop=safety_equipment,n
+Entrance fee 600 rupees,28.65148,77.2396,shop=ticket,n
+Examination Branch,28.66393,77.23304,office=yes,n
+Exflo Bathroom Fixtures,28.64972,77.22643,shop=bathroom_furnishing,n
+Exit only,28.65196,77.23972,tourism=information,n
+Fancy Chappal Store,28.65637,77.22545,shop=shoes,n
+Fatehpur Muslim Senior Secondary School,28.65663,77.22257,amenity=school,w
+Fatehpuri Masjid,28.65662,77.22245,amenity=place_of_worship;religion=muslim,w
+Firoz Shah's Mosque,28.6463,77.21537,amenity=place_of_worship;religion=muslim,n
+Fish Point,28.64971,77.23436,amenity=restaurant,n
+Flag Pole,28.66494,77.23257,leisure=park,w
+Free Maternity & Child Welfare Centeri,28.64726,77.23085,amenity=hospital;healthcare=birthing_centre,n
+Freedom-Struggle Museum,28.65623,77.24015,tourism=museum,n
+GB Road,28.65045,77.22066,amenity=nightclub,n
+GUGLANI & COMPANY,28.65097,77.22592,shop=wholesale,n
+Gamma Electrovision,28.65759,77.23544,shop=doityourself,n
+Gandhi Statue,28.65901,77.22759,historic=memorial,n
+Gauri Selections,28.65676,77.226,shop=clothes,n
+Gauri Shankar Hindu Temple,28.65581,77.23566,amenity=place_of_worship;religion=hindu,n
+Giani's di Hatti,28.65793,77.22326,shop=confectionery,n
+Gole Hatti,28.6574,77.22314,amenity=fast_food,n
+Government Girls Senior Secondary School,28.64824,77.2385,office=educational_institution,n
+Government Sarvodaya Bal Vidyalaya,28.64728,77.23735,office=educational_institution,n
+Graveyard,28.64569,77.21641,historic=archaeological_site,n
+Gujrat Glass Company,28.66232,77.21545,shop=frame,n
+Gumbad Cafe,28.65168,77.23277,amenity=restaurant,n
+Gurdwara Sis Ganj Sahib,28.65593,77.23234,amenity=place_of_worship;religion=sikh,w
+Guru Ji Collection,28.65676,77.22602,shop=clothes,n
+Guru Kirpa Restaurant,28.65628,77.23298,amenity=restaurant,n
+Gymnasium,28.66436,77.23163,leisure=outdoor_seating,w
+HDFC Bank,28.65629,77.23275,amenity=bank,n
+HDFC Bank,28.65633,77.23304,amenity=bank,n
+HDFC Bank,28.65652,77.22461,amenity=atm,n
+HDFC bank,28.65644,77.22435,amenity=bank,n
+HMDAV Senior Secondary School,28.64545,77.24113,amenity=school,w
+Haiqa Looms,28.65834,77.2259,shop=clothes,n
+Haldiram's,28.65639,77.23162,amenity=fast_food,n
+Hammam,28.65665,77.24339,tourism=information,n
+Hammam,28.65677,77.24349,historic=monument,w
+Harcharan Das Sharma Bajaj - Uttarakhand Wale,28.65676,77.2258,shop=clothes,n
+Hardayal Municipal Library,28.65876,77.23076,amenity=library,w
+Hardayal Municipal Public Library,28.64511,77.24009,amenity=library,n
+Hari Om Traders,28.65009,77.226,shop=trade,n
+Harmeet Selection,28.65658,77.22645,shop=clothes,n
+Harmeet Selection,28.6567,77.22645,shop=clothes,n
+Hayat Bakhsh,28.65792,77.24282,leisure=garden,w
+Hayat Bakhsh Garden and Pavillons,28.65701,77.24304,tourism=information,n
+Heena,28.65677,77.22584,shop=clothes,n
+Heritage Tea House,28.65859,77.2431,tourism=information,n
+Hindustan Industrial Corporation,28.6501,77.2257,shop=trade,n
+Hindustan Trading Company,28.64976,77.22614,shop=hardware,n
+Hindustan Trading Company,28.64984,77.22605,shop=hardware,n
+Hotel Adarsh Vegetarian,28.65631,77.22422,amenity=restaurant,n
+Hotel Krishna Deluxe,28.64589,77.21506,tourism=hotel,n
+Hotel Oasis,28.64755,77.23986,tourism=hotel,n
+Hotel Sun International,28.64591,77.21585,tourism=hotel,n
+Hotel Tara Palace,28.65349,77.23451,tourism=hotel,n
+ICICI Bank,28.65594,77.23525,amenity=atm,n
+ICICI Bank,28.65606,77.23291,amenity=bank,n
+ICICI Bank,28.65775,77.21521,amenity=atm,n
+IGDTUW Playground,28.66466,77.23273,leisure=park,w
+IT Block,28.66389,77.23262,building=university,w
+Indian Bank,28.65643,77.22575,amenity=bank,n
+Indian Oil,28.64985,77.23955,amenity=fuel,w
+Indian War Memorial Museum,28.65583,77.24099,tourism=museum,n
+Indira Gandhi Delhi Technical University for Women,28.66478,77.23223,amenity=college,w
+Indira Gandhi Technical University for Women,28.66484,77.23436,public_transport=platform,w
+Ingerpuri,28.65796,77.22334,amenity=restaurant,n
+Jagat Footwear,28.65643,77.22533,shop=shoes,n
+Jaggannath PVC Hub,28.65013,77.2257,shop=trade,n
+Jagjit Restaurant,28.65756,77.22318,amenity=restaurant,n
+Jain Bird Hospital,28.65546,77.23608,amenity=veterinary,n
+Jain Sweitamna Temple,28.65511,77.23091,amenity=place_of_worship,n
+Jain Temple,28.64766,77.24181,amenity=fixme,n
+Jain coffee house,28.65061,77.22958,amenity=cafe,n
+Jalan Market,28.65561,77.22921,amenity=marketplace,w
+Jalebi Wala,28.65601,77.23349,amenity=fast_food,n
+Jama Masjid,28.65002,77.23764,railway=stop;public_transport=stop_position,n
+Jama Masjid,28.65004,77.23769,railway=stop;public_transport=stop_position,n
+Jama Masjid,28.65016,77.23754,railway=station;station=subway;public_transport=station;building=transportation,w
+Jama Masjid,28.65068,77.23346,religion=muslim,w
+Jama Masjid Metro Gate No. 1,28.64949,77.23756,railway=subway_entrance,n
+Jama Masjid Metro Gate No. 2,28.65062,77.23711,railway=subway_entrance,n
+Jama Masjid Metro Gate No. 3,28.65148,77.23818,railway=subway_entrance,n
+Jama Masjid Metro Gate No. 4,28.6507,77.23809,railway=subway_entrance,n
+Jama Masjid Police Station,28.65246,77.23371,amenity=police,n
+Jammu and Kashmir Bank,28.65687,77.22451,amenity=bank,n
+"Japani Samosa, opposite Moti Cinema",28.65658,77.2346,shop=bakery,n
+Jay Sons,28.65628,77.22898,shop=clothes,n
+Jugmug,28.65345,77.23994,amenity=cafe,n
+Jung Bahadur Kachori Wala,28.65569,77.22999,amenity=fast_food,n
+KC Bags,28.65746,77.21569,shop=bag,n
+Kaccha Bagh,28.65765,77.22972,leisure=park,w
+Kaccha Bagh Community Centre,28.65853,77.22993,amenity=events_venue,w
+Kailash And Company,28.65016,77.22567,shop=hardware,n
+Kake di Hatti,28.65804,77.22322,amenity=restaurant,n
+Kala Nooor,28.65655,77.22842,shop=clothes,n
+Kalash Cards,28.65056,77.23222,shop=gift,n
+Kamala Market,28.64524,77.22402,public_transport=stop_position,n
+Kamala Market,28.64528,77.22401,public_transport=platform,n
+Karim's,28.64943,77.23374,amenity=restaurant,n
+Karur Vysya Bank,28.65682,77.22386,amenity=bank,n
+Karur vysya bank atm,28.65688,77.22384,amenity=atm,n
+Kashmere Gate Campus,28.66291,77.23364,amenity=university,w
+Kashmiri Gate,28.66042,77.24074,historic=city_gate,n
+Kasturba Hospital,28.64854,77.23852,amenity=hospital;healthcare=hospital,n
+Kasturba Hospital,28.64983,77.23593,amenity=hospital,n
+"Kasturba Hospital Blood Bank, Daryaganj",28.64921,77.23733,amenity=blood_bank,n
+Katara Asharfi Pyau,28.65653,77.22817,amenity=drinking_water,n
+Kathika Cultural Centre And Museum,28.64605,77.22731,amenity=community_centre,n
+Kermal Mahal Kulfi,28.64742,77.22887,amenity=ice_cream,n
+Kewalson,28.64894,77.22595,shop=safety_equipment,n
+Khanna Market,28.66492,77.21511,amenity=marketplace,n
+Khari Baoli Spice Market,28.6572,77.22285,amenity=marketplace,n
+Khas Mahal,28.65612,77.24363,historic=monument,w
+Khas Mahal,28.65621,77.24339,tourism=information,n
+Kitz,28.65014,77.22569,shop=trade,n
+Kotak Bank ATM,28.65654,77.23193,amenity=atm,n
+Kotak Mahindra Bank,28.64971,77.22642,amenity=bank,n
+Kotak Mahindra Bank,28.66308,77.23238,amenity=bank,n
+Kotwali Police Station,28.6586,77.23108,amenity=police,n
+Krishna Cloth House,28.65682,77.22532,shop=clothes,n
+Krishna Industrial Equipments,28.64966,77.22644,shop=trade,n
+Kuldip Singh And Brothers,28.64963,77.22628,shop=hardware,n
+Kulfi Kuremal Family,28.6491,77.22679,shop=confectionery,n
+Kunwari Begum ka Burj,28.64643,77.21535,historic=archaeological_site,n
+L.N. Girdharri Lal,28.65877,77.22371,amenity=school,n
+Lahore Dry Fruits Store,28.65675,77.22316,shop=dry_fruits,n
+Lahori Gate,28.65586,77.23875,historic=city_gate,w
+Lahori Gate,28.65684,77.21853,historic=archaeological_site,n
+Lahori Gate Police Station,28.65584,77.21902,amenity=police,n
+Lajpat Rai Market,28.65736,77.23598,amenity=marketplace,n
+Lal Masjid,28.64941,77.23222,amenity=place_of_worship;building=mosque;religion=muslim,n
+Lal Quila,28.65747,77.23652,railway=stop;public_transport=stop_position,n
+Lal Quila,28.65748,77.23666,railway=station;station=subway;public_transport=station,n
+Lal Quila,28.65748,77.23673,railway=stop;public_transport=stop_position,n
+Lal Quila Gate Number 4,28.6568,77.23703,railway=subway_entrance,n
+Lal Quila Metro Gate Number 1,28.65638,77.23645,railway=subway_entrance,n
+Lal Quila Metro Gate Number 2,28.65849,77.23658,railway=subway_entrance,n
+Lal Quila Metro Station,28.6587,77.23717,railway=subway_entrance,n
+Lal kila tourist parking,28.65097,77.24037,amenity=parking,w
+Lala Lakshmi Narayan,28.6583,77.22345,amenity=drinking_water,n
+Laut Fabrics,28.65677,77.22586,shop=clothes,n
+Legend,28.64562,77.21706,tourism=hotel,n
+Lothian Cemetery,28.66127,77.23622,historic=cemetery,w
+Lucky Ram Chote Laal,28.65677,77.22587,shop=clothes,n
+M.M. Jewellers,28.65649,77.23006,shop=jewelry,n
+M.P. Jain Dairy,28.65876,77.22389,shop=dairy,n
+MCD Swimming Pool,28.65917,77.22962,leisure=swimming_pool,w
+"Magenta Line extension, Indraprastha to Inderlok (Phase-4)",28.64689,77.21869,railway=proposed,w
+Mahavir International Eye Hospital,28.65986,77.21575,amenity=hospital;healthcare=hospital,n
+Manohar Market,28.65039,77.22625,amenity=marketplace,n
+Marwari Public Library,28.65638,77.23148,amenity=library,n
+Masjid Ahle Hadees,28.64756,77.22522,amenity=place_of_worship;building=mosque;religion=muslim,w
+Masjid Badal Beig,28.65032,77.22536,amenity=place_of_worship;religion=muslim,n
+Masjid Dai Wali,28.64686,77.2397,amenity=place_of_worship;religion=muslim,n
+Masjid Mubarak Begum,28.64976,77.22607,amenity=place_of_worship;building=mosque;religion=muslim,w
+Masjid Saguwa Wali,28.64701,77.238,amenity=place_of_worship;religion=muslim,n
+Masjid Shahi Bagh Wali,28.65687,77.22684,amenity=place_of_worship;religion=muslim,w
+Matia Mahal,28.64759,77.23522,place=locality,n
+McDonald's,28.65629,77.23411,amenity=fast_food,n
+Mech and Tech Industries,28.64775,77.22504,shop=trade,n
+Meena Bazaar,28.65107,77.23574,place=neighbourhood,n
+Meena Bazaar,28.65163,77.23594,amenity=marketplace,w
+Meenakshi Creations,28.65676,77.22633,shop=clothes,n
+Meghraj & sons,28.65678,77.22346,shop=confectionery,n
+"Mehta Brothers (ICs, MCs)",28.65692,77.23594,shop=electronics,n
+"Mehta Electronics (ICs, MCs)",28.6571,77.23591,shop=electronics,n
+Mohabbat Ka Sharbat,28.65643,77.22545,shop=convenience,n
+Mohan Lal Mehra,28.65677,77.22613,shop=clothes,n
+Mori Gate,28.6642,77.22374,place=neighbourhood,n
+Mosque,28.65051,77.22111,amenity=place_of_worship,n
+Mosque,28.65088,77.22089,amenity=place_of_worship,n
+Mother Dairy,28.64581,77.21607,shop=dairy,n
+Mother Dairy,28.65005,77.23639,shop=dairy,n
+Mother Dairy,28.65784,77.22822,shop=dairy,n
+Mother Dairy,28.65898,77.22361,shop=dairy,n
+Moti Mahal,28.64689,77.23998,amenity=restaurant,n
+Moti Masjid,28.6567,77.24321,tourism=information,n
+Moti Masjid,28.65686,77.24312,amenity=place_of_worship;building=mosque;religion=muslim,w
+Mughal era mosque,28.64617,77.22294,amenity=place_of_worship,n
+Mumbai - Delhi Railway,28.64571,77.21925,railway=rail,w
+Mumtaz Mahal,28.65455,77.2434,historic=monument,w
+Mumtaz Mahal,28.6547,77.24334,tourism=information,n
+Munshi Lal Ajit Pershad,28.65642,77.22521,shop=wholesale,n
+Museum on Netaji Subhas Chandra Bose and Indian National Army,28.65819,77.24207,tourism=museum,n
+NCC Block,28.66492,77.23111,building=civic,w
+Nabi Karim,28.65072,77.21535,place=neighbourhood,n
+Nagori Tea & Faluda,28.65642,77.22531,amenity=fast_food,n
+Nahr-i-Bihisht,28.6557,77.24336,tourism=information,n
+Nai Sarak Bookshop Area,28.65077,77.23033,shop=books,n
+Narang medical store,28.65643,77.22568,amenity=pharmacy,n
+National Public School,28.64712,77.24269,office=educational_institution,n
+National Refrigeration Company,28.64803,77.24031,shop=appliance,n
+National Trading Company,28.64974,77.22616,shop=hardware,n
+Natraj Dahi Bhalle Wala ( alao katalas),28.65622,77.2305,amenity=fast_food,n
+Natraj Dahibhalla,28.65645,77.2305,amenity=fast_food,n
+Naubat Khana,28.65581,77.24098,historic=monument,w
+Naubat Khana,28.65597,77.24091,tourism=information,n
+Naya Bazaar,28.65817,77.21951,place=neighbourhood,n
+Nescafe,28.66451,77.23339,amenity=cafe,w
+New Delhi City Centre,28.64561,77.21585,tourism=hotel,n
+New Karnal Footwear,28.65641,77.22545,shop=shoes,n
+Nigambodh Ghat,28.6648,77.23637,amenity=crematorium,w
+Nili Chhatri Mandir,28.66265,77.24243,amenity=place_of_worship;religion=hindu,n
+Niranjan Dass Anand And Sons,28.65011,77.22572,shop=trade,n
+Nitin Hardware Store,28.64956,77.22633,shop=hardware,n
+Northern Railway Hospital,28.66229,77.21972,amenity=hospital;healthcare=hospital,w
+OYO 14710 - Hotel Pallvi Palace,28.64562,77.21743,tourism=hotel,n
+Office of the Chief Electoral Officer,28.66452,77.23064,office=government,n
+Old Delhi,28.65905,77.22759,place=suburb,n
+Old Delhi Junction,28.66087,77.22803,building=train_station,w
+Old Delhi Railway Station,28.6601,77.22939,public_transport=platform,n
+Old Delhi Railway Station,28.66011,77.22938,public_transport=stop_position,n
+Old Delhi Railway Station,28.6602,77.22627,public_transport=stop_position,n
+Old Famous,28.65613,77.23415,amenity=ice_cream,n
+Old Magazine Gate,28.66147,77.23553,historic=fort,w
+Old Magazine Gate,28.66213,77.23454,historic=fort,w
+Old Shop The Original Nagori Tea,28.65643,77.22517,shop=tea,n
+Omaxe Mall,28.6577,77.23082,shop=mall,w
+Omaxe Mall,28.65784,77.23047,shop=department_store,n
+Oonchi Masjid,28.64884,77.22596,amenity=place_of_worship;religion=muslim,w
+Packard Creations,28.65643,77.22543,shop=clothes,n
+Pandit Gaya Prasad Madan Mohan,28.65598,77.23041,amenity=fast_food,n
+Pandit Gaya Prashad Shiv Charan,28.65602,77.23037,amenity=restaurant,n
+Pandit Kanhaiya Lal Durga Prashad Dixit Paranthe Wala,28.65607,77.23037,amenity=restaurant,n
+Panna Lal Roshan Lal,28.65651,77.2293,shop=jewelry,n
+Parkway Deluxe,28.64542,77.21782,tourism=hotel,n
+Partition Museum,28.66351,77.23307,tourism=museum,n
+Pi-Lo Smart Water ATM,28.65803,77.23014,amenity=drinking_water;historic=no,n
+Pickle seller,28.65717,77.22104,shop=dairy,n
+Pipeline Products India,28.64969,77.22642,shop=trade,n
+Piyush Trading Company,28.64965,77.22646,shop=trade,n
+Platform 1,28.66134,77.22366,railway=platform;public_transport=platform,w
+"Platform 11,12",28.66169,77.22583,railway=platform;public_transport=platform,w
+"Platform 11,13",28.66147,77.22982,railway=platform;public_transport=platform,w
+"Platform 14,15",28.66182,77.22744,railway=platform;public_transport=platform,w
+Platform 16,28.6625,77.22714,railway=platform;public_transport=platform,w
+"Platform 2,3",28.66155,77.22358,railway=platform;public_transport=platform,w
+"Platform 4,5",28.6613,77.22589,railway=platform;public_transport=platform,w
+"Platform 6,7",28.66112,77.22955,railway=platform;public_transport=platform,w
+Platform 8,28.66096,77.22983,railway=platform;public_transport=platform,w
+"Platform 9,10",28.6614,77.22819,railway=platform;public_transport=platform,w
+Police Station Hauz Qazi,28.64982,77.22578,amenity=police,w
+Police Station Old Delhi Railway Station,28.66039,77.22933,amenity=police,n
+Police Station Rajiv Chowk Metro,28.64983,77.22684,amenity=police,w
+Pooja Creation,28.65677,77.22595,shop=clothes,n
+Poonam Fancy Textiles,28.65668,77.22659,shop=clothes,n
+Portrait gallery,28.65901,77.24206,tourism=museum,n
+Pracheen Hanuman Mandir,28.65931,77.22361,amenity=place_of_worship;building=temple;religion=hindu,w
+Pracheen Shree Durga Mandir,28.6573,77.23634,amenity=place_of_worship;religion=hindu,n
+Pratap Chaiwale,28.65508,77.23399,shop=tea,n
+Prithaa,28.65674,77.22546,shop=clothes,n
+Punjab & Sind Bank,28.66385,77.23163,amenity=bank,n
+Punjab Distributors Private Limited,28.64968,77.22623,shop=wholesale,n
+Punjab National Bank,28.646,77.24053,amenity=bank,n
+Punjab National Bank,28.65685,77.22515,amenity=bank,n
+Punjab National Bank ATM,28.65678,77.22511,amenity=atm,n
+Punjab Tubes,28.64971,77.22619,shop=hardware,n
+Puran Chand Gyan Prakash,28.65463,77.23326,shop=clothes,n
+Purani Dilhi Railway Station,28.65978,77.23145,public_transport=stop_position,n
+Purani Dilhi Railway Station,28.66024,77.23187,public_transport=stop_position,n
+Purdah Bagh,28.64925,77.24049,leisure=park,w
+Qadam Sharief s Tomb,28.64615,77.21539,historic=archaeological_site,n
+Quiet Clothes bazar,28.65646,77.23068,shop=clothes,n
+R D Jindal Charitable Clinic,28.64544,77.22512,amenity=clinic,n
+RBL Bank,28.65681,77.22501,amenity=bank,n
+RBL Bank,28.65688,77.22497,amenity=atm,n
+RBL bank ATM,28.65679,77.22503,amenity=atm,n
+Rachna Tourist Lodge,28.64565,77.21662,tourism=hotel,n
+Radha Krishan,28.65814,77.2252,amenity=place_of_worship;religion=hindu,n
+Raghu Shree Market,28.64629,77.22464,building=commercial,w
+Raghunath Sahai Jai Chand Rai,28.65683,77.22525,shop=clothes,n
+Rai Sahab Seth Girdhari Lal,28.65878,77.22453,amenity=pharmacy;healthcare=pharmacy,n
+Railway Police Force Station,28.64525,77.21888,amenity=police,n
+Raj N Raj,28.6572,77.23618,shop=electronics,n
+Rajesh Pakaude Wala,28.6554,77.22903,amenity=fast_food,n
+Rakesh Kumar Akhilesh Kumar,28.65622,77.2306,amenity=fast_food,n
+Ram Nagar,28.64824,77.21541,place=neighbourhood,n
+Ramji Lal Ram Saroop,28.64951,77.22632,shop=hardware,n
+Rang Mahal,28.65573,77.24351,historic=monument,w
+Rang Mahal,28.65575,77.24337,tourism=information,n
+Rang Mahal Hotel,28.64721,77.24001,tourism=hotel,n
+Raziya Begum's Tomb,28.64542,77.23155,historic=archaeological_site,n
+Raziya Sultana's tomn,28.6466,77.2304,historic=tomb,n
+Red Fort,28.65456,77.2406,tourism=attraction;historic=castle,w
+Red Fort Baoli,28.65893,77.24085,historic=water_well,n
+Red fort center,28.65616,77.24014,tourism=attraction,n
+Red lights district of Deli,28.64858,77.22205,tourism=attraction,n
+Rewari Mishthan Bhandar,28.65548,77.22934,amenity=fast_food,n
+Rishi Khadi Bhandar,28.65676,77.22604,shop=clothes,n
+Ritz hotel,28.64532,77.21675,tourism=hotel,n
+Rohit Enterprises,28.65015,77.22568,shop=trade,n
+Royal Afghan,28.64595,77.2401,tourism=hotel,n
+S.S. Corporation,28.64964,77.22647,shop=trade,n
+SBM Toilets,28.65219,77.24263,amenity=toilets,n
+Sadar Bazar,28.65809,77.21701,railway=station;public_transport=station,n
+Sadar Bazar,28.65819,77.21717,railway=platform;public_transport=platform,w
+Sadar Bazar,28.65888,77.21685,railway=platform,w
+Sadar Bazar,28.65935,77.21593,railway=construction,n
+Safal Tea Stall,28.65681,77.23188,shop=tea,n
+Safari,28.65614,77.23176,shop=bag,n
+Safari,28.65615,77.23118,shop=bag,n
+Safari,28.65622,77.23018,shop=bag,n
+Safari,28.6563,77.22925,shop=bag,n
+Safety Experts,28.64776,77.22494,shop=safety_equipment,n
+Saint Lal Kishan Lal,28.65677,77.22596,shop=clothes,n
+Salimgarh Fort,28.66118,77.24254,tourism=attraction;historic=castle,w
+Samy Shradhanand Statue,28.65676,77.22746,tourism=artwork,n
+Sanjay Market,28.65899,77.22371,amenity=marketplace,w
+Sant Parmanand Hospital,28.66311,77.23785,amenity=hospital;healthcare=hospital,w
+Sarvodaya Kanya Vidyalaya,28.6576,77.23502,amenity=school,w
+Satguru’s tea stall,28.65047,77.23031,amenity=cafe,n
+Seth Exclusive,28.65682,77.22537,shop=clothes,n
+Shah Jahani Masjid Pataudi House,28.64811,77.23798,amenity=place_of_worship;religion=muslim,w
+Shah Music Centre,28.64716,77.24002,shop=music,n
+Shahi Burj,28.65852,77.24371,historic=monument,w
+Shahi Sunehri Masjid,28.65608,77.23187,amenity=place_of_worship;building=mosque;religion=muslim,w
+Shan Drycleaners,28.65554,77.22651,shop=dry_cleaning,n
+Shan Musical,28.64573,77.24015,shop=musical_instrument,n
+Sharma Milk Point,28.65548,77.22917,amenity=cafe,n
+Sharma Sweets,28.65606,77.23044,amenity=fast_food,n
+Shere Punjab,28.64605,77.21574,tourism=guest_house,n
+Shiv Dev,28.64565,77.21679,tourism=hotel,n
+Shiv Pharmaceuticals,28.65682,77.22529,amenity=pharmacy;healthcare=pharmacy,n
+Shiv Shakti Mandir,28.65785,77.23648,amenity=place_of_worship;religion=hindu,n
+Shiv misthan Bander,28.65002,77.23246,shop=bakery,n
+Shiva Industries,28.64901,77.22609,shop=safety_equipment,n
+Shree Balaji Chaat Bhandar,28.65634,77.23189,amenity=fast_food,n
+Shree Durga Saree Emporium,28.65677,77.22592,shop=clothes,n
+Shree Mahavir Jain Public Library,28.65637,77.23092,amenity=library,n
+Shri Chaumukha Mandir,28.65006,77.22716,amenity=place_of_worship;religion=hindu,w
+Shri Ghanteshwar,28.65805,77.22493,amenity=place_of_worship;religion=hindu,n
+Shri Kali Devi Mandir,28.65744,77.22576,amenity=place_of_worship;religion=hindu,n
+Shri Krishna Daba,28.64781,77.24,amenity=restaurant,n
+Shri Krishna Textile,28.65674,77.22555,shop=clothes,n
+Shri Krishna Wholesale Cloth Market,28.65677,77.2263,shop=clothes,n
+Shri Krishna Wholesale Cloth Market Rishabh Bazar,28.65676,77.22636,shop=clothes,n
+Shyam Sweets,28.65042,77.23037,amenity=fast_food,n
+Shyam Sweets,28.65107,77.22813,shop=confectionery,n
+Sita Ram Bazaar,28.64757,77.22746,place=neighbourhood,n
+Smart Foot Care,28.65643,77.22525,shop=shoes,n
+Social Science Block,28.66443,77.23184,building=college,w
+Solar Panels,28.65673,77.23542,shop=electronics,n
+Sonu Valves Private Limited,28.64962,77.22629,shop=hardware,n
+South Indian Bank,28.6564,77.2266,amenity=bank,n
+Sparky,28.65614,77.23151,shop=clothes,n
+Spice Market and Herbs,28.65728,77.22018,shop=greengrocer,n
+Sri Balaji Electronic,28.65655,77.22388,shop=mobile_phone,n
+Sri Digambar Lal Jain Temple,28.65577,77.23609,amenity=place_of_worship;religion=jain,w
+Sri Ram and Son,28.65628,77.22782,shop=clothes,n
+Sri Sri Radha Giridhar Gopal Temple,28.65868,77.22543,amenity=place_of_worship;religion=hindu,n
+Sri Vinayak,28.6459,77.21771,tourism=hotel,n
+St Anthony's Church,28.64536,77.21616,amenity=place_of_worship;religion=christian,w
+St Stephens Church,28.65914,77.22332,amenity=place_of_worship;religion=christian,w
+St. Mary's Church,28.65975,77.23475,amenity=place_of_worship;religion=christian,w
+State Bank of India,28.64991,77.22618,amenity=bank,n
+State Bank of India,28.65638,77.23443,amenity=bank,n
+Stem bazaar,28.6572,77.23614,shop=radiotechnics,n
+Stepwell (Baoli),28.65891,77.24058,tourism=information,n
+Stri Shakti Canteen,28.66264,77.23396,amenity=cafe,n
+Sulabh,28.65783,77.23654,amenity=toilets,n
+Sunehri Masjid,28.65046,77.23965,amenity=place_of_worship;building=mosque;religion=muslim,n
+Sunrise Fasteners,28.64972,77.22638,shop=trade,n
+Super Trading Company,28.64977,77.22612,shop=hardware,n
+Suraj Enterprises,28.65643,77.22649,shop=sewing,n
+Suraj Prakash Trading Co.,28.65677,77.22608,shop=clothes,n
+Surbhi hospital,28.64913,77.21644,amenity=hospital,n
+Surendra And Company Hardware Store,28.64958,77.22632,shop=hardware,n
+Suruchi Sarees,28.65494,77.22732,shop=clothes,n
+Sushila Mohan Park,28.65905,77.2255,leisure=park,w
+Swami Hariharanand Public School,28.66275,77.24037,amenity=school,n
+TechSar Pvt. Ltd.,28.64685,77.24352,office=company,n
+Telegraph Memorial,28.66229,77.23425,tourism=attraction;historic=memorial,n
+Temporary Cloak Room,28.64509,77.2189,amenity=luggage_locker,n
+Tewari Brothers,28.65658,77.22646,shop=bakery,n
+The Brijwasi,28.65678,77.22422,amenity=restaurant,n
+The Prime Balaji Deluxe,28.64523,77.21755,tourism=hotel,n
+The Qila cafe,28.65943,77.24221,amenity=fast_food,n
+The Walled City,28.64915,77.23275,amenity=cafe,n
+Tuck Shop,28.66397,77.23311,shop=yes,w
+Umrao Singh Nursery Primary school,28.65585,77.23589,amenity=prep_school,n
+"Unani Dispensary, Ballimaran",28.65456,77.22556,amenity=clinic;healthcare=centre,n
+Union bank of India,28.65649,77.22481,amenity=bank,n
+"Unveil Delhi - Food Tours, Heritage Walks & Night Tours",28.65636,77.23633,shop=travel_agency,n
+V Sagar,28.6565,77.22938,shop=clothes,n
+VIP Lounge,28.65628,77.22884,shop=bag,n
+VSP Metals,28.6497,77.2264,shop=trade,n
+Vakilpura,28.65214,77.23225,place=neighbourhood,n
+Vedprakash Lemonwale,28.65639,77.2271,amenity=juice_bar,n
+Veenus Enterprises,28.64961,77.22631,shop=hardware,n
+Vegetarian Restaurant,28.65991,77.22356,amenity=restaurant,n
+Vishwakarma Infracore,28.66121,77.22067,building=commercial,w
+Vivek Enterprises,28.65677,77.22593,shop=clothes,n
+W Fashion,28.65676,77.2263,shop=clothes,n
+Wadhwa Textiles,28.6566,77.22655,shop=clothes,n
+Wall Street,28.64605,77.2401,tourism=hotel,n
+War of 1857 museum,28.65663,77.2419,tourism=museum,n
+Watch Market,28.65564,77.23532,shop=jewelry,n
+World War I museum,28.65739,77.24196,tourism=museum,n
+Ya Allah Chala De Hotel,28.64966,77.23284,amenity=fast_food,n
+Yadav Mobile Shop,28.65682,77.22535,shop=mobile_phone,n
+Yusuf Building,28.64951,77.22631,building=apartments,w
+Yusuf Building,28.64956,77.22632,building=apartments,w
+Zafar Mahal,28.65751,77.24258,tourism=information,n
+Zafar Mahal,28.65779,77.24263,historic=monument,w
+Zostel,28.64565,77.2174,tourism=hostel,n
+cvsv,28.66108,77.22731,amenity=cafe,n
+embroidery bazar,28.6546,77.23333,shop=clothes,n
+goats market,28.65081,77.23605,tourism=attraction,n
+kuremal mohanlal kulfiwale,28.64765,77.22691,amenity=ice_cream,n
+xerox electro Shop,28.64513,77.2418,shop=copyshop,n
+बच्चों का घर,28.64615,77.24108,amenity=school,w
+श्री गोपाल मंदिर,28.64758,77.23966,amenity=place_of_worship;religion=hindu,n

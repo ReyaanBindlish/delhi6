@@ -1,0 +1,27 @@
+# Python / tools (reinstall via README)
+.venv/
+__pycache__/
+*.pyc
+characters/tools/
+*.onnx
+
+# Raw downloaded data (re-download via README "Data" section)
+*.osm
+*.osm.pbf
+*.geojson
+*.geojson.state
+world/*/source/*.tif
+
+# Blender backups and FBX texture copies
+*.blend1
+*.blend2
+*.fbm/
+
+# Generated intermediates
+characters/meshes/*_shape_raw.glb
+world/*/scripts/_*.py
+
+# OS / editor
+Thumbs.db
+.DS_Store
+desktop.ini
