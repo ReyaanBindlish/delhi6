@@ -1,0 +1,57 @@
+{
+  "id": "Gurnoor",
+  "display": "Gurnoor Dhillon",
+  "age_at_start": 9,
+  "height_cm": 132,
+  "weight_kg": 28,
+  "bmi": 16.1,
+  "gait": "Child",
+  "languages": "Pa=50;Hi=45;En=5",
+  "voice": "Child Punjabi with a Ghaziabad Hindi edge; excitable, asks questions",
+  "metahuman": {
+    "assets": [
+      "MH_Gurnoor"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Round face, large dark eyes, a gap between the front teeth, a small mole on the left cheek",
+    "skin": {
+      "description": "Medium wheatish, a shade lighter than his father; sunburnt nose",
+      "U": 0.4,
+      "V": 0.5,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Dark brown",
+    "groom": {
+      "hair": "Top-knot (joora) with a patka cover; no free hair",
+      "beard": "none",
+      "eyebrows": "Natural"
+    },
+    "body_measurements_cm_start": {
+      "height": 132,
+      "chest": 51.9,
+      "waist": 46.3,
+      "hips": 51.9
+    },
+    "age_feel": 9
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 0.855,
+      "y": 0.855,
+      "z": 0.733
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "Cotton T-shirt and shorts; rubber chappals; patka in a school or festival colour",
+    "monsoon": "Plastic raincoat or a school jacket; shorts; sandals",
+    "winter": "Hand-knit sweater and a woollen cap over the patka; track pants; canvas shoes",
+    "by_act": "A1 and A2=the same cricket-and-school wardrobe, a size bigger in Act 2 (hand-me-downs); A5=school uniform"
+  },
+  "accessories": "Plastic cricket bat and a rubber ball; school bag; a thin steel kada",
+  "tells": "Counts runs out loud like his father counts rupees",
+  "gait_notes": "Runs everywhere; bat swung over the shoulder; scuffs his feet; shy stop-and-stare when his father comes home",
+  "sensitivity": "A child; never shown in a threatening or exploitative frame; the Act 5 scene is staged off screen."
+}

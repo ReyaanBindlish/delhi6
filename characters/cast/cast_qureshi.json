@@ -1,0 +1,57 @@
+{
+  "id": "Qureshi",
+  "display": "Major Faisal Qureshi",
+  "age_at_start": 38,
+  "height_cm": 180,
+  "weight_kg": 76,
+  "bmi": 23.5,
+  "gait": "Standard",
+  "languages": "Ur=60;En=20;Pa-Lahori=20",
+  "voice": "Polite, precise Urdu with a Lahori cadence; excellent English; patient to the point of unease",
+  "metahuman": {
+    "assets": [
+      "MH_Qureshi"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Angular, symmetrical face, intelligent dark eyes, a direct polite gaze, thin lips",
+    "skin": {
+      "description": "Fair-wheatish; clean complexion",
+      "U": 0.38,
+      "V": 0.55,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Dark brown",
+    "groom": {
+      "hair": "Short, dark, side parting",
+      "beard": "Trimmed short beard plus a moustache",
+      "eyebrows": "Defined"
+    },
+    "body_measurements_cm_start": {
+      "height": 180,
+      "chest": 96.6,
+      "waist": 82.6,
+      "hips": 96.3
+    },
+    "age_feel": 38
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 1.033,
+      "y": 1.033,
+      "z": 1.0
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "Pressed light-cotton shalwar kameez in white or ecru, or an open-collar shirt and chinos; polished shoes",
+    "monsoon": "Dark shalwar kameez; a folded umbrella",
+    "winter": "Wool waistcoat over a kurta; grey shawl; leather shoes",
+    "by_act": "Same wardrobe across Act 4: he does not dress like an officer; the uniform appears only once"
+  },
+  "accessories": "A slim metal watch; reading glasses; a plain fountain pen; a worn paperback; prayer beads in the pocket (he prays; this is private, never a prop)",
+  "tells": "Never raises his voice; waits eight seconds for an answer; stirs tea in complete circles",
+  "gait_notes": "Calm, measured, hands clasped behind his back; stops mid-stride to listen; turns the whole body toward a speaker",
+  "sensitivity": "An intelligent professional, not a cartoon villain; his faith is shown with respect and is never the reason he is the antagonist; Karachi and Lahore are rendered as real places."
+}

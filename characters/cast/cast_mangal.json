@@ -1,0 +1,77 @@
+{
+  "id": "Mangal",
+  "display": "Mangal",
+  "age_at_start": 55,
+  "height_cm": 168,
+  "weight_kg": 62,
+  "bmi": 22.0,
+  "gait": "WheeledBoard",
+  "languages": "Hi=70;Ur=25;Pa=5",
+  "voice": "Dry, funny, exact; a lifetime of Delhi Hindi/Urdu; says 'fifty more than yesterday' like a prayer",
+  "metahuman": {
+    "assets": [
+      "MH_Mangal"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Lean weathered face, strong brow, deep nasolabial lines, a direct gaze; a healed scar along the right forearm",
+    "skin": {
+      "description": "Dark wheatish, weathered; calloused palms",
+      "U": 0.58,
+      "V": 0.28,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Dark brown",
+    "groom": {
+      "hair": "Short, grey-black",
+      "beard": "Grey stubble plus a neat moustache",
+      "eyebrows": "Bushy grey"
+    },
+    "body_measurements_cm_start": {
+      "height": 168,
+      "chest": 87.3,
+      "waist": 73.8,
+      "hips": 87.3
+    },
+    "age_feel": 55
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 0.999,
+      "y": 0.999,
+      "z": 0.933
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "Faded clean cotton kurta; the cut ends of his pyjama folded and secured with neat cloth wraps; a gamchha",
+    "monsoon": "Plastic sheet over the shoulders; kurta; waterproof board cover",
+    "winter": "Donated wool sweater; thick blanket tucked around the board; wool cap",
+    "by_act": "A2=the Nizamuddin platform; the Coda=the same clothes, a better board, and a Rs 500 note"
+  },
+  "accessories": "A low wooden board about 90 x 45 cm on four ball-bearing caster wheels; two wooden hand blocks (pushers) with rubber grips; a tin cup; a transistor; a laminated medical card",
+  "tells": "Counts the day's coins into his lap twice; always names the exact figure",
+  "gait_notes": "Moves seated on the board; pushes with the hand blocks, glides, pivots on a single hand; cannot climb stairs or curbs over 6 cm without help; speed about 1.0-1.4 m/s; stops at the same spots every day; sits upright with dignity, not slumped",
+  "sensitivity": "Depict with dignity: a working man with expertise, humour and agency. No pity framing, no leering camera. The board is maintained and personal. Lower-limb absence is a mesh/animation setup, not a visual gag.",
+  "wheeled_board": {
+    "board_cm": [
+      90,
+      45,
+      8
+    ],
+    "ground_clearance_cm": 5,
+    "wheels": "4 ball-bearing casters, 7.5 cm diameter",
+    "mass_kg": {
+      "board": 18,
+      "rider": 62
+    },
+    "speed_m_s": [
+      1.0,
+      1.4
+    ],
+    "max_curb_cm": 6,
+    "mesh_setup": "Build the full-body MetaHuman, then in Blender cut both legs at about 18 cm below the groin, cap and close, and weight the stumps to thigh_l and thigh_r; hide the shin, foot and ball bones. Prototype alternative: scale calf_l, calf_r, foot_l, foot_r bones to 0.001 in the anim BP (Transform Modify Bone) and put a cloth wrap material on the stump verts.",
+    "capsule": "Radius 34 cm, half-height 52 cm; eye height 98 cm; use a Wheeled nav agent profile with step height 6 cm."
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "heightmap": "LS_gulbahar_lines_1009.png",
+ "verts": 1009,
+ "quad_m": 1.0,
+ "ue_landscape": {
+  "location_cm_unreal": [
+   -50400.0,
+   -50400.0,
+   226.42813920974731
+  ],
+  "scale": [
+   100.0,
+   100.0,
+   5.0
+  ],
+  "section_size_quads": 63,
+  "sections_per_component": "2x2",
+  "components": "8x8 (1008 m)",
+  "note": "Unreal X=east, Y=south, so image row 0 (north) = most negative Y; actor location is the NW corner. Z is relative to the level origin where Z=0 is the DTM minimum (base_elev_m) - same frame as buildings and terrain tiles."
+ }
+}

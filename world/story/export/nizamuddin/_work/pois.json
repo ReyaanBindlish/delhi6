@@ -1,0 +1,1207 @@
+{
+ "location": "nizamuddin",
+ "center": [
+  28.5889,
+  77.254
+ ],
+ "frame": "local metres, X east, Y north, origin = slice centre",
+ "pois": [
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": -36.16,
+   "y": 327.39,
+   "lat": 28.591841,
+   "lon": 77.25363,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": 12.94,
+   "y": 328.4,
+   "lat": 28.59185,
+   "lon": 77.254132,
+   "religious": false
+  },
+  {
+   "name": "Nizamuddin Railway Station",
+   "kind": "public_transport=stop_position",
+   "x": -66.07,
+   "y": -292.89,
+   "lat": 28.586269,
+   "lon": 77.253324,
+   "religious": false
+  },
+  {
+   "name": "Nizamuddin East",
+   "kind": "place=neighbourhood",
+   "x": -353.32,
+   "y": 85.39,
+   "lat": 28.589667,
+   "lon": 77.250385,
+   "religious": false
+  },
+  {
+   "name": "Nizamuddin Railway Station",
+   "kind": "public_transport=stop_position",
+   "x": -75.41,
+   "y": -312.46,
+   "lat": 28.586093,
+   "lon": 77.253229,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=station",
+   "x": -46.9,
+   "y": 7.19,
+   "lat": 28.588965,
+   "lon": 77.25352,
+   "religious": false
+  },
+  {
+   "name": "Comesum",
+   "kind": "amenity=fast_food",
+   "x": -30.19,
+   "y": -61.68,
+   "lat": 28.588346,
+   "lon": 77.253691,
+   "religious": false
+  },
+  {
+   "name": "Jaipur Estate",
+   "kind": "place=neighbourhood",
+   "x": -202.5,
+   "y": -113.0,
+   "lat": 28.587885,
+   "lon": 77.251928,
+   "religious": false
+  },
+  {
+   "name": "Tibetan Medical and Astro Institute",
+   "kind": "amenity=nursing_home",
+   "x": -240.78,
+   "y": -117.98,
+   "lat": 28.58784,
+   "lon": 77.251537,
+   "religious": false
+  },
+  {
+   "name": "b nineteen",
+   "kind": "tourism=hotel",
+   "x": -180.19,
+   "y": 253.89,
+   "lat": 28.591181,
+   "lon": 77.252157,
+   "religious": false
+  },
+  {
+   "name": "Nila Gumbad",
+   "kind": "historic=archaeological_site",
+   "x": -84.35,
+   "y": 334.03,
+   "lat": 28.591901,
+   "lon": 77.253137,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=fountain",
+   "x": -321.09,
+   "y": 371.92,
+   "lat": 28.592241,
+   "lon": 77.250715,
+   "religious": false
+  },
+  {
+   "name": "Sarai Kale Khan ISBT",
+   "kind": "public_transport=platform",
+   "x": 379.61,
+   "y": 189.19,
+   "lat": 28.590599,
+   "lon": 77.257884,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Railway Station",
+   "kind": "public_transport=platform",
+   "x": -99.49,
+   "y": -276.84,
+   "lat": 28.586413,
+   "lon": 77.252982,
+   "religious": false
+  },
+  {
+   "name": "Kaviraj Khazan Chand Quetta Dayachand Arya Vedic Senior Secondary School",
+   "kind": "amenity=school",
+   "x": -156.89,
+   "y": -251.63,
+   "lat": 28.58664,
+   "lon": 77.252395,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": -90.47,
+   "y": -231.92,
+   "lat": 28.586817,
+   "lon": 77.253074,
+   "religious": false
+  },
+  {
+   "name": "Sarai Kale Khan - Nizamuddin",
+   "kind": "public_transport=stop_position",
+   "x": 297.82,
+   "y": 103.24,
+   "lat": 28.589827,
+   "lon": 77.257047,
+   "religious": false
+  },
+  {
+   "name": "Police Station Hazrat Nizamudin Railway station",
+   "kind": "amenity=police",
+   "x": -37.75,
+   "y": -102.46,
+   "lat": 28.58798,
+   "lon": 77.253614,
+   "religious": false
+  },
+  {
+   "name": "Gate 10",
+   "kind": "named",
+   "x": -126.05,
+   "y": 267.3,
+   "lat": 28.591301,
+   "lon": 77.25271,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": -22.87,
+   "y": -4.45,
+   "lat": 28.58886,
+   "lon": 77.253766,
+   "religious": false
+  },
+  {
+   "name": "Sarai Kale Khan - Nizamuddin",
+   "kind": "public_transport=stop_position",
+   "x": 331.01,
+   "y": -66.78,
+   "lat": 28.5883,
+   "lon": 77.257386,
+   "religious": false
+  },
+  {
+   "name": "Sarai Kale Khan - Nizamuddin",
+   "kind": "public_transport=station",
+   "x": 317.62,
+   "y": -16.76,
+   "lat": 28.588749,
+   "lon": 77.257249,
+   "religious": false
+  },
+  {
+   "name": "Nizamuddin Railway Station",
+   "kind": "public_transport=platform",
+   "x": -78.73,
+   "y": -313.55,
+   "lat": 28.586083,
+   "lon": 77.253195,
+   "religious": false
+  },
+  {
+   "name": "Nizamuddin Railway Station",
+   "kind": "public_transport=platform",
+   "x": -55.46,
+   "y": -291.22,
+   "lat": 28.586284,
+   "lon": 77.253433,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=atm",
+   "x": -66.95,
+   "y": -30.77,
+   "lat": 28.588624,
+   "lon": 77.253315,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=atm",
+   "x": -73.35,
+   "y": -31.49,
+   "lat": 28.588617,
+   "lon": 77.25325,
+   "religious": false
+  },
+  {
+   "name": "Rail reservation center hazrat nizamuddin",
+   "kind": "shop=ticket",
+   "x": -34.44,
+   "y": -366.26,
+   "lat": 28.58561,
+   "lon": 77.253648,
+   "religious": false
+  },
+  {
+   "name": "Urban UPC Dispensary",
+   "kind": "amenity=clinic",
+   "x": 183.18,
+   "y": -88.05,
+   "lat": 28.588109,
+   "lon": 77.255874,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": -8.31,
+   "y": 11.03,
+   "lat": 28.588999,
+   "lon": 77.253915,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": 1.88,
+   "y": 11.67,
+   "lat": 28.589005,
+   "lon": 77.254019,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": 16.25,
+   "y": 12.56,
+   "lat": 28.589013,
+   "lon": 77.254166,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": 30.23,
+   "y": 13.44,
+   "lat": 28.589021,
+   "lon": 77.254309,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": 34.6,
+   "y": 13.54,
+   "lat": 28.589022,
+   "lon": 77.254354,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": 50.59,
+   "y": 14.16,
+   "lat": 28.589027,
+   "lon": 77.254518,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Junction",
+   "kind": "public_transport=stop_position",
+   "x": 57.47,
+   "y": 14.3,
+   "lat": 28.589029,
+   "lon": 77.254588,
+   "religious": false
+  },
+  {
+   "name": "Gate No. 2",
+   "kind": "railway=subway_entrance",
+   "x": 264.6,
+   "y": -3.4,
+   "lat": 28.58887,
+   "lon": 77.256707,
+   "religious": false
+  },
+  {
+   "name": "Gate No. 1",
+   "kind": "railway=subway_entrance",
+   "x": 327.78,
+   "y": -61.86,
+   "lat": 28.588344,
+   "lon": 77.257353,
+   "religious": false
+  },
+  {
+   "name": "Gate No. 3",
+   "kind": "railway=subway_entrance",
+   "x": 273.51,
+   "y": 73.16,
+   "lat": 28.589557,
+   "lon": 77.256798,
+   "religious": false
+  },
+  {
+   "name": "Hazrat Nizamuddin Railway Station Masjid",
+   "kind": "amenity=place_of_worship",
+   "x": -69.67,
+   "y": -34.68,
+   "lat": 28.588589,
+   "lon": 77.253287,
+   "religious": true
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": 29.95,
+   "y": -150.86,
+   "lat": 28.587545,
+   "lon": 77.254306,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": 29.99,
+   "y": -155.8,
+   "lat": 28.5875,
+   "lon": 77.254307,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": 88.73,
+   "y": -25.73,
+   "lat": 28.588669,
+   "lon": 77.254908,
+   "religious": false
+  },
+  {
+   "name": "Barber's tomb",
+   "kind": "tourism=information",
+   "x": -210.58,
+   "y": 355.16,
+   "lat": 28.592091,
+   "lon": 77.251846,
+   "religious": false
+  },
+  {
+   "name": "Hana",
+   "kind": "shop=beauty",
+   "x": -147.6,
+   "y": 155.91,
+   "lat": 28.590301,
+   "lon": 77.25249,
+   "religious": false
+  },
+  {
+   "name": "One Wash",
+   "kind": "shop=laundry",
+   "x": -146.77,
+   "y": 149.66,
+   "lat": 28.590244,
+   "lon": 77.252499,
+   "religious": false
+  },
+  {
+   "name": "Caf\u00e9 Turtle",
+   "kind": "amenity=cafe",
+   "x": -147.07,
+   "y": 163.9,
+   "lat": 28.590372,
+   "lon": 77.252495,
+   "religious": false
+  },
+  {
+   "name": "Arora Stores",
+   "kind": "shop=convenience",
+   "x": -143.98,
+   "y": 94.98,
+   "lat": 28.589753,
+   "lon": 77.252527,
+   "religious": false
+  },
+  {
+   "name": "Sanduq",
+   "kind": "shop=carpet",
+   "x": -147.69,
+   "y": 178.41,
+   "lat": 28.590503,
+   "lon": 77.252489,
+   "religious": false
+  },
+  {
+   "name": "Mohanty & Mohanty",
+   "kind": "named",
+   "x": -151.92,
+   "y": 211.26,
+   "lat": 28.590798,
+   "lon": 77.252446,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=atm",
+   "x": -70.12,
+   "y": -31.21,
+   "lat": 28.58862,
+   "lon": 77.253283,
+   "religious": false
+  },
+  {
+   "name": "Gate 9",
+   "kind": "named",
+   "x": -215.08,
+   "y": -165.84,
+   "lat": 28.58741,
+   "lon": 77.2518,
+   "religious": false
+  },
+  {
+   "name": "Gate 7",
+   "kind": "named",
+   "x": -307.76,
+   "y": -117.45,
+   "lat": 28.587845,
+   "lon": 77.250851,
+   "religious": false
+  },
+  {
+   "name": "Gate 6",
+   "kind": "named",
+   "x": -340.32,
+   "y": -103.13,
+   "lat": 28.587974,
+   "lon": 77.250518,
+   "religious": false
+  },
+  {
+   "name": "Gate 11",
+   "kind": "named",
+   "x": -173.51,
+   "y": 267.12,
+   "lat": 28.5913,
+   "lon": 77.252225,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=post_box",
+   "x": -129.46,
+   "y": 112.88,
+   "lat": 28.589914,
+   "lon": 77.252676,
+   "religious": false
+  },
+  {
+   "name": "Rupesh electric work",
+   "kind": "named",
+   "x": -143.79,
+   "y": 112.44,
+   "lat": 28.58991,
+   "lon": 77.252529,
+   "religious": false
+  },
+  {
+   "name": "Mother Dairy",
+   "kind": "shop=dairy",
+   "x": -133.84,
+   "y": 173.97,
+   "lat": 28.590463,
+   "lon": 77.252631,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "shop=convenience",
+   "x": -155.48,
+   "y": 190.01,
+   "lat": 28.590607,
+   "lon": 77.252409,
+   "religious": false
+  },
+  {
+   "name": "Luthra Chemist",
+   "kind": "amenity=pharmacy",
+   "x": -143.73,
+   "y": 88.11,
+   "lat": 28.589692,
+   "lon": 77.25253,
+   "religious": false
+  },
+  {
+   "name": "Rohini General Store",
+   "kind": "shop=convenience",
+   "x": -144.24,
+   "y": 73.3,
+   "lat": 28.589558,
+   "lon": 77.252524,
+   "religious": false
+  },
+  {
+   "name": "Rajouria",
+   "kind": "shop=laundry",
+   "x": -144.17,
+   "y": 65.44,
+   "lat": 28.589488,
+   "lon": 77.252525,
+   "religious": false
+  },
+  {
+   "name": "Anokhi",
+   "kind": "shop=clothes",
+   "x": -143.81,
+   "y": 84.59,
+   "lat": 28.58966,
+   "lon": 77.252529,
+   "religious": false
+  },
+  {
+   "name": "Prem Prakash Toys & Gift Store",
+   "kind": "shop=gift",
+   "x": -144.52,
+   "y": 80.84,
+   "lat": 28.589626,
+   "lon": 77.252522,
+   "religious": false
+  },
+  {
+   "name": "Delight Salon",
+   "kind": "shop=beauty",
+   "x": -143.99,
+   "y": 77.59,
+   "lat": 28.589597,
+   "lon": 77.252527,
+   "religious": false
+  },
+  {
+   "name": "Kojza",
+   "kind": "shop=leather",
+   "x": -143.38,
+   "y": 55.68,
+   "lat": 28.5894,
+   "lon": 77.252533,
+   "religious": false
+  },
+  {
+   "name": "Parkash Medicos",
+   "kind": "amenity=pharmacy",
+   "x": -144.25,
+   "y": 69.26,
+   "lat": 28.589522,
+   "lon": 77.252524,
+   "religious": false
+  },
+  {
+   "name": "Nizamuddin East Recreation Center",
+   "kind": "amenity=community_centre",
+   "x": -118.69,
+   "y": 130.7,
+   "lat": 28.590074,
+   "lon": 77.252786,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": -109.83,
+   "y": 125.72,
+   "lat": 28.590029,
+   "lon": 77.252876,
+   "religious": false
+  },
+  {
+   "name": "The cutting edge",
+   "kind": "shop=hairdresser",
+   "x": -148.2,
+   "y": 168.53,
+   "lat": 28.590414,
+   "lon": 77.252484,
+   "religious": false
+  },
+  {
+   "name": "Anokhi",
+   "kind": "shop=clothes",
+   "x": -144.74,
+   "y": 103.72,
+   "lat": 28.589832,
+   "lon": 77.252519,
+   "religious": false
+  },
+  {
+   "name": "Raghunath Mandir",
+   "kind": "amenity=place_of_worship",
+   "x": -154.87,
+   "y": 106.19,
+   "lat": 28.589854,
+   "lon": 77.252416,
+   "religious": true
+  },
+  {
+   "name": "Satyawati Sood Arya Girls senior secondary school",
+   "kind": "amenity=school",
+   "x": -232.49,
+   "y": -209.25,
+   "lat": 28.58702,
+   "lon": 77.251621,
+   "religious": false
+  },
+  {
+   "name": "Nios Study center",
+   "kind": "amenity=school",
+   "x": -244.7,
+   "y": -195.34,
+   "lat": 28.587145,
+   "lon": 77.251497,
+   "religious": false
+  },
+  {
+   "name": "YMCA Public School",
+   "kind": "amenity=school",
+   "x": -281.79,
+   "y": -184.45,
+   "lat": 28.587243,
+   "lon": 77.251117,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=post_box",
+   "x": -334.07,
+   "y": -126.35,
+   "lat": 28.587765,
+   "lon": 77.250582,
+   "religious": false
+  },
+  {
+   "name": "Comfort Lodge",
+   "kind": "tourism=hotel",
+   "x": -149.76,
+   "y": 68.83,
+   "lat": 28.589518,
+   "lon": 77.252468,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=place_of_worship",
+   "x": 199.59,
+   "y": 217.48,
+   "lat": 28.590854,
+   "lon": 77.256042,
+   "religious": true
+  },
+  {
+   "name": "",
+   "kind": "amenity=bench",
+   "x": 19.43,
+   "y": 126.93,
+   "lat": 28.59004,
+   "lon": 77.254199,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=bench",
+   "x": 19.47,
+   "y": 121.22,
+   "lat": 28.589989,
+   "lon": 77.254199,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=bench",
+   "x": 19.51,
+   "y": 124.05,
+   "lat": 28.590014,
+   "lon": 77.2542,
+   "religious": false
+  },
+  {
+   "name": "Gate 8",
+   "kind": "named",
+   "x": -258.6,
+   "y": -142.83,
+   "lat": 28.587617,
+   "lon": 77.251354,
+   "religious": false
+  },
+  {
+   "name": "Stegosaurus",
+   "kind": "tourism=artwork",
+   "x": 240.44,
+   "y": 188.31,
+   "lat": 28.590592,
+   "lon": 77.25646,
+   "religious": false
+  },
+  {
+   "name": "Deinosuchus",
+   "kind": "tourism=artwork",
+   "x": 230.32,
+   "y": 339.95,
+   "lat": 28.591954,
+   "lon": 77.256356,
+   "religious": false
+  },
+  {
+   "name": "Velociraptor",
+   "kind": "tourism=artwork",
+   "x": 219.42,
+   "y": 353.12,
+   "lat": 28.592072,
+   "lon": 77.256245,
+   "religious": false
+  },
+  {
+   "name": "Brontosaurus",
+   "kind": "tourism=artwork",
+   "x": 206.69,
+   "y": 359.91,
+   "lat": 28.592133,
+   "lon": 77.256114,
+   "religious": false
+  },
+  {
+   "name": "Tsintaosaurus",
+   "kind": "tourism=artwork",
+   "x": 215.88,
+   "y": 279.52,
+   "lat": 28.591411,
+   "lon": 77.256209,
+   "religious": false
+  },
+  {
+   "name": "Coffee Break",
+   "kind": "amenity=cafe",
+   "x": 232.65,
+   "y": 218.2,
+   "lat": 28.59086,
+   "lon": 77.25638,
+   "religious": false
+  },
+  {
+   "name": "Deinonychus",
+   "kind": "tourism=artwork",
+   "x": 206.06,
+   "y": 318.97,
+   "lat": 28.591765,
+   "lon": 77.256108,
+   "religious": false
+  },
+  {
+   "name": "Amargasaurus",
+   "kind": "tourism=artwork",
+   "x": 183.28,
+   "y": 383.79,
+   "lat": 28.592348,
+   "lon": 77.255875,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=bench",
+   "x": 268.44,
+   "y": 340.57,
+   "lat": 28.591959,
+   "lon": 77.256746,
+   "religious": false
+  },
+  {
+   "name": "Rajasaurus",
+   "kind": "tourism=artwork",
+   "x": 199.26,
+   "y": 390.74,
+   "lat": 28.59241,
+   "lon": 77.256039,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=bench",
+   "x": 228.78,
+   "y": 301.19,
+   "lat": 28.591606,
+   "lon": 77.25634,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=bench",
+   "x": 227.75,
+   "y": 304.41,
+   "lat": 28.591635,
+   "lon": 77.25633,
+   "religious": false
+  },
+  {
+   "name": "Tyrannosaurus",
+   "kind": "tourism=artwork",
+   "x": 198.92,
+   "y": 333.11,
+   "lat": 28.591892,
+   "lon": 77.256035,
+   "religious": false
+  },
+  {
+   "name": "Diplodocus",
+   "kind": "tourism=artwork",
+   "x": 221.34,
+   "y": 390.39,
+   "lat": 28.592407,
+   "lon": 77.256264,
+   "religious": false
+  },
+  {
+   "name": "Triceratops",
+   "kind": "tourism=artwork",
+   "x": 191.91,
+   "y": 360.5,
+   "lat": 28.592138,
+   "lon": 77.255963,
+   "religious": false
+  },
+  {
+   "name": "Prenocephale",
+   "kind": "tourism=artwork",
+   "x": 229.21,
+   "y": 360.95,
+   "lat": 28.592143,
+   "lon": 77.256345,
+   "religious": false
+  },
+  {
+   "name": "Ankylosaurus",
+   "kind": "tourism=artwork",
+   "x": 233.6,
+   "y": 240.49,
+   "lat": 28.59106,
+   "lon": 77.25639,
+   "religious": false
+  },
+  {
+   "name": "Coelophysis",
+   "kind": "tourism=artwork",
+   "x": 229.33,
+   "y": 239.44,
+   "lat": 28.591051,
+   "lon": 77.256346,
+   "religious": false
+  },
+  {
+   "name": "Spinosaurus",
+   "kind": "tourism=artwork",
+   "x": 249.78,
+   "y": 224.43,
+   "lat": 28.590916,
+   "lon": 77.256555,
+   "religious": false
+  },
+  {
+   "name": "Aneja Restaurant",
+   "kind": "amenity=fast_food",
+   "x": -144.58,
+   "y": 60.91,
+   "lat": 28.589447,
+   "lon": 77.252521,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=drinking_water",
+   "x": -165.96,
+   "y": -202.42,
+   "lat": 28.587082,
+   "lon": 77.252302,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": -122.94,
+   "y": 78.61,
+   "lat": 28.589606,
+   "lon": 77.252742,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=drinking_water",
+   "x": 51.67,
+   "y": -225.5,
+   "lat": 28.586874,
+   "lon": 77.254529,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=drinking_water",
+   "x": 46.69,
+   "y": -102.87,
+   "lat": 28.587976,
+   "lon": 77.254478,
+   "religious": false
+  },
+  {
+   "name": "Boon Water ATM",
+   "kind": "amenity=drinking_water",
+   "x": 1.1,
+   "y": -135.52,
+   "lat": 28.587683,
+   "lon": 77.254011,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=drinking_water",
+   "x": -24.75,
+   "y": -98.81,
+   "lat": 28.588012,
+   "lon": 77.253747,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": 53.42,
+   "y": -281.42,
+   "lat": 28.586372,
+   "lon": 77.254547,
+   "religious": false
+  },
+  {
+   "name": "Sarai Kale Khan Gate Number 1",
+   "kind": "railway=subway_entrance",
+   "x": 326.92,
+   "y": 129.0,
+   "lat": 28.590059,
+   "lon": 77.257345,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=drinking_water",
+   "x": 72.18,
+   "y": -263.57,
+   "lat": 28.586532,
+   "lon": 77.254738,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=drinking_water",
+   "x": 72.18,
+   "y": -263.57,
+   "lat": 28.586532,
+   "lon": 77.254738,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": 53.02,
+   "y": -273.29,
+   "lat": 28.586445,
+   "lon": 77.254542,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": 53.17,
+   "y": -276.03,
+   "lat": 28.58642,
+   "lon": 77.254544,
+   "religious": false
+  },
+  {
+   "name": "M/s Amrit Food",
+   "kind": "shop=convenience",
+   "x": 51.3,
+   "y": -222.58,
+   "lat": 28.5869,
+   "lon": 77.254525,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=drinking_water",
+   "x": -34.7,
+   "y": 128.0,
+   "lat": 28.59005,
+   "lon": 77.253645,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": 35.51,
+   "y": 178.21,
+   "lat": 28.590501,
+   "lon": 77.254363,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": 27.49,
+   "y": 178.3,
+   "lat": 28.590502,
+   "lon": 77.254281,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": -10.4,
+   "y": 370.15,
+   "lat": 28.592225,
+   "lon": 77.253894,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": 5.06,
+   "y": 322.27,
+   "lat": 28.591795,
+   "lon": 77.254052,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": -33.22,
+   "y": 396.8,
+   "lat": 28.592464,
+   "lon": 77.25366,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": -5.43,
+   "y": 370.42,
+   "lat": 28.592227,
+   "lon": 77.253944,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "railway=signal",
+   "x": -22.04,
+   "y": 360.83,
+   "lat": 28.592141,
+   "lon": 77.253775,
+   "religious": false
+  },
+  {
+   "name": "",
+   "kind": "amenity=toilets",
+   "x": -88.91,
+   "y": -66.69,
+   "lat": 28.588301,
+   "lon": 77.25309,
+   "religious": false
+  },
+  {
+   "name": "Gate No. 2",
+   "kind": "railway=subway_entrance",
+   "x": 289.7,
+   "y": 14.36,
+   "lat": 28.589029,
+   "lon": 77.256964,
+   "religious": false
+  },
+  {
+   "name": "Sleeper waiting area",
+   "kind": "amenity=lounge",
+   "x": 94.71,
+   "y": -48.95,
+   "lat": 28.58846,
+   "lon": 77.254969,
+   "religious": false
+  },
+  {
+   "name": "Unreserved Tickect window",
+   "kind": "shop=ticket",
+   "x": 81.27,
+   "y": -31.31,
+   "lat": 28.588619,
+   "lon": 77.254831,
+   "religious": false
+  },
+  {
+   "name": "Barber's Tomb",
+   "kind": "building=yes",
+   "x": -205.44,
+   "y": 374.84,
+   "lat": 28.592267,
+   "lon": 77.251898,
+   "religious": false
+  },
+  {
+   "name": "Guru Ram Das Estate",
+   "kind": "building=apartments",
+   "x": -227.8,
+   "y": 43.44,
+   "lat": 28.58929,
+   "lon": 77.25167,
+   "religious": false
+  },
+  {
+   "name": "Ganga Kutir",
+   "kind": "building=apartments",
+   "x": -207.51,
+   "y": -22.98,
+   "lat": 28.588694,
+   "lon": 77.251877,
+   "religious": false
+  },
+  {
+   "name": "Royal Gateway",
+   "kind": "building=yes",
+   "x": -314.96,
+   "y": 295.76,
+   "lat": 28.591557,
+   "lon": 77.250778,
+   "religious": false
+  },
+  {
+   "name": "Rajdhani Tool Room",
+   "kind": "building=yes",
+   "x": 18.22,
+   "y": 132.68,
+   "lat": 28.590092,
+   "lon": 77.254186,
+   "religious": false
+  },
+  {
+   "name": "Delhi Jal Board",
+   "kind": "building=yes",
+   "x": -139.19,
+   "y": -197.3,
+   "lat": 28.587128,
+   "lon": 77.252576,
+   "religious": false
+  },
+  {
+   "name": "Parcel Office",
+   "kind": "building=commercial",
+   "x": 96.31,
+   "y": -345.51,
+   "lat": 28.585796,
+   "lon": 77.254985,
+   "religious": false
+  }
+ ]
+}

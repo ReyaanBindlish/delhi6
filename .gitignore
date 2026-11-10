@@ -35,3 +35,15 @@ world/delhi_south/*.blend
 world/delhi_south/*.fbx
 world/delhi_south/source/
 world/delhi/terrain_v2/*.npy
+
+# story locations: regenerable heavy outputs
+world/story/*.blend
+world/story/*.fbx
+world/story/export/**/*.fbx
+world/story/export/**/*.blend
+world/story/terrain/*.npy
+world/story/source/
+OldDelhi/Binaries/
+OldDelhi/Intermediate/
+OldDelhi/Saved/
+OldDelhi/DerivedDataCache/

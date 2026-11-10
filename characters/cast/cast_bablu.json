@@ -1,0 +1,57 @@
+{
+  "id": "Bablu",
+  "display": "Bablu Tyagi",
+  "age_at_start": 39,
+  "height_cm": 181,
+  "weight_kg": 98,
+  "bmi": 29.9,
+  "gait": "Heavy",
+  "languages": "Hi=85;Pa=10;En=5",
+  "voice": "Loud, jovial, Western UP Hindi, Haryanvi edges; threats are delivered softly",
+  "metahuman": {
+    "assets": [
+      "MH_Bablu"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Wide square face, heavy jaw, small eyes, thick neck, a broken nose that healed flat",
+    "skin": {
+      "description": "Fair wheatish, flushed; heavy jaw; shaving rash",
+      "U": 0.55,
+      "V": 0.38,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Brown",
+    "groom": {
+      "hair": "Thick black, gelled back",
+      "beard": "Heavy moustache plus short beard",
+      "eyebrows": "Heavy"
+    },
+    "body_measurements_cm_start": {
+      "height": 181,
+      "chest": 109.8,
+      "waist": 97.2,
+      "hips": 108.1
+    },
+    "age_feel": 39
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 1.166,
+      "y": 1.166,
+      "z": 1.006
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "Branded half-sleeve shirt, unbuttoned one too many; formal trousers; leather slip-ons",
+    "monsoon": "Dark shirt; cargo pants; rubber-soled shoes",
+    "winter": "Quilted puffer jacket with a fictional logo; wool cap",
+    "by_act": "A1=flashy, new money; A6=the same style, older and a bit too tight; he lives above a shop in a fourth-floor flat"
+  },
+  "accessories": "Heavy gold chain; gold rings on three fingers; a smartphone; a fictional-brand watch; an SUV key fob (fictional)",
+  "tells": "Never looks at the person he is lying to; touches the chain when he decides",
+  "gait_notes": "Wide stance; chest first; sits with his legs apart; breathes through his mouth after one flight of stairs but wins a clinch because of mass",
+  "sensitivity": "A criminal, written as a person: friendly, afraid, defensive. No stereotype of a region or caste."
+}

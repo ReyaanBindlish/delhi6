@@ -1,0 +1,57 @@
+{
+  "id": "Ravi",
+  "display": "Ravindra 'Ravi' Saxena",
+  "age_at_start": 45,
+  "height_cm": 182,
+  "weight_kg": 88,
+  "bmi": 26.6,
+  "gait": "KneeLimp",
+  "languages": "Hi=70;En=20;Pa=5;Ur=5",
+  "voice": "Gravel; dry Delhi Hindi; the only person who calls Daya by his real name; softer when sober",
+  "metahuman": {
+    "assets": [
+      "MH_Ravi"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Square face, heavy lids, broken veins on the nose, red-rimmed eyes, a deep scar over the left ear",
+    "skin": {
+      "description": "Wheatish; red cheeks and eye whites from drink; deep crow's feet",
+      "U": 0.52,
+      "V": 0.42,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Brown, bloodshot",
+    "groom": {
+      "hair": "Army cut, salt and pepper",
+      "beard": "Day-old salt-and-pepper stubble",
+      "eyebrows": "Heavy"
+    },
+    "body_measurements_cm_start": {
+      "height": 182,
+      "chest": 104.0,
+      "waist": 90.5,
+      "hips": 103.0
+    },
+    "age_feel": 45
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 1.099,
+      "y": 1.099,
+      "z": 1.011
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "Linen shirt with sleeves rolled; khaki chinos; leather loafers (Dubai) or kurta and loose trousers (Karachi)",
+    "monsoon": "Dark shirt; cotton trousers; a light rain jacket",
+    "winter": "Tweed or corduroy jacket; wool scarf",
+    "by_act": "A3-A4=Dubai: pressed shirts, always a collar; A5=Karachi: stained shalwar kameez and a knee brace under it; the last day: the same, plus the lanyard of a fake fishing licence"
+  },
+  "accessories": "Steel-and-neoprene knee brace on the RIGHT knee; a hip flask (fictional label); worn Casio-style watch; a battered notebook; reading glasses",
+  "tells": "Taps two fingers on the brace when he does not want to say something; always checks exits",
+  "gait_notes": "Right knee wrecked: weight on the left, right leg swung slightly out and locked; stiff and cautious on stairs and slopes; sits whenever he can; the limp is permanent and slows him to 75% of normal (pairs with the injury rules of the vitals component)",
+  "sensitivity": "His drinking is a wound, not a joke; his death in Act 5 is the emotional climax and is not staged for shock."
+}

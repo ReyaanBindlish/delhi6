@@ -1,0 +1,159 @@
+{
+  "id": "Daya",
+  "display": "Dayanand 'Daya' Dhillon",
+  "age_at_start": 38,
+  "height_cm": 178,
+  "weight_kg": 78,
+  "bmi": 24.6,
+  "gait": "Lean",
+  "languages": "Pa-Lahori=60;Ur=20;Hi=20",
+  "voice": "Low, dry, economical; Lahori Punjabi with a Kasur accent, functional Urdu; breath gets shorter as the disease progresses",
+  "metahuman": {
+    "assets": [
+      "MH_Daya_A1",
+      "MH_Daya_A2",
+      "MH_Daya_A6"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Long face, strong nose with a slight bend (broken once), deep-set tired eyes, thick eyebrows, small scar through the left eyebrow, prominent cheekbones; Act 2/6 variants hollow the cheeks and temples",
+    "skin": {
+      "description": "Medium wheatish Punjabi; sun-weathered forearms and neck; pallor rises with disease",
+      "U": 0.46,
+      "V": 0.42,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Dark brown, slightly bloodshot at A2/A6",
+    "groom": {
+      "hair": "Short crop / buzz-cut family, black",
+      "beard": "Stubble, medium; Act 2 long unkempt; Act 4 short full",
+      "eyebrows": "Thick"
+    },
+    "body_measurements_cm_start": {
+      "height": 178,
+      "chest": 97.9,
+      "waist": 84.3,
+      "hips": 97.4
+    },
+    "age_feel": 38
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 1.058,
+      "y": 1.058,
+      "z": 0.989
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "Half-sleeve checked shirt over a white vest; dark jeans; leather sandals",
+    "monsoon": "Quick-dry polyester shirt; dark trousers; rubber chappals",
+    "winter": "Cheap black faux-leather jacket over a sweatshirt; jeans; canvas sports shoes; wool muffler",
+    "by_act": "A1=above (collection-run gangster: gold-plated chain removed); A2=faded kurta and loose pyjama in rags or one donated blanket and a plastic sheet in rain; A3=plain cotton shirt and trousers then tracksuit; A4=muted shalwar kameez and waistcoat (Karachi) with a topi only for Friday prayers in the legend; A5=the same kurta hanging loose and sweat-stained; A6=oversized hooded sweatshirt and cardigan that no longer fit"
+  },
+  "accessories": "Steel kada on the right wrist; a steel katora (begging bowl) and cloth bag in Act 2; cheap digital watch; no phone from Act 2",
+  "tells": "Cracks his LEFT thumb when he lies (UCastTellComponent 'ThumbCrack'); counts everything under his breath (rupees, steps, chapatis); says little",
+  "gait_notes": "Act 1: loose confident stride, slight forward lean, hands in pockets. Act 2: shortened stride, rounded shoulders, avoids eye contact, rests on one hip while standing. Act 4: deliberate neutral Karachi walk that he consciously holds. Act 5-6: hunched 9 degrees, slow, hand pressed to ribs, rests after stairs; a cough fit bends him double (input lock 2-4 s).",
+  "sensitivity": "Born in Mamdot; grandparents from Kasur. Faith practice is kept low-key and respectful: kada, no caricature; the disease is shown as a body, not a spectacle.",
+  "body_states": [
+    {
+      "state": "Healthy2019",
+      "acts": "Act 1 (2019); Act 4 Phase 1 reads a few kg lighter",
+      "weight_kg": 78,
+      "notes": "Fed, wiry and quick; gangster swagger; clean clothes with flashy details",
+      "morphs": {},
+      "material": {},
+      "hunch_deg": 0,
+      "gait_scale": 1.0,
+      "frailty": 0.0,
+      "asset": "MH_Daya_A1",
+      "body_measurements_cm_start": {
+        "height": 178,
+        "chest": 97.9,
+        "waist": 84.3,
+        "hips": 97.4
+      },
+      "bmi": 24.6,
+      "mannequin_scale_xyz": {
+        "x": 1.058,
+        "y": 1.058,
+        "z": 0.989
+      }
+    },
+    {
+      "state": "Beggar",
+      "acts": "Act 2 (2019-2022)",
+      "weight_kg": 64,
+      "notes": "Minus 14 kg: visible ribs under the kurta, hollow cheeks, sun-darkened neck and forearms, filthy nails, matted hair",
+      "morphs": {
+        "DayaBody_Lean14": 1.0,
+        "DayaFace_Hollow": 0.45
+      },
+      "material": {
+        "Gauntness": 0.5,
+        "Dirt": 0.55,
+        "Pallor": 0.15
+      },
+      "hunch_deg": 4,
+      "gait_scale": 0.92,
+      "frailty": 0.3,
+      "asset": "MH_Daya_A2",
+      "body_measurements_cm_start": {
+        "height": 178,
+        "chest": 88.7,
+        "waist": 74.1,
+        "hips": 89.1
+      },
+      "bmi": 20.2,
+      "mannequin_scale_xyz": {
+        "x": 0.958,
+        "y": 0.958,
+        "z": 0.989
+      }
+    },
+    {
+      "state": "Diseased",
+      "acts": "Acts 5-6 (2024-2025)",
+      "weight_kg": 49,
+      "notes": "Minus 29 kg: TB wasting: temporal hollows, prominent clavicles, night-sweat sheen, pallor, loose clothes, dull eyes",
+      "morphs": {
+        "DayaBody_Lean14": 1.0,
+        "DayaBody_Lean29": 1.0,
+        "DayaFace_Hollow": 1.0
+      },
+      "material": {
+        "Gauntness": 1.0,
+        "Dirt": 0.2,
+        "Pallor": 0.7,
+        "Sweat": 0.5
+      },
+      "hunch_deg": 9,
+      "gait_scale": 0.78,
+      "frailty": 1.0,
+      "asset": "MH_Daya_A6",
+      "body_measurements_cm_start": {
+        "height": 178,
+        "chest": 77.6,
+        "waist": 62.3,
+        "hips": 79.0
+      },
+      "bmi": 15.5,
+      "mannequin_scale_xyz": {
+        "x": 0.838,
+        "y": 0.838,
+        "z": 0.989
+      }
+    }
+  ],
+  "act_weight_delta_kg": {
+    "Act1": 0,
+    "Act2": -14,
+    "Act3": -6,
+    "Act4": -4,
+    "Act5": -4,
+    "Act6": -4
+  },
+  "disease_max_loss_kg": 25,
+  "weight_model": "weight = Act1 weight + act delta - disease loss; Act 6 full disease: 78 - 4 - 25 = 49 kg (minus 29)"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "Sattar",
+  "display": "Haji Sattar",
+  "age_at_start": 64,
+  "height_cm": 168,
+  "weight_kg": 92,
+  "bmi": 32.6,
+  "gait": "Waddle",
+  "languages": "Ur=70;Sd=20;Pa=5;En=5",
+  "voice": "Deep, slow, courteous; Karachi Urdu with Sindhi turns; speaks of his obligations before his orders",
+  "metahuman": {
+    "assets": [
+      "MH_Sattar"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Round heavy face, hooded eyes, white eyebrows, full cheeks, a stern gentleness",
+    "skin": {
+      "description": "Medium-brown, mottled; darkened shins; tired eyes",
+      "U": 0.62,
+      "V": 0.3,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Brown, hooded",
+    "groom": {
+      "hair": "White (under the prayer cap)",
+      "beard": "Full white beard",
+      "eyebrows": "White"
+    },
+    "body_measurements_cm_start": {
+      "height": 168,
+      "chest": 106.3,
+      "waist": 95.4,
+      "hips": 104.3
+    },
+    "age_feel": 64
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 1.217,
+      "y": 1.217,
+      "z": 0.933
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "White cotton shalwar kameez; white crocheted prayer cap (topi); sandals; trouser hems above the ankle",
+    "monsoon": "The same; a dark waistcoat; rubber sandals",
+    "winter": "Cream shalwar kameez; woollen waistcoat; shawl; wool cap over the topi",
+    "by_act": "A4=the same wardrobe; Friday: a spotless white suit and an attar fragrance; Eid: new clothes"
+  },
+  "accessories": "Prayer beads (tasbih); a glucometer and an insulin pen in a leather pouch; a walking stick with a silver head; thick-rimmed glasses; a worn Quran in a velvet cover (never used as a prop)",
+  "tells": "Counts his tasbih beads when he decides; says 'Insha'Allah' in two different tones: one honest, one a refusal",
+  "gait_notes": "Slow, rolling waddle with the weight on the heels; breath short on stairs; sits down in stages; the stick leans forward; pauses to check blood sugar",
+  "sensitivity": "A devout man and a gang boss; faith is shown as sincere and distinct from the crime; attire follows correct practice; no religious site hosts combat."
+}

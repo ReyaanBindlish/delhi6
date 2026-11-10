@@ -1,0 +1,18 @@
+{
+ "location": "gulbahar_lines",
+ "centre_latlon": [
+  24.8755,
+  66.9935
+ ],
+ "extent_m": 1008.0,
+ "size_px": 1009,
+ "pixel_m": 1.0,
+ "n": 1009,
+ "dtm_file": "dtm_1009.npy",
+ "base_elev_m": 1.812540888786316,
+ "elev_min_m": 1.812540888786316,
+ "elev_max_m": 6.341104030609131,
+ "frame": "Z = metres above base_elev_m; X east, Y north; origin = centre",
+ "method": "Copernicus GLO-30 DSM; Overture footprints + >1.5 m residual masked; Laplace fill; gaussian; DTM<=DSM",
+ "source": "Copernicus_DSM_COG_10_N24_00_E066_00_DEM.tif"
+}

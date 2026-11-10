@@ -1,0 +1,127 @@
+{
+ "location": "gulbahar_lines",
+ "center": [
+  24.8755,
+  66.9935
+ ],
+ "frame": "local metres, X east, Y north, origin = slice centre",
+ "pois": [
+  {
+   "name": "\u06af\u0644\u0633\u062a\u0627\u0646 \u06a9\u0627\u0644\u0648\u0646\u06cc",
+   "kind": "place=neighbourhood",
+   "x": -222.5,
+   "y": -215.12,
+   "lat": 24.873568,
+   "lon": 66.991297,
+   "religious": false
+  },
+  {
+   "name": "\u0631\u0646\u06af\u06cc \u0648\u0627\u0691\u06c1",
+   "kind": "place=suburb",
+   "x": 174.95,
+   "y": -153.42,
+   "lat": 24.874122,
+   "lon": 66.995232,
+   "religious": false
+  },
+  {
+   "name": "\u0645\u06cc\u0631\u0627\u06ba \u0646\u0627\u06a9\u06c1",
+   "kind": "place=suburb",
+   "x": 61.39,
+   "y": 255.92,
+   "lat": 24.877799,
+   "lon": 66.994108,
+   "religious": false
+  },
+  {
+   "name": "\u06c1\u0632\u0627\u0631\u06c1 \u06a9\u0627\u0644\u0648\u0646\u06cc",
+   "kind": "place=neighbourhood",
+   "x": -8.46,
+   "y": -275.72,
+   "lat": 24.873023,
+   "lon": 66.993416,
+   "religious": false
+  },
+  {
+   "name": "\u06af\u0644\u0633\u062a\u0627\u0646 \u06a9\u0627\u0644\u0648\u0646\u06cc",
+   "kind": "place=neighbourhood",
+   "x": -231.82,
+   "y": 3.48,
+   "lat": 24.875531,
+   "lon": 66.991205,
+   "religious": false
+  },
+  {
+   "name": "Lasi Muhallah",
+   "kind": "place=neighbourhood",
+   "x": 209.46,
+   "y": 160.29,
+   "lat": 24.87694,
+   "lon": 66.995574,
+   "religious": false
+  },
+  {
+   "name": "Bismillah medical store",
+   "kind": "amenity=pharmacy",
+   "x": -180.21,
+   "y": 249.02,
+   "lat": 24.877737,
+   "lon": 66.991716,
+   "religious": false
+  },
+  {
+   "name": "KHALID MECHANIC(ustaad)",
+   "kind": "shop=car_repair",
+   "x": -122.54,
+   "y": 280.76,
+   "lat": 24.878022,
+   "lon": 66.992287,
+   "religious": false
+  },
+  {
+   "name": "Quetta karwan hotel",
+   "kind": "amenity=restaurant",
+   "x": -213.42,
+   "y": 235.42,
+   "lat": 24.877615,
+   "lon": 66.991387,
+   "religious": false
+  },
+  {
+   "name": "\u06c1\u0632\u0627\u0631\u06c1",
+   "kind": "building=yes",
+   "x": -22.71,
+   "y": -227.29,
+   "lat": 24.873458,
+   "lon": 66.993275,
+   "religious": true
+  },
+  {
+   "name": "Al-Madina",
+   "kind": "building=yes",
+   "x": 133.38,
+   "y": -66.8,
+   "lat": 24.8749,
+   "lon": 66.994821,
+   "religious": true
+  },
+  {
+   "name": "Noorani",
+   "kind": "building=yes",
+   "x": 192.06,
+   "y": 175.04,
+   "lat": 24.877072,
+   "lon": 66.995402,
+   "religious": true
+  },
+  {
+   "name": "Noor-e-Mustafa",
+   "kind": "building=yes",
+   "x": 216.21,
+   "y": 271.64,
+   "lat": 24.87794,
+   "lon": 66.995641,
+   "religious": true
+  }
+ ]
+}

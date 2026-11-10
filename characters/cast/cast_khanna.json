@@ -1,0 +1,57 @@
+{
+  "id": "Khanna",
+  "display": "Devraj Khanna ('Saab')",
+  "age_at_start": 72,
+  "height_cm": 175,
+  "weight_kg": 68,
+  "bmi": 22.2,
+  "gait": "Elderly",
+  "languages": "Hi=45;Ur=25;En=20;Pa-Lahori=10",
+  "voice": "Soft, never raised; unhurried; precise Hindi and Urdu, formal English, Lahori Punjabi he does not use in public",
+  "metahuman": {
+    "assets": [
+      "MH_Khanna"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Long thin face, high forehead, very calm eyes, fine wrinkles; the stillness is the character",
+    "skin": {
+      "description": "Fair wheatish; fine lines; slight tan from the garden",
+      "U": 0.35,
+      "V": 0.62,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Brown-grey",
+    "groom": {
+      "hair": "Short silver, side parted",
+      "beard": "none (clean-shaven)",
+      "eyebrows": "Fine silver"
+    },
+    "body_measurements_cm_start": {
+      "height": 175,
+      "chest": 91.4,
+      "waist": 77.5,
+      "hips": 91.4
+    },
+    "age_feel": 72
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Manny",
+    "mesh_scale_xyz": {
+      "x": 1.005,
+      "y": 1.005,
+      "z": 0.972
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "White cotton shirt, light trousers; soft shoes",
+    "monsoon": "Same with a dark umbrella and a rain-darkened hem",
+    "winter": "Charcoal or grey bandhgala (Nehru) jacket over a kurta; grey shawl",
+    "by_act": "A3=station scene in a plain kurta and shawl (no uniform, no flag); A5-6=hospital and farm scenes in a grey sweater; Coda=the same bandhgala"
+  },
+  "accessories": "Thin steel-framed glasses; an old wristwatch with a leather strap; a cloth handkerchief; a small notebook",
+  "tells": "Remembers and repeats names; pauses before the second sentence; when tired a Lahori vowel slips (the seven years)",
+  "gait_notes": "Unhurried, upright, hands behind his back or folded; a slight hip stiffness on stairs; never rushes",
+  "sensitivity": "Fictional figure in the NSA mould, not any real official; no resemblance to a real face."
+}

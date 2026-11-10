@@ -1,0 +1,57 @@
+{
+  "id": "Bibi",
+  "display": "Bibi (Daya's grandmother)",
+  "age_at_start": 84,
+  "height_cm": 151,
+  "weight_kg": 48,
+  "bmi": 21.1,
+  "gait": "ElderlyStooped",
+  "languages": "Pa-Lahori=85;Ur=10;Hi=5",
+  "voice": "Cracked, patient old Lahori Punjabi; the source of Daya's accent; sings when she thinks nobody listens",
+  "metahuman": {
+    "assets": [
+      "MH_Bibi"
+    ],
+    "note": "MetaHuman Creator 5.8 body: use the Parametric Body tool, set the constraint targets listed below (cm; the tool shows the real constraint list for the model, use the ones it offers), then blend presets only to taste. Face: blend 2-3 South Asian presets then Sculpt/Move to the notes. Hair/beard from the Groom library.",
+    "face_notes": "Narrow face, high cheekbones, deep wrinkles, a sunken mouth (missing teeth), slightly cloudy left eye",
+    "skin": {
+      "description": "Fair-wheatish, deeply lined; age spots on the hands; slightly cloudy left eye",
+      "U": 0.38,
+      "V": 0.6,
+      "roughness": 1.06,
+      "note": "U/V are starting values for the Creator skin-tone picker; judge by eye under neutral light and adjust"
+    },
+    "eyes": "Brown, cloudy left",
+    "groom": {
+      "hair": "White, long, braided and pinned under a chunni",
+      "beard": "none",
+      "eyebrows": "Thin, grey"
+    },
+    "body_measurements_cm_start": {
+      "height": 151,
+      "chest": 73.9,
+      "waist": 58.7,
+      "hips": 81.2
+    },
+    "age_feel": 84
+  },
+  "fallback_mannequin": {
+    "mesh": "SKM_Quinn",
+    "mesh_scale_xyz": {
+      "x": 0.978,
+      "y": 0.978,
+      "z": 0.839
+    },
+    "note": "Applied automatically by UBodyStateComponent when the mesh has no morph targets"
+  },
+  "outfits": {
+    "summer": "White cotton salwar kameez; white chunni over the head",
+    "monsoon": "White cotton suit; plastic sandals; a cotton shawl",
+    "winter": "White suit; thick woollen shawl; woollen socks; a hand-knit cardigan",
+    "by_act": "Same wardrobe in every act; she wears white because she is a widow and she does not change it"
+  },
+  "accessories": "Wooden walking stick; thick-framed glasses on a cord; a small prayer book in a cloth; a steel kada; a transistor radio",
+  "tells": "Calls the boy by his grandfather's name when tired; hums a Kasur lullaby",
+  "gait_notes": "Short shuffling steps, one hand on the stick and the other on a wall or shoulder; sits down in stages; stands up with a grunt and a joke",
+  "sensitivity": "Respected elder; head covering is correct and consistent; never played for pity."
+}
