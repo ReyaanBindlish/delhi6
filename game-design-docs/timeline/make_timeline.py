@@ -1,4 +1,4 @@
-"""delhi6 two-month build plan (10 Nov 2026 -> 10 Jan 2027). Minimal layout, hand-made vector illustrations.
+﻿"""delhi6 two-month build plan (10 Nov 2026 -> 10 Jan 2027). Minimal layout, hand-made vector illustrations.
 
 python make_timeline.py  -> delhi6_build_timeline.html  (print to PDF with Edge headless)
 """
@@ -11,34 +11,42 @@ HERE = Path(__file__).resolve().parent
 D = dt.date
 INK, SAND, CLAY, SAFFRON, TEAL, HAZE, MUTE = "#1f1b16", "#e9dfcf", "#c2603a", "#e0a23a", "#2f6b66", "#f7f2ea", "#8b8177"
 
-START, END = D(2026, 11, 10), D(2027, 1, 10)
+START, END = D(2026, 11, 10), D(2027, 11, 10)
+TITLE = "DHURANDHAR: THE GAME"
+SUBTITLE = "Part 1 · Katora&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Part 2 · Wapsi"
 
 PHASES = [
-    ("01", "Foundation", D(2026, 11, 10), D(2026, 11, 15), TEAL, "gear",
-     "Engine running, slice in Unreal",
-     ["Unreal Engine 5.8.4 installed, OldDelhi compiled", "Terrain + 1,329 buildings imported",
-      "Unreal MCP connected for live editing", "Daily builds and screenshots"],
-     "Chandni Chowk renders in Unreal"),
-    ("02", "World", D(2026, 11, 16), D(2026, 11, 29), CLAY, "city",
-     "Make the city look real",
-     ["Landscape, materials, Lumen lighting", "Weather: haze, smog, rain, dust storm",
-      "Boundary wall at the city edge", "Ground detail, wires, fictional signage"],
-     "Walkable slice at final look"),
-    ("03", "Life", D(2026, 11, 30), D(2026, 12, 13), SAFFRON, "people",
-     "Fill the streets",
-     ["Physics core: materials, objects, wind", "Crowds from 12 character types",
-      "Rickshaws, e-rickshaws, scooters", "Pigeons, kites, azaan and bazaar sound"],
-     "Streets alive day and night"),
-    ("04", "Gameplay", D(2026, 12, 14), D(2026, 12, 27), INK, "path",
-     "Turn the slice into a game",
-     ["Player movement and camera", "Short story set in Diwali week",
-      "3 to 5 missions through real landmarks", "Save, menus, settings"],
-     "Story playable start to finish"),
-    ("05", "Polish & ship", D(2026, 12, 28), D(2027, 1, 10), TEAL, "flag",
-     "Ship version 1.0",
-     ["60 fps on an RTX 3070", "Playtests and bug fixing", "Trailer, store page, screenshots",
-      "Release build"],
-     "Launch on 10 January 2027"),
+    ("01", "Foundation", D(2026, 11, 10), D(2026, 12, 6), TEAL, "gear",
+     "Engine, pipeline and tools",
+     ["Unreal Engine 5.8.4, C++ project, Git LFS, CI", "Map pipeline: real footprints to modeled streets",
+      "Unreal MCP for live editing", "Terrain, weather and crowd data imported"],
+     "First lit street in Unreal"),
+    ("02", "Core systems", D(2026, 12, 7), D(2027, 2, 28), CLAY, "path",
+     "The rules the story depends on",
+     ["Money ledger, health without regeneration", "Stamina and the disease curve, coughing fits",
+      "Hidden suspicion, notebook map, daily saves", "Falls, rail heights, ballistics, katta misfire",
+      "Calendar, weather, crowds, traffic"],
+     "One in-game day playable end to end"),
+    ("03", "Karachi · Act 4", D(2027, 3, 1), D(2027, 5, 30), SAFFRON, "city",
+     "Half the game: Gulbahar Lines",
+     ["District built from the Lyari slice", "Shrine, tankers, hawala shops, gambling den",
+      "Sattar, Shahzaib, Qureshi; the branch choice", "The Rangers raid escape without a weapon"],
+     "Act 4 playable start to finish"),
+    ("04", "Delhi NCR · Acts 1, 2, 6", D(2027, 5, 31), D(2027, 8, 29), INK, "people",
+     "The rise, the fall, the end",
+     ["Vasundhara house and Bablu's builder flat", "Khoda Colony hub, Loni flyover and dhaba",
+      "Nizamuddin platform survival loop, Mangal", "The hunt and the balcony fight"],
+     "Acts 1, 2 and 6 playable"),
+    ("05", "Acts 3, 5 & cinematics", D(2027, 8, 30), D(2027, 10, 3), TEAL, "boat",
+     "Connective tissue and the big moments",
+     ["Dehradun farm, Sarai Kale Khan pitch", "Korangi checkpoint, jetty, the tide-timed boat",
+      "Performance capture and Hindi, Urdu, Punjabi voice", "The rewind and the coda"],
+     "Content complete (alpha)"),
+    ("06", "Polish & launch", D(2027, 10, 4), D(2027, 11, 10), CLAY, "flag",
+     "Ship both parts",
+     ["60 fps on an RTX 3070", "Playtests, sensitivity and legal review",
+      "Title licence or fallback names", "Rating, store page, trailer, launch"],
+     "Launch on 10 November 2027"),
 ]
 
 
@@ -117,36 +125,43 @@ def icon(kind, col):
         "path": f'<path d="M16 48 C24 36 40 44 32 30 C26 20 40 16 48 16" {st}/><circle cx="16" cy="48" r="3" fill="{col}"/>'
                 f'<circle cx="48" cy="16" r="3" fill="{col}"/>',
         "flag": f'<path d="M22 50 V14" {st}/><path d="M22 16 h22 l-6 7 l6 7 h-22" {st}/>',
+        "boat": f'<path d="M12 38 h40 l-6 10 h-28 z" {st}/><path d="M32 38 V14 l12 18 h-12" {st}/>'
+                f'<path d="M10 54 q6 -4 11 0 t11 0 t11 0 t11 0" {st}/>',
     }[kind]
     return base + body + "</svg>"
 
 
 # ------------------------------------------------------------------ timeline
 def timeline():
-    W, L, R, top = 1000, 150, 20, 46
+    W, L, R, top = 1000, 200, 20, 46
     days = (END - START).days
     X = lambda d: L + (d - START).days / days * (W - L - R)
-    rowh = 54
+    rowh = 50
     h = top + rowh * len(PHASES) + 70
     s = [f'<svg viewBox="0 0 {W} {h}" class="tl">']
-    mondays = [START]
-    d = START + dt.timedelta(days=(7 - START.weekday()) % 7 or 7)
-    while d <= END:
-        mondays.append(d); d += dt.timedelta(days=7)
-    for wk, d in enumerate(mondays, 1):  # week grid: W1 starts today, then every Monday
-        s.append(f'<line x1="{X(d):.1f}" y1="{top - 10}" x2="{X(d):.1f}" y2="{h - 50}" class="grid"/>')
-        s.append(f'<text x="{X(d) + 4:.1f}" y="{top - 18}" class="wk">W{wk} · {d.day} {d.strftime("%b")}</text>')
+    d = D(START.year, START.month, 1)
+    while d <= END:  # month grid
+        nx = D(d.year + (d.month == 12), d.month % 12 + 1, 1)
+        if d >= START:
+            s.append(f'<line x1="{X(d):.1f}" y1="{top - 10}" x2="{X(d):.1f}" y2="{h - 50}" class="grid"/>')
+        mid = max(START, d) + (min(nx, END) - max(START, d)) / 2
+        if (min(nx, END) - max(START, d)).days > 12:
+            lab = d.strftime("%b") if d.month != 1 else d.strftime("%b %Y")
+            s.append(f'<text x="{X(mid):.1f}" y="{top - 18}" class="wk" text-anchor="middle">{lab}</text>')
+        d = nx
     for i, (code, name, a, b, col, *_rest) in enumerate(PHASES):
         y = top + i * rowh
         s.append(f'<text x="0" y="{y + 25}" class="pname"><tspan class="pcode" fill="{col}">{code}</tspan>  {name}</text>')
-        s.append(f'<rect x="{X(a):.1f}" y="{y + 8}" width="{X(b + dt.timedelta(days=1)) - X(a) - 3:.1f}" height="26" rx="13" fill="{col}"/>')
-        lab = f"{a.day}–{b.day} {b.strftime('%b')}" if a.month == b.month else f"{a.day} {a.strftime('%b')} – {b.day} {b.strftime('%b')}"
-        s.append(f'<text x="{X(a) + 10:.1f}" y="{y + 25}" class="bar">{lab}</text>')
+        bw = X(b + dt.timedelta(days=1)) - X(a) - 3
+        s.append(f'<rect x="{X(a):.1f}" y="{y + 8}" width="{bw:.1f}" height="26" rx="13" fill="{col}"/>')
+        weeks = round(((b - a).days + 1) / 7)
+        lab = f"{weeks} wks"
+        s.append(f'<text x="{X(a) + bw / 2:.1f}" y="{y + 25}" class="bar" text-anchor="middle">{lab}</text>')
     y = top + rowh * len(PHASES) + 8
     s.append(f'<line x1="{L}" y1="{y}" x2="{W - R}" y2="{y}" class="axis"/>')
     for code, name, a, b, col, *_rest in PHASES:
         s.append(f'<circle cx="{X(b + dt.timedelta(days=1)) - 2:.1f}" cy="{y}" r="5" fill="{col}"/>')
-    s.append(f'<text x="{X(END) - 2:.1f}" y="{y + 26}" class="deadline">Deadline · 10 Jan 2027</text>')
+    s.append(f'<text x="{X(END) - 2:.1f}" y="{y + 26}" class="deadline">Launch · 10 Nov 2027</text>')
     s.append(f'<text x="{L}" y="{y + 26}" class="today">Start · 10 Nov 2026</text>')
     s.append("</svg>")
     return "\n".join(s)
@@ -170,8 +185,8 @@ def cards(phases):
 
 import json as _json
 
-MB = _json.load(open(HERE / "moodboard" / "moodboard.json", encoding="utf-8"))
-COVER = MB[0]
+_ALL = _json.load(open(HERE / "moodboard" / "moodboard_story.json", encoding="utf-8"))
+COVER, MB = _ALL[0], _ALL[1:]
 
 
 def mood_page(items, title, eyebrow, num):
@@ -183,15 +198,15 @@ def mood_page(items, title, eyebrow, num):
     return f"""<section class="page">
   <div class="eyebrow">{eyebrow}</div><h2>{title}</h2>
   <div class="mood">{''.join(figs)}</div>
-  <div class="foot"><span>delhi6 · photo references, credits on the last page</span><span>{num}</span></div>
+  <div class="foot"><span>photo references, credits on the last page</span><span>{num}</span></div>
 </section>"""
 
 
 def credits_page(num):
     rows = "".join(f'<tr><td>{m["caption"]}</td><td>{m["artist"]}</td><td>{m["license"]}</td>'
-                   f'<td class="url">{m["page"].replace("https://", "")}</td></tr>' for m in MB)
-    pins = ["Old Delhi cinematic", "Chandni Chowk night", "Jama Masjid fog", "Delhi winter smog photography",
-            "Indian street matte painting", "Old Delhi monsoon"]
+                   f'<td class="url">{m["page"].replace("https://", "")}</td></tr>' for m in _ALL)
+    pins = ["Lyari Karachi street photography", "Karachi night street", "Nizamuddin station",
+            "Karachi fishing boats dusk", "Ghaziabad builder floor", "Indian railway platform night"]
     plinks = "".join(f'<li>pinterest.com/search/pins/?q={p.replace(" ", "%20")}</li>' for p in pins)
     return f"""<section class="page">
   <div class="eyebrow">Credits and further inspiration</div><h2>Photo credits</h2>
@@ -202,7 +217,7 @@ def credits_page(num):
   <p class="lede">For extra mood, browse these searches. Pinterest images belong to their creators,
     so we use them to look at, not to copy into the game or this repo.</p>
   <ul class="pins">{plinks}</ul>
-  <div class="foot"><span>delhi6</span><span>{num}</span></div>
+  <div class="foot"><span>build plan</span><span>{num}</span></div>
 </section>"""
 
 
@@ -288,61 +303,62 @@ table.credits {{ border-collapse: collapse; width: 100%; margin-top: 7mm; font-s
 <section class="page photocover" style="background-image:url({COVER['file']})">
   <div class="shade"></div>
   <div class="title">
-    <div class="eyebrow">delhi6 · build plan</div>
-    <h1 style="margin-top:6px">Old Delhi, alive.</h1>
-    <p class="lede">A realistic open-world slice of Chandni Chowk, built from real maps, real weather and real streets
-      in Unreal Engine 5. Two developers, one AI implementer, eight and a half weeks.</p>
-    <div class="facts"><div><b>10 Nov 2026</b>start</div><div><b>10 Jan 2027</b>deadline</div>
-      <div><b>5 phases</b>one milestone each</div><div><b>Rayan + co-developer</b>with Claude</div></div>
+    <div class="eyebrow">Build plan · working title</div>
+    <h1 style="margin-top:6px;font-size:46px">{TITLE}</h1>
+    <p class="lede" style="letter-spacing:2px;text-transform:uppercase;font-size:11px">{SUBTITLE}</p>
+    <p class="lede">A Delhi gangster turned beggar, recruited because he is invisible, sent into Karachi's underworld
+      under a dead man's name. Six acts, 14 to 18 hours, built in Unreal Engine 5 from real streets.</p>
+    <div class="facts"><div><b>10 Nov 2026</b>start</div><div><b>10 Nov 2027</b>launch</div>
+      <div><b>6 phases</b>one milestone each</div><div><b>Tarun + Rayan</b>with Claude</div></div>
   </div>
-  <div class="credit">Photo: {COVER['artist']}, {COVER['license']}, Wikimedia Commons</div>
+  <div class="credit">Photo: {COVER['artist']}, {COVER['license']}, via Wikimedia Commons</div>
 </section>
 
-{mood_page(MB[:4], "The final look: light and landmarks", "Target look · 1", "02")}
-{mood_page(MB[4:], "The final look: streets, mist and colour", "Target look · 2", "03")}
+{mood_page(MB[:4], "Delhi and Karachi: the platform and the lanes", "Target look · 1", "02")}
+{mood_page(MB[4:], "Karachi: tankers, the creek and the jetty", "Target look · 2", "03")}
 
 <section class="page">
   <div class="eyebrow">Timeline</div>
-  <h2>Five phases to launch</h2>
-  <p class="lede">Each phase ends with something playable. After a short first week, phases run Monday
-    to Sunday, two weeks each, so every phase closes with a Sunday review and a build.</p>
+  <h2>Six phases, one year</h2>
+  <p class="lede">Systems first, because the story is told through them: money, stamina, suspicion, falls.
+    Then Karachi, which is half the game, then Delhi, then the acts that connect them.</p>
   {timeline()}
-  <div class="foot"><span>delhi6</span><span>04</span></div>
+  <div class="foot"><span>build plan</span><span>04</span></div>
 </section>
 
 <section class="page">
   <div class="eyebrow">Phases 01 – 03</div>
-  <h2>Build the city, then bring it to life</h2>
+  <h2>Tools, rules, and Karachi</h2>
   <div class="cards three">{cards(PHASES[:3])}</div>
-  <div class="foot"><span>delhi6</span><span>05</span></div>
+  <div class="foot"><span>build plan</span><span>05</span></div>
 </section>
 
 <section class="page">
-  <div class="eyebrow">Phases 04 – 05</div>
-  <h2>Make it a game, then ship it</h2>
-  <div class="cards two">{cards(PHASES[3:])}</div>
-  <div class="foot"><span>delhi6</span><span>06</span></div>
+  <div class="eyebrow">Phases 04 – 06</div>
+  <h2>Delhi, the big moments, and launch</h2>
+  <div class="cards three">{cards(PHASES[3:])}</div>
+  <div class="foot"><span>build plan</span><span>06</span></div>
 </section>
 
 <section class="page">
   <div class="eyebrow">Scope and team</div>
-  <h2>What "complete" means on 10 January</h2>
-  <p class="lede">Two months is enough for one polished, playable district. The rest of Old Delhi and South Delhi
-    come after launch as updates, using the same pipeline.</p>
+  <h2>The whole story, with a cut list ready</h2>
+  <p class="lede">The plan builds all six acts. If a phase slips, cut from the right-hand list first,
+    in that order, so the story itself never loses a beat.</p>
   <div class="cols">
-    <div class="col"><span class="pill">In version 1.0</span><h3>Chandni Chowk slice</h3><ul>
-      <li>500 m around Chandni Chowk, Dariba and Kinari</li><li>Four weathers and a full day–night cycle</li>
-      <li>Crowds, rickshaws, birds, street sound</li><li>A short Diwali-week story, 3 to 5 missions</li>
-      <li>60 fps on an RTX 3070</li></ul></div>
-    <div class="col"><span class="pill">After launch</span><h3>Updates</h3><ul>
-      <li>The full walled city (2.9 × 2.2 km)</li><li>All 52 character types</li>
-      <li>Hero landmarks from photogrammetry</li><li>South Delhi: Lajpat, Sarojini, GK, Hauz Khas</li>
-      <li>More stories and festivals</li></ul></div>
+    <div class="col"><span class="pill">Ships</span><h3>Both parts, six acts</h3><ul>
+      <li>Ghaziabad, Nizamuddin, Karachi, the creek</li><li>Money, stamina, disease, suspicion systems</li>
+      <li>The Sattar or Shahzaib branch</li><li>The balcony, the rewind, the coda</li>
+      <li>60 fps on an RTX 3070, 18+ rating</li></ul></div>
+    <div class="col"><span class="pill">Cut first if late</span><h3>Cut list</h3><ul>
+      <li>1 · Side content (tea stall, cricket, Kasur trip)</li><li>2 · Act 3 farm as a short cutscene</li>
+      <li>3 · Smaller Delhi hubs, Karachi stays full</li><li>4 · Fewer crowd character types</li>
+      <li>5 · Ship Part 2 (Wapsi) as a second release</li></ul></div>
     <div class="col"><span class="pill">Team</span><h3>Who does what</h3><ul>
-      <li><b>Rayan</b> · art direction, story, reference photos and sound from Delhi</li>
-      <li><b>Co-developer</b> · engine, physics, crowds, performance, builds</li>
+      <li><b>Tarun</b> · story, script, direction, playtests</li>
+      <li><b>Rayan</b> · engine, physics, crowds, performance, builds</li>
       <li><b>Claude</b> · generators, C++ and Python, imports, research, docs</li>
-      <li><b>Together</b> · weekly review, playtests, launch</li></ul></div>
+      <li><b>Hire</b> · voice, performance capture, legal review</li></ul></div>
   </div>
   <div class="rhythm">
     <div class="day"><b>Monday</b>Plan the week from the phase card</div>
@@ -351,11 +367,12 @@ table.credits {{ border-collapse: collapse; width: 100%; margin-top: 7mm; font-s
     <div class="day"><b>Saturday</b>Playtest and bug list</div>
     <div class="day"><b>Sunday</b>Milestone review, tag a build</div>
   </div>
-  <div class="foot"><span>delhi6</span><span>07</span></div>
+  <div class="foot"><span>build plan</span><span>07</span></div>
 </section>
 {credits_page("08")}
 </body></html>"""
 
 (HERE / "delhi6_build_timeline.html").write_text(HTML, encoding="utf-8")
 print("wrote", HERE / "delhi6_build_timeline.html")
+
 
