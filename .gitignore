@@ -34,3 +34,4 @@ world/delhi/terrain/*.npy
 world/delhi_south/*.blend
 world/delhi_south/*.fbx
 world/delhi_south/source/
+world/delhi/terrain_v2/*.npy

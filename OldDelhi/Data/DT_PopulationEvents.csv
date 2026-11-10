@@ -1,0 +1,20 @@
+Name,Label,Window,Zones,Multiplier,Effect,AddedArchetypes
+Friday_prayers,Friday prayers,Fri 12:00-14:30 (ramp: 11:30; peak 13:00; surge out 14:00-14:30),"Jama Masjid, Urdu Bazar, Meena Bazaar, Matia Mahal",40,"Mosque ×40-100 (300-500 visible rows), side lanes ×1.5",A37;A38;A24;A26;A41
+Fajr_Zuhr_Asr_Maghrib_Isha,"Fajr, Zuhr, Asr, Maghrib, Isha","Per astronomical times, shifted ~25 min across the year",All mosques,1.0,Local lane +10-20 worshippers,A37;A38
+Alvida_last_Friday_of_Ramadan_Chaand_Raa,"Alvida (last Friday of Ramadan), Chaand Raat, Eid",Per lunar calendar,"Jama Masjid, Matia Mahal, Urdu Bazar, Chandni Chowk",2.5,"×2.5-3 night before; Eid morning courtyard 25,000 real",A37;A44;A46;A47;A24;A26
+Ramadan_evenings,Ramadan evenings,Maghrib to 03:00,"Matia Mahal, Jama Masjid lanes, Gali Kababian",2,"×2-3 at 19:00-01:00, daytime ×0.7",A12;A14;A34;A22
+Diwali_shopping,Diwali shopping,"14 days before Diwali, 10:00-23:00","Main road, Chawri, Kinari, Khari Baoli, Dariba",1.6,×1.6-1.8,A34;A46;A24;A22
+Wedding_season,Wedding season,"Nov-Feb, nights 18:00-02:00","Residential lanes, Dariba, Chawri, Kinari",1.4,Local ×1.4,A43;A05;A06;A03
+Gurpurab_Sis_Ganj_events,Gurpurab / Sis Ganj events,Specific days,"Sis Ganj, main road",2,Local ×2,A36;A40
+Dussehra_Ramlila,Dussehra / Ramlila,"Oct, evenings","Red Fort lawns, main road",1.5,Local ×1.5,A34;A44;A24
+Independence_Day_15_Aug,Independence Day (15 Aug),05:00-12:00 closed to traffic; afternoon kites,"Red Fort, main road",1.0,"Red Fort cordon, streets emptier",A24;A26;A11
+Bakrid,Bakrid,Morning prayer + 3 days,"Jama Masjid, Urdu Park goat market",40,"Mosque ×40-100, goats",A37;A12
+Muharram_tazia,Muharram (tazia),Specific day,Residential lanes,1.0,Procession closure,
+Monsoon_rain,Monsoon rain,Rain state,All,0.55,"×0.55 pedestrians, +30% delivery riders, +10% rickshaw demand",A22;A19
+Smog_day_GRAP_3_4,Smog day (GRAP 3-4),Nov-Jan,All,0.8,"×0.8 pedestrians, masks 35%, school closures on GRAP-4 [U], construction bans",A24
+Heat_wave,Heat wave,"Apr-Jun, 11:00-16:00",All,0.6,"×0.6, shade clusters",A15
+Winter_fog,Winter fog,"Dec-Jan, 05:00-09:00",All,0.7,"×0.7, braziers",A13;A28
+Dust_storm,Dust storm,"Random, 30-60 min",All,1.0,Everyone shelters,
+Security_alert,Security alert,Scripted or random,"Red Fort, Jama Masjid, metro",2,"Police ×2, tourists ×0.7, barricades",A24;A26
+Red_Fort_closed_Monday_U,Red Fort closed (Monday) [U],Mondays,Red Fort,0.5,Tourist ×0.5 at gate,
+Weekly_market_closure_Sunday_U,Weekly market closure (Sunday) [U],Sundays,"Khari Baoli, Kinari, Chawri",0.5,"×0.5, with food streets ×1.4",A34

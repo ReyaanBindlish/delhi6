@@ -1,0 +1,47 @@
+{
+  "centre_latlon": [
+    28.655,
+    77.23
+  ],
+  "extent_m": 4032.0,
+  "size_px": 4033,
+  "pixel_m": 1.0,
+  "elev_min_m": 199.3472137451172,
+  "elev_max_m": 240.90237426757812,
+  "ue_landscape": {
+    "heightmap": "LS_Phase1_4033.png",
+    "location_cm": [
+      0,
+      0,
+      21000.0
+    ],
+    "scale": [
+      100.0,
+      100.0,
+      12.5
+    ],
+    "section_size_quads": 63,
+    "sections_per_component": "2x2",
+    "components": "32x32 (1024)",
+    "world_partition": true,
+    "streaming_proxy_components": "4x4 (~504 m)",
+    "layers": [
+      "RoadDust",
+      "PackedEarth",
+      "DryGrass",
+      "MudSlush",
+      "AshSoot",
+      "RiverSand",
+      "LeafLitter",
+      "Gravel"
+    ],
+    "physical_materials": {
+      "Asphalt": "PM_Asphalt",
+      "Mud": "PM_Mud",
+      "Sandstone": "PM_RedSandstone"
+    },
+    "world_z_note": "World Z (cm) = elevation_m * 100 - 0 (absolute ASL in cm); slices/buildings must use the same."
+  },
+  "method": "Copernicus GLO-30 DSM; Overture footprints + residual>4 m masked; Laplace fill; gaussian 1.5; DTM<=DSM; core slope softened; bicubic to 1 m.",
+  "source": "Copernicus DEM GLO-30 (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the EU and ESA. Footprints: Overture Maps (ODbL / CC BY 4.0)."
+}

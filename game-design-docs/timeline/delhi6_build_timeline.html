@@ -1,0 +1,252 @@
+<!doctype html><html><head><meta charset="utf-8"><title>delhi6 Build Plan</title>
+<style>
+@page { size: A4 landscape; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #1f1b16; background: #fff; }
+.page { width: 297mm; height: 210mm; padding: 22mm 24mm; page-break-after: always; position: relative; overflow: hidden; }
+.page:last-child { page-break-after: auto; }
+.eyebrow { font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #8b8177; }
+h1 { font-size: 54px; font-weight: 700; letter-spacing: -1.5px; line-height: 1; }
+h2 { font-size: 26px; font-weight: 600; letter-spacing: -0.5px; margin: 6px 0 4px; }
+h3 { font-size: 17px; font-weight: 600; }
+.lede { font-size: 13px; color: #8b8177; line-height: 1.6; max-width: 150mm; }
+.foot { position: absolute; left: 24mm; right: 24mm; bottom: 12mm; display: flex; justify-content: space-between;
+  font-size: 9px; color: #8b8177; letter-spacing: 1px; }
+/* cover */
+.cover { padding: 0; background: #f7f2ea; }
+.cover .art { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: auto; }
+.cover .title { position: absolute; left: 24mm; top: 22mm; }
+.cover .title .lede { margin-top: 10px; }
+.cover .facts { display: flex; gap: 40px; margin-top: 18px; font-size: 11px; color: #8b8177; }
+.cover .facts b { display: block; font-size: 14px; color: #1f1b16; font-weight: 600; margin-bottom: 2px; }
+/* timeline */
+.tl { width: 100%; margin-top: 16mm; }
+.tl .grid { stroke: #ece5da; stroke-width: 1; }
+.tl .axis { stroke: #e9dfcf; stroke-width: 2; }
+.tl .wk { font-size: 9px; fill: #8b8177; letter-spacing: .5px; }
+.tl .pname { font-size: 13px; font-weight: 600; fill: #1f1b16; }
+.tl .pcode { font-weight: 700; }
+.tl .bar { font-size: 10px; fill: #fff; font-weight: 600; letter-spacing: .3px; }
+.tl .deadline { font-size: 11px; fill: #c2603a; font-weight: 700; text-anchor: end; }
+.tl .today { font-size: 11px; fill: #2f6b66; font-weight: 700; }
+/* cards */
+.cards { display: grid; gap: 9mm; margin-top: 12mm; }
+.cards.three { grid-template-columns: repeat(3, 1fr); }
+.cards.two { grid-template-columns: repeat(2, 1fr); max-width: 170mm; }
+.card { border: 1px solid #ece5da; border-radius: 10px; padding: 7mm 7mm 6mm; background: #fff; }
+.cardtop { display: flex; gap: 12px; align-items: center; }
+.icon { width: 44px; height: 44px; flex: none; }
+.code { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; font-weight: 700; }
+.dates { font-size: 10px; color: #8b8177; margin-top: 2px; }
+.goal { font-size: 12.5px; font-weight: 600; margin: 5mm 0 3mm; }
+.card ul { list-style: none; font-size: 11.5px; line-height: 1.75; color: #3a332c; }
+.card li::before { content: "—  "; color: #e9dfcf; }
+.exit { display: flex; align-items: center; gap: 8px; margin-top: 5mm; padding-top: 4mm; border-top: 1px solid #f0eae1;
+  font-size: 11px; font-weight: 600; }
+.exit span { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+/* scope page */
+.cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12mm; margin-top: 12mm; }
+.col h3 { margin-bottom: 4mm; }
+.col ul { list-style: none; font-size: 11.5px; line-height: 1.8; color: #3a332c; }
+.col li::before { content: "—  "; color: #e9dfcf; }
+.pill { display: inline-block; font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; padding: 3px 9px;
+  border-radius: 20px; background: #f7f2ea; color: #8b8177; margin-bottom: 3mm; }
+.rhythm { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5mm; margin-top: 12mm; }
+.day { border-top: 3px solid #e9dfcf; padding-top: 3mm; font-size: 11px; color: #3a332c; line-height: 1.6; }
+.day b { display: block; font-size: 12px; color: #1f1b16; margin-bottom: 1mm; }
+/* photo cover + mood board */
+.photocover { padding: 0; background: #0b0d16 center/cover no-repeat; }
+.photocover .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(8,8,14,.88) 0%, rgba(8,8,14,.55) 42%, rgba(8,8,14,0) 72%); }
+.photocover .title { position: absolute; left: 24mm; bottom: 26mm; color: #fff; max-width: 140mm; }
+.photocover .eyebrow { color: #e8c58f; }
+.photocover .lede { color: #d9d4cc; margin-top: 10px; }
+.photocover .facts { display: flex; gap: 36px; margin-top: 18px; font-size: 11px; color: #b9b2a8; }
+.photocover .facts b { display: block; font-size: 14px; color: #fff; font-weight: 600; margin-bottom: 2px; }
+.photocover .credit { position: absolute; right: 24mm; bottom: 12mm; font-size: 8px; color: #8f8a84; }
+.mood { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm 8mm; margin-top: 9mm; }
+.mood figure { margin: 0; }
+.mood .ph { height: 56mm; border-radius: 6px; background-size: cover; background-position: center; }
+.mood figcaption { display: flex; justify-content: space-between; align-items: center; margin-top: 2.5mm;
+  font-size: 11px; color: #3a332c; }
+.sw { display: flex; gap: 3px; }
+.sw i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+table.credits { border-collapse: collapse; width: 100%; margin-top: 7mm; font-size: 10px; }
+.credits th, .credits td { text-align: left; padding: 2.4mm 2mm; border-bottom: 1px solid #f0eae1; vertical-align: top; }
+.credits th { font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: #8b8177; font-weight: 600; }
+.credits .url { color: #8b8177; word-break: break-all; }
+.pins { list-style: none; columns: 2; font-size: 10.5px; color: #2f6b66; line-height: 1.9; margin-top: 3mm; }
+</style></head><body>
+
+<section class="page photocover" style="background-image:url(moodboard/mb_00.jpg)">
+  <div class="shade"></div>
+  <div class="title">
+    <div class="eyebrow">delhi6 · build plan</div>
+    <h1 style="margin-top:6px">Old Delhi, alive.</h1>
+    <p class="lede">A realistic open-world slice of Chandni Chowk, built from real maps, real weather and real streets
+      in Unreal Engine 5. Two developers, one AI implementer, eight and a half weeks.</p>
+    <div class="facts"><div><b>10 Nov 2026</b>start</div><div><b>10 Jan 2027</b>deadline</div>
+      <div><b>5 phases</b>one milestone each</div><div><b>Rayan + co-developer</b>with Claude</div></div>
+  </div>
+  <div class="credit">Photo: Simranjeet Sidhu, CC BY-SA 4.0, Wikimedia Commons</div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">Target look · 1</div><h2>The final look: light and landmarks</h2>
+  <div class="mood"><figure><div class="ph" style="background-image:url(moodboard/mb_00.jpg)"></div><figcaption><span>Dusk: Jama Masjid against a hazy sun</span><span class="sw"><i style="background:#b1a490"></i><i style="background:#5f6770"></i><i style="background:#080f27"></i><i style="background:#060c26"></i><i style="background:#040722"></i></span></figcaption></figure><figure><div class="ph" style="background-image:url(moodboard/mb_01.jpg)"></div><figcaption><span>Evening bazaar under the mosque walls</span><span class="sw"><i style="background:#e9e1e0"></i><i style="background:#d1cfd9"></i><i style="background:#abacb6"></i><i style="background:#4f382b"></i><i style="background:#1c1212"></i></span></figcaption></figure><figure><div class="ph" style="background-image:url(moodboard/mb_03.jpg)"></div><figcaption><span>Night: the mosque lit, courtyard in shadow</span><span class="sw"><i style="background:#7a7063"></i><i style="background:#352d24"></i><i style="background:#211d18"></i><i style="background:#171411"></i><i style="background:#100e0d"></i></span></figcaption></figure><figure><div class="ph" style="background-image:url(moodboard/mb_12.jpg)"></div><figcaption><span>Chandni Chowk at street level: autos, rickshaws, crowds</span><span class="sw"><i style="background:#e6e2db"></i><i style="background:#a6a8a1"></i><i style="background:#7c7f77"></i><i style="background:#4e4847"></i><i style="background:#191c1c"></i></span></figcaption></figure></div>
+  <div class="foot"><span>delhi6 · photo references, credits on the last page</span><span>02</span></div>
+</section>
+<section class="page">
+  <div class="eyebrow">Target look · 2</div><h2>The final look: streets, mist and colour</h2>
+  <div class="mood"><figure><div class="ph" style="background-image:url(moodboard/mb_19.jpg)"></div><figcaption><span>Kinari Bazar: wire tangles over shuttered lanes</span><span class="sw"><i style="background:#d4d6d7"></i><i style="background:#918d88"></i><i style="background:#61605e"></i><i style="background:#433d3c"></i><i style="background:#202020"></i></span></figcaption></figure><figure><div class="ph" style="background-image:url(moodboard/mb_21.jpg)"></div><figcaption><span>Morning mist over the Red Fort gardens</span><span class="sw"><i style="background:#f1efec"></i><i style="background:#8e8c89"></i><i style="background:#4d453a"></i><i style="background:#383326"></i><i style="background:#1e1c10"></i></span></figcaption></figure><figure><div class="ph" style="background-image:url(moodboard/mb_22.jpg)"></div><figcaption><span>Winter smog: the city fades at 500 m</span><span class="sw"><i style="background:#dbcabb"></i><i style="background:#d2c2b3"></i><i style="background:#c7b7a8"></i><i style="background:#94897d"></i><i style="background:#5f574e"></i></span></figcaption></figure><figure><div class="ph" style="background-image:url(moodboard/mb_24.jpg)"></div><figcaption><span>Khari Baoli: spice colour at arm's length</span><span class="sw"><i style="background:#d5cfbd"></i><i style="background:#a89f88"></i><i style="background:#837d79"></i><i style="background:#6b5441"></i><i style="background:#28211a"></i></span></figcaption></figure></div>
+  <div class="foot"><span>delhi6 · photo references, credits on the last page</span><span>03</span></div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">Timeline</div>
+  <h2>Five phases to launch</h2>
+  <p class="lede">Each phase ends with something playable. After a short first week, phases run Monday
+    to Sunday, two weeks each, so every phase closes with a Sunday review and a build.</p>
+  <svg viewBox="0 0 1000 386" class="tl">
+<line x1="150.0" y1="36" x2="150.0" y2="336" class="grid"/>
+<text x="154.0" y="28" class="wk">W1 · 10 Nov</text>
+<line x1="231.6" y1="36" x2="231.6" y2="336" class="grid"/>
+<text x="235.6" y="28" class="wk">W2 · 16 Nov</text>
+<line x1="326.9" y1="36" x2="326.9" y2="336" class="grid"/>
+<text x="330.9" y="28" class="wk">W3 · 23 Nov</text>
+<line x1="422.1" y1="36" x2="422.1" y2="336" class="grid"/>
+<text x="426.1" y="28" class="wk">W4 · 30 Nov</text>
+<line x1="517.4" y1="36" x2="517.4" y2="336" class="grid"/>
+<text x="521.4" y="28" class="wk">W5 · 7 Dec</text>
+<line x1="612.6" y1="36" x2="612.6" y2="336" class="grid"/>
+<text x="616.6" y="28" class="wk">W6 · 14 Dec</text>
+<line x1="707.9" y1="36" x2="707.9" y2="336" class="grid"/>
+<text x="711.9" y="28" class="wk">W7 · 21 Dec</text>
+<line x1="803.1" y1="36" x2="803.1" y2="336" class="grid"/>
+<text x="807.1" y="28" class="wk">W8 · 28 Dec</text>
+<line x1="898.4" y1="36" x2="898.4" y2="336" class="grid"/>
+<text x="902.4" y="28" class="wk">W9 · 4 Jan</text>
+<text x="0" y="71" class="pname"><tspan class="pcode" fill="#2f6b66">01</tspan>  Foundation</text>
+<rect x="150.0" y="54" width="78.6" height="26" rx="13" fill="#2f6b66"/>
+<text x="160.0" y="71" class="bar">10–15 Nov</text>
+<text x="0" y="125" class="pname"><tspan class="pcode" fill="#c2603a">02</tspan>  World</text>
+<rect x="231.6" y="108" width="187.5" height="26" rx="13" fill="#c2603a"/>
+<text x="241.6" y="125" class="bar">16–29 Nov</text>
+<text x="0" y="179" class="pname"><tspan class="pcode" fill="#e0a23a">03</tspan>  Life</text>
+<rect x="422.1" y="162" width="187.5" height="26" rx="13" fill="#e0a23a"/>
+<text x="432.1" y="179" class="bar">30 Nov – 13 Dec</text>
+<text x="0" y="233" class="pname"><tspan class="pcode" fill="#1f1b16">04</tspan>  Gameplay</text>
+<rect x="612.6" y="216" width="187.5" height="26" rx="13" fill="#1f1b16"/>
+<text x="622.6" y="233" class="bar">14–27 Dec</text>
+<text x="0" y="287" class="pname"><tspan class="pcode" fill="#2f6b66">05</tspan>  Polish & ship</text>
+<rect x="803.1" y="270" width="187.5" height="26" rx="13" fill="#2f6b66"/>
+<text x="813.1" y="287" class="bar">28 Dec – 10 Jan</text>
+<line x1="150" y1="324" x2="980" y2="324" class="axis"/>
+<circle cx="229.6" cy="324" r="5" fill="#2f6b66"/>
+<circle cx="420.1" cy="324" r="5" fill="#c2603a"/>
+<circle cx="610.6" cy="324" r="5" fill="#e0a23a"/>
+<circle cx="801.1" cy="324" r="5" fill="#1f1b16"/>
+<circle cx="991.6" cy="324" r="5" fill="#2f6b66"/>
+<text x="978.0" y="350" class="deadline">Deadline · 10 Jan 2027</text>
+<text x="150" y="350" class="today">Start · 10 Nov 2026</text>
+</svg>
+  <div class="foot"><span>delhi6</span><span>04</span></div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">Phases 01 – 03</div>
+  <h2>Build the city, then bring it to life</h2>
+  <div class="cards three">
+<div class="card">
+  <div class="cardtop"><svg viewBox="0 0 64 64" class="icon"><circle cx="32" cy="32" r="30" fill="#2f6b66" opacity="0.12"/><circle cx="32" cy="32" r="8" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="45.0" y1="32.0" x2="51.0" y2="32.0" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="41.2" y1="41.2" x2="45.4" y2="45.4" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="32.0" y1="45.0" x2="32.0" y2="51.0" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="22.8" y1="41.2" x2="18.6" y2="45.4" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="19.0" y1="32.0" x2="13.0" y2="32.0" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="22.8" y1="22.8" x2="18.6" y2="18.6" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="32.0" y1="19.0" x2="32.0" y2="13.0" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><line x1="41.2" y1="22.8" x2="45.4" y2="18.6" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div><div class="code" style="color:#2f6b66">Phase 01</div><h3>Foundation</h3>
+    <div class="dates">10 Nov – 15 Nov 2026 · 6 days</div></div></div>
+  <p class="goal">Engine running, slice in Unreal</p>
+  <ul><li>Unreal Engine 5.8.4 installed, OldDelhi compiled</li><li>Terrain + 1,329 buildings imported</li><li>Unreal MCP connected for live editing</li><li>Daily builds and screenshots</li></ul>
+  <p class="exit"><span style="background:#2f6b66"></span>Chandni Chowk renders in Unreal</p>
+</div>
+
+<div class="card">
+  <div class="cardtop"><svg viewBox="0 0 64 64" class="icon"><circle cx="32" cy="32" r="30" fill="#c2603a" opacity="0.12"/><path d="M14 46 V30 h8 V22 h10 V34 h6 V26 h12 V46 z" fill="none" stroke="#c2603a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M27 22 q5 -10 10 0" fill="none" stroke="#c2603a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div><div class="code" style="color:#c2603a">Phase 02</div><h3>World</h3>
+    <div class="dates">16 Nov – 29 Nov 2026 · 14 days</div></div></div>
+  <p class="goal">Make the city look real</p>
+  <ul><li>Landscape, materials, Lumen lighting</li><li>Weather: haze, smog, rain, dust storm</li><li>Boundary wall at the city edge</li><li>Ground detail, wires, fictional signage</li></ul>
+  <p class="exit"><span style="background:#c2603a"></span>Walkable slice at final look</p>
+</div>
+
+<div class="card">
+  <div class="cardtop"><svg viewBox="0 0 64 64" class="icon"><circle cx="32" cy="32" r="30" fill="#e0a23a" opacity="0.12"/><circle cx="24" cy="24" r="5" fill="none" stroke="#e0a23a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="24" r="5" fill="none" stroke="#e0a23a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 46 q8 -16 16 0 M32 46 q8 -16 16 0" fill="none" stroke="#e0a23a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div><div class="code" style="color:#e0a23a">Phase 03</div><h3>Life</h3>
+    <div class="dates">30 Nov – 13 Dec 2026 · 14 days</div></div></div>
+  <p class="goal">Fill the streets</p>
+  <ul><li>Physics core: materials, objects, wind</li><li>Crowds from 12 character types</li><li>Rickshaws, e-rickshaws, scooters</li><li>Pigeons, kites, azaan and bazaar sound</li></ul>
+  <p class="exit"><span style="background:#e0a23a"></span>Streets alive day and night</p>
+</div></div>
+  <div class="foot"><span>delhi6</span><span>05</span></div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">Phases 04 – 05</div>
+  <h2>Make it a game, then ship it</h2>
+  <div class="cards two">
+<div class="card">
+  <div class="cardtop"><svg viewBox="0 0 64 64" class="icon"><circle cx="32" cy="32" r="30" fill="#1f1b16" opacity="0.12"/><path d="M16 48 C24 36 40 44 32 30 C26 20 40 16 48 16" fill="none" stroke="#1f1b16" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="48" r="3" fill="#1f1b16"/><circle cx="48" cy="16" r="3" fill="#1f1b16"/></svg>
+    <div><div class="code" style="color:#1f1b16">Phase 04</div><h3>Gameplay</h3>
+    <div class="dates">14 Dec – 27 Dec 2026 · 14 days</div></div></div>
+  <p class="goal">Turn the slice into a game</p>
+  <ul><li>Player movement and camera</li><li>Short story set in Diwali week</li><li>3 to 5 missions through real landmarks</li><li>Save, menus, settings</li></ul>
+  <p class="exit"><span style="background:#1f1b16"></span>Story playable start to finish</p>
+</div>
+
+<div class="card">
+  <div class="cardtop"><svg viewBox="0 0 64 64" class="icon"><circle cx="32" cy="32" r="30" fill="#2f6b66" opacity="0.12"/><path d="M22 50 V14" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 16 h22 l-6 7 l6 7 h-22" fill="none" stroke="#2f6b66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div><div class="code" style="color:#2f6b66">Phase 05</div><h3>Polish & ship</h3>
+    <div class="dates">28 Dec – 10 Jan 2027 · 14 days</div></div></div>
+  <p class="goal">Ship version 1.0</p>
+  <ul><li>60 fps on an RTX 3070</li><li>Playtests and bug fixing</li><li>Trailer, store page, screenshots</li><li>Release build</li></ul>
+  <p class="exit"><span style="background:#2f6b66"></span>Launch on 10 January 2027</p>
+</div></div>
+  <div class="foot"><span>delhi6</span><span>06</span></div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">Scope and team</div>
+  <h2>What "complete" means on 10 January</h2>
+  <p class="lede">Two months is enough for one polished, playable district. The rest of Old Delhi and South Delhi
+    come after launch as updates, using the same pipeline.</p>
+  <div class="cols">
+    <div class="col"><span class="pill">In version 1.0</span><h3>Chandni Chowk slice</h3><ul>
+      <li>500 m around Chandni Chowk, Dariba and Kinari</li><li>Four weathers and a full day–night cycle</li>
+      <li>Crowds, rickshaws, birds, street sound</li><li>A short Diwali-week story, 3 to 5 missions</li>
+      <li>60 fps on an RTX 3070</li></ul></div>
+    <div class="col"><span class="pill">After launch</span><h3>Updates</h3><ul>
+      <li>The full walled city (2.9 × 2.2 km)</li><li>All 52 character types</li>
+      <li>Hero landmarks from photogrammetry</li><li>South Delhi: Lajpat, Sarojini, GK, Hauz Khas</li>
+      <li>More stories and festivals</li></ul></div>
+    <div class="col"><span class="pill">Team</span><h3>Who does what</h3><ul>
+      <li><b>Rayan</b> · art direction, story, reference photos and sound from Delhi</li>
+      <li><b>Co-developer</b> · engine, physics, crowds, performance, builds</li>
+      <li><b>Claude</b> · generators, C++ and Python, imports, research, docs</li>
+      <li><b>Together</b> · weekly review, playtests, launch</li></ul></div>
+  </div>
+  <div class="rhythm">
+    <div class="day"><b>Monday</b>Plan the week from the phase card</div>
+    <div class="day"><b>Tue – Thu</b>Build; Claude ships daily changes</div>
+    <div class="day"><b>Friday</b>Performance capture and screenshots</div>
+    <div class="day"><b>Saturday</b>Playtest and bug list</div>
+    <div class="day"><b>Sunday</b>Milestone review, tag a build</div>
+  </div>
+  <div class="foot"><span>delhi6</span><span>07</span></div>
+</section>
+<section class="page">
+  <div class="eyebrow">Credits and further inspiration</div><h2>Photo credits</h2>
+  <p class="lede">Reference photos from Wikimedia Commons, used under their Creative Commons licences.
+    They show the target look; the game's own assets are built separately.</p>
+  <table class="credits"><tr><th>Image</th><th>Photographer</th><th>Licence</th><th>Source</th></tr><tr><td>Dusk: Jama Masjid against a hazy sun</td><td>Simranjeet Sidhu</td><td>CC BY-SA 4.0</td><td class="url">commons.wikimedia.org/wiki/File:Beautiful_sunset_view_of_jama_masjid,_old_delhi.jpg</td></tr><tr><td>Evening bazaar under the mosque walls</td><td>Fredericknoronha</td><td>CC BY-SA 4.0</td><td class="url">commons.wikimedia.org/wiki/File:Dusk_at_Delhi,_with_market_in_the_foreground.jpg</td></tr><tr><td>Night: the mosque lit, courtyard in shadow</td><td>Rashid Jorvee</td><td>CC BY-SA 4.0</td><td class="url">commons.wikimedia.org/wiki/File:Jama_Masjid_in_night.jpg</td></tr><tr><td>Chandni Chowk at street level: autos, rickshaws, crowds</td><td>Juan Antonio Segal from Madrid, Spain</td><td>CC BY 2.0</td><td class="url">commons.wikimedia.org/wiki/File:Chandni_Chowk._Delhi,_India_(23129638199).jpg</td></tr><tr><td>Kinari Bazar: wire tangles over shuttered lanes</td><td>Daniel VILLAFRUELA</td><td>CC BY-SA 3.0</td><td class="url">commons.wikimedia.org/wiki/File:Old_Delhi-Kinari_Bazar-1-20131006.jpg</td></tr><tr><td>Morning mist over the Red Fort gardens</td><td>Pinakpani</td><td>CC BY 4.0</td><td class="url">commons.wikimedia.org/wiki/File:Images_of_Red_Fort,_in_Delhi_19.jpg</td></tr><tr><td>Winter smog: the city fades at 500 m</td><td>Prami.ap90</td><td>CC BY-SA 4.0</td><td class="url">commons.wikimedia.org/wiki/File:Delhi_air_pollution_2019.jpg</td></tr><tr><td>Khari Baoli: spice colour at arm's length</td><td>Michael Vito from South Orange, NJ, USA</td><td>CC BY-SA 2.0</td><td class="url">commons.wikimedia.org/wiki/File:Shop_selling_spices,_at_Khari_Baoli,_Old_Delhi.jpg</td></tr></table>
+  <h3 style="margin-top:9mm">Pinterest boards to browse</h3>
+  <p class="lede">For extra mood, browse these searches. Pinterest images belong to their creators,
+    so we use them to look at, not to copy into the game or this repo.</p>
+  <ul class="pins"><li>pinterest.com/search/pins/?q=Old%20Delhi%20cinematic</li><li>pinterest.com/search/pins/?q=Chandni%20Chowk%20night</li><li>pinterest.com/search/pins/?q=Jama%20Masjid%20fog</li><li>pinterest.com/search/pins/?q=Delhi%20winter%20smog%20photography</li><li>pinterest.com/search/pins/?q=Indian%20street%20matte%20painting</li><li>pinterest.com/search/pins/?q=Old%20Delhi%20monsoon</li></ul>
+  <div class="foot"><span>delhi6</span><span>08</span></div>
+</section>
+</body></html>
