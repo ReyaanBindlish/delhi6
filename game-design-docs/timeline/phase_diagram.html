@@ -1,0 +1,206 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Dhurandhar Phase Diagram</title>
+<style>
+@page { size: A3 landscape; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: #16130f; background: #fbf8f3;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.sheet { width: 420mm; height: 297mm; padding: 16mm 18mm 14mm; position: relative; page-break-after: always; background: #fbf8f3; }
+.sheet:last-child { page-break-after: auto; }
+header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #16130f; padding-bottom: 5mm; }
+.eyebrow { font-size: 9pt; letter-spacing: 3.5px; text-transform: uppercase; color: #857b70; }
+h1 { font-size: 30pt; font-weight: 700; letter-spacing: -0.8px; line-height: 1.05; margin-top: 2mm; }
+.sub { font-size: 10.5pt; color: #857b70; margin-top: 2mm; }
+.facts { display: flex; gap: 12mm; text-align: right; }
+.facts div { font-size: 8pt; color: #857b70; letter-spacing: 1px; text-transform: uppercase; }
+.facts b { display: block; font-size: 15pt; color: #16130f; letter-spacing: 0; text-transform: none; font-weight: 600; }
+.dg { width: 100%; margin-top: 8mm; }
+.dg .wk { font-size: 12px; font-weight: 700; text-anchor: middle; fill: #16130f; }
+.dg .wkd { font-size: 9.5px; text-anchor: middle; fill: #857b70; }
+.dg .month { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; fill: #16130f; }
+.dg .mrule { stroke: #16130f; stroke-width: 1.5; }
+.dg .grp { font-size: 9.5px; font-weight: 700; letter-spacing: 2px; }
+.dg .trk { font-size: 12.5px; font-weight: 600; fill: #16130f; }
+.dg .own { font-size: 9.5px; fill: #857b70; }
+.dg .bar { font-size: 10.5px; font-weight: 600; fill: #fff; }
+.dg .grule { stroke: #e7dfd2; stroke-width: 1; }
+.dg .axis { stroke: #16130f; stroke-width: 1.5; }
+.dg .msl { stroke: #16130f; stroke-width: 0.8; stroke-dasharray: 3 4; opacity: .45; }
+.dg .msc { font-size: 11px; font-weight: 700; fill: #16130f; }
+.dg .msn { font-size: 10px; fill: #857b70; }
+.dg .actlab { font-size: 10.5px; font-weight: 600; fill: #fff; }
+footer { position: absolute; left: 18mm; right: 18mm; bottom: 12mm; display: grid; grid-template-columns: 1.1fr 1.4fr 1fr; gap: 12mm;
+  border-top: 1px solid #e7dfd2; padding-top: 5mm; font-size: 9pt; color: #3d362f; line-height: 1.55; }
+footer h4 { font-size: 8pt; letter-spacing: 2.5px; text-transform: uppercase; color: #857b70; margin-bottom: 2mm; font-weight: 600; }
+.legend { display: flex; flex-wrap: wrap; gap: 4mm 7mm; }
+.legend span { display: flex; align-items: center; gap: 2mm; }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+ol { padding-left: 5mm; }
+table { width: 100%; border-collapse: collapse; margin-top: 9mm; font-size: 10.5pt; }
+th { text-align: left; font-size: 8pt; letter-spacing: 2.5px; text-transform: uppercase; color: #857b70; font-weight: 600;
+  padding: 0 4mm 3mm 0; border-bottom: 2px solid #16130f; }
+td { padding: 4.2mm 4mm 4.2mm 0; border-bottom: 1px solid #e7dfd2; vertical-align: top; line-height: 1.5; }
+td.wkc { font-weight: 700; width: 16mm; font-size: 13pt; }
+td.foc { width: 48mm; font-weight: 600; }
+td.ex { width: 80mm; font-weight: 600; color: #2f6b66; }
+.note { margin-top: 8mm; font-size: 9.5pt; color: #857b70; line-height: 1.6; max-width: 300mm; }
+</style></head><body>
+
+<section class="sheet">
+  <header>
+    <div><div class="eyebrow">Production phase diagram · working title</div>
+      <h1>DHURANDHAR: THE GAME</h1>
+      <div class="sub">Part 1 · Katora&nbsp;&nbsp;/&nbsp;&nbsp;Part 2 · Wapsi&nbsp;&nbsp;·&nbsp;&nbsp;six acts, Unreal Engine 5.8</div></div>
+    <div class="facts"><div><b>10 Nov 2026</b>Start</div><div><b>10 Jan 2027</b>Launch</div><div><b>9 weeks</b>Duration</div>
+      <div><b>Tarun · Rayan · Claude</b>Team</div></div>
+  </header>
+  <svg viewBox="0 0 1520 790" class="dg" xmlns="http://www.w3.org/2000/svg">
+<rect x="330.0" y="58" width="112.8" height="704" fill="#f3eee6"/>
+<text x="386.4" y="78" class="wk">W1</text>
+<text x="386.4" y="94" class="wkd">10–15 Nov</text>
+<text x="508.7" y="78" class="wk">W2</text>
+<text x="508.7" y="94" class="wkd">16–22 Nov</text>
+<rect x="574.5" y="58" width="131.6" height="704" fill="#f3eee6"/>
+<text x="640.3" y="78" class="wk">W3</text>
+<text x="640.3" y="94" class="wkd">23–29 Nov</text>
+<text x="772.0" y="78" class="wk">W4</text>
+<text x="772.0" y="94" class="wkd">30 Nov–6 Dec</text>
+<rect x="837.8" y="58" width="131.6" height="704" fill="#f3eee6"/>
+<text x="903.6" y="78" class="wk">W5</text>
+<text x="903.6" y="94" class="wkd">7–13 Dec</text>
+<text x="1035.2" y="78" class="wk">W6</text>
+<text x="1035.2" y="94" class="wkd">14–20 Dec</text>
+<rect x="1101.1" y="58" width="131.6" height="704" fill="#f3eee6"/>
+<text x="1166.9" y="78" class="wk">W7</text>
+<text x="1166.9" y="94" class="wkd">21–27 Dec</text>
+<text x="1298.5" y="78" class="wk">W8</text>
+<text x="1298.5" y="94" class="wkd">28 Dec–3 Jan</text>
+<rect x="1364.4" y="58" width="131.6" height="704" fill="#f3eee6"/>
+<text x="1430.2" y="78" class="wk">W9</text>
+<text x="1430.2" y="94" class="wkd">4–10 Jan</text>
+<text x="336.0" y="46" class="month">November 2026</text>
+<line x1="330.0" y1="32" x2="330.0" y2="52" class="mrule"/>
+<text x="730.9" y="46" class="month">December 2026</text>
+<line x1="724.9" y1="32" x2="724.9" y2="52" class="mrule"/>
+<text x="1313.9" y="46" class="month">January 2027</text>
+<line x1="1307.9" y1="32" x2="1307.9" y2="52" class="mrule"/>
+<text x="0" y="135" class="grp" fill="#2f6b66">SETUP</text>
+<text x="86" y="130" class="trk">Engine, tools, pipeline</text>
+<text x="86" y="143" class="own">Claude + Rayan</text>
+<rect x="330.0" y="119" width="110.8" height="24" rx="5" fill="#2f6b66"/>
+<text x="339.0" y="135" class="bar">UE 5.8 · MCP</text>
+<line x1="0" y1="148" x2="1496" y2="148" class="grule"/>
+<text x="0" y="173" class="grp" fill="#b5532c">SYSTEMS</text>
+<text x="86" y="168" class="trk">Body, money, suspicion</text>
+<text x="86" y="181" class="own">Rayan + Claude</text>
+<rect x="442.8" y="157" width="261.3" height="24" rx="5" fill="#b5532c"/>
+<text x="451.8" y="173" class="bar">Vitals · disease · ledger · suspicion · notebook</text>
+<text x="86" y="206" class="trk">Physics, combat, vehicles</text>
+<text x="86" y="219" class="own">Rayan</text>
+<rect x="442.8" y="195" width="392.9" height="24" rx="5" fill="#b5532c"/>
+<text x="451.8" y="211" class="bar">Falls · rails · ballistics · katta · cars · boat</text>
+<text x="86" y="244" class="trk">Crowds, weather, calendar</text>
+<text x="86" y="257" class="own">Claude</text>
+<rect x="442.8" y="233" width="261.3" height="24" rx="5" fill="#b5532c"/>
+<text x="451.8" y="249" class="bar">Governor · climate · story clock</text>
+<line x1="0" y1="262" x2="1496" y2="262" class="grule"/>
+<text x="0" y="287" class="grp" fill="#c98a1b">WORLD</text>
+<text x="86" y="282" class="trk">Karachi · Gulbahar Lines</text>
+<text x="86" y="295" class="own">Claude</text>
+<rect x="442.8" y="271" width="392.9" height="24" rx="5" fill="#c98a1b"/>
+<text x="451.8" y="287" class="bar">From Lyari slice · shrine · tankers · hawala</text>
+<text x="86" y="320" class="trk">Delhi NCR locations</text>
+<text x="86" y="333" class="own">Claude</text>
+<rect x="574.5" y="309" width="392.9" height="24" rx="5" fill="#c98a1b"/>
+<text x="583.5" y="325" class="bar">Vasundhara · Khoda · Loni · Nizamuddin</text>
+<text x="86" y="358" class="trk">Small sets</text>
+<text x="86" y="371" class="own">Claude + Rayan</text>
+<rect x="706.1" y="347" width="261.3" height="24" rx="5" fill="#c98a1b"/>
+<text x="715.1" y="363" class="bar">Farm · dhaba · jetty · Dasna</text>
+<line x1="0" y1="376" x2="1496" y2="376" class="grule"/>
+<text x="0" y="401" class="grp" fill="#6b4f8a">CAST</text>
+<text x="86" y="396" class="trk">Principal characters</text>
+<text x="86" y="409" class="own">Tarun + Claude</text>
+<rect x="574.5" y="385" width="392.9" height="24" rx="5" fill="#6b4f8a"/>
+<text x="583.5" y="401" class="bar">10 MetaHumans · Daya's 3 body states</text>
+<text x="86" y="434" class="trk">Crowds, voice, motion</text>
+<text x="86" y="447" class="own">Tarun + contract</text>
+<rect x="706.1" y="423" width="524.6" height="24" rx="5" fill="#6b4f8a"/>
+<text x="715.1" y="439" class="bar">12 archetypes · Hindi/Urdu/Punjabi VO · mocap</text>
+<line x1="0" y1="452" x2="1496" y2="452" class="grule"/>
+<text x="0" y="477" class="grp" fill="#16130f">ACTS</text>
+<text x="86" y="472" class="trk">Act 4 · Karachi</text>
+<text x="86" y="485" class="own">Tarun + Rayan</text>
+<rect x="706.1" y="461" width="261.3" height="24" rx="5" fill="#16130f"/>
+<text x="715.1" y="477" class="bar">Nobody · Runner · Inside · raid</text>
+<text x="86" y="510" class="trk">Acts 1 & 2 · Ghaziabad, platform</text>
+<text x="86" y="523" class="own">Tarun + Rayan</text>
+<rect x="837.8" y="499" width="261.3" height="24" rx="5" fill="#16130f"/>
+<text x="846.8" y="515" class="bar">Collection run · fall · begging loop</text>
+<text x="86" y="548" class="trk">Acts 3, 5, 6 · return and end</text>
+<text x="86" y="561" class="own">Tarun + Rayan</text>
+<rect x="969.4" y="537" width="261.3" height="24" rx="5" fill="#16130f"/>
+<text x="978.4" y="553" class="bar">Farm · jetty · hunt · balcony · rewind</text>
+<line x1="0" y1="566" x2="1496" y2="566" class="grule"/>
+<text x="0" y="591" class="grp" fill="#3c6e9f">SHIP</text>
+<text x="86" y="586" class="trk">Polish, playtest, release</text>
+<text x="86" y="599" class="own">Everyone</text>
+<rect x="1232.7" y="575" width="261.3" height="24" rx="5" fill="#3c6e9f"/>
+<text x="1241.7" y="591" class="bar">60 fps · fixes · rating · store · build</text>
+<line x1="330" y1="638" x2="1496" y2="638" class="axis"/>
+<text x="0" y="643" class="grp" fill="#16130f">MILESTONES</text>
+<line x1="440.8" y1="106" x2="440.8" y2="629" class="msl"/>
+<path d="M440.8,630 l8,8 l-8,8 l-8,-8 z" fill="#16130f"/>
+<text x="440.8" y="664" class="msc" text-anchor="middle">M1 · 15 Nov</text>
+<text x="440.8" y="678" class="msn" text-anchor="middle">Engine running</text>
+<line x1="704.1" y1="106" x2="704.1" y2="629" class="msl"/>
+<path d="M704.1,630 l8,8 l-8,8 l-8,-8 z" fill="#16130f"/>
+<text x="704.1" y="664" class="msc" text-anchor="middle">M2 · 29 Nov</text>
+<text x="704.1" y="678" class="msn" text-anchor="middle">Systems in</text>
+<line x1="967.4" y1="106" x2="967.4" y2="629" class="msl"/>
+<path d="M967.4,630 l8,8 l-8,8 l-8,-8 z" fill="#16130f"/>
+<text x="967.4" y="664" class="msc" text-anchor="middle">M3 · 13 Dec</text>
+<text x="967.4" y="678" class="msn" text-anchor="middle">Act 4 playable</text>
+<line x1="1230.7" y1="106" x2="1230.7" y2="629" class="msl"/>
+<path d="M1230.7,630 l8,8 l-8,8 l-8,-8 z" fill="#16130f"/>
+<text x="1230.7" y="664" class="msc" text-anchor="middle">M4 · 27 Dec</text>
+<text x="1230.7" y="678" class="msn" text-anchor="middle">All acts playable</text>
+<line x1="1400.0" y1="106" x2="1400.0" y2="629" class="msl"/>
+<path d="M1400.0,630 l8,8 l-8,8 l-8,-8 z" fill="#16130f"/>
+<text x="1396.0" y="664" class="msc" text-anchor="end">M5 · 5 Jan</text>
+<text x="1396.0" y="678" class="msn" text-anchor="end">Release candidate</text>
+<line x1="1494.0" y1="106" x2="1494.0" y2="629" class="msl"/>
+<path d="M1494.0,630 l8,8 l-8,8 l-8,-8 z" fill="#16130f"/>
+<text x="1484.0" y="664" class="msc" text-anchor="end">M6 · 10 Jan</text>
+<text x="1484.0" y="678" class="msn" text-anchor="end">Launch</text>
+<text x="0" y="723" class="grp" fill="#16130f">ACTS PLAYABLE</text>
+<rect x="969.4" y="708" width="526.6" height="15" rx="4" fill="#2f6b66"/>
+<text x="977.4" y="719" class="actlab">Act 4</text>
+<rect x="1101.1" y="727" width="394.9" height="15" rx="4" fill="#2f6b66"/>
+<text x="1109.1" y="738" class="actlab">Acts 1-2</text>
+<rect x="1232.7" y="746" width="263.3" height="15" rx="4" fill="#2f6b66"/>
+<text x="1240.7" y="757" class="actlab">Acts 3, 5, 6</text>
+</svg>
+  <footer>
+    <div><h4>Legend</h4><div class="legend"><span><i style="background:#2f6b66"></i>Setup</span><span><i style="background:#b5532c"></i>Systems</span><span><i style="background:#c98a1b"></i>World</span><span><i style="background:#6b4f8a"></i>Cast</span><span><i style="background:#16130f"></i>Acts</span><span><i style="background:#3c6e9f"></i>Ship</span></div>
+      <p style="margin-top:3mm">Bars run Monday to Sunday. Diamonds are Sunday reviews with a tagged build.
+      Tracks run in parallel; owners are accountable, not exclusive.</p></div>
+    <div><h4>How nine weeks works</h4>
+      <p>World geometry is generated from real maps, so the team spends its time on systems and story.
+      Systems land first because the story is told through them. Karachi (half the game) is built before Delhi.
+      Every Sunday ends with a playable build.</p></div>
+    <div><h4>Cut line, in order, if a milestone slips</h4><ol><li>Side content: tea stall, cricket, Kasur trip</li><li>Act 3 farm and route in as cinematics</li><li>Delhi hubs reduced to playable interiors</li><li>Crowds limited to 12 archetypes</li><li>Part 2 (Wapsi) as a later release</li></ol></div>
+  </footer>
+</section>
+
+<section class="sheet">
+  <header>
+    <div><div class="eyebrow">Week by week</div><h1>Deliverables and exit criteria</h1>
+      <div class="sub">A week is done only when its exit criterion is met in a playable build.</div></div>
+    <div class="facts"><div><b>6</b>Milestones</div><div><b>13</b>Tracks</div><div><b>25</b>Story beats</div></div>
+  </header>
+  <table><tr><th>Week</th><th>Focus</th><th>Deliverables</th><th>Exit criterion</th></tr><tr><td class="wkc">W1</td><td class="foc">Setup</td><td>Unreal 5.8.4 compiled with our C++; terrain, Lyari and Delhi data imported; Unreal MCP live.</td><td class="ex">First lit street in engine</td></tr><tr><td class="wkc">W2</td><td class="foc">Systems</td><td>Vitals, disease curve, money ledger, hidden suspicion, notebook map, story calendar; Karachi blockout.</td><td class="ex">One in-game day runs end to end</td></tr><tr><td class="wkc">W3</td><td class="foc">Systems + world</td><td>Falls and rail heights, ballistics, katta misfire, hand-to-hand; Karachi dressed; Delhi blockouts.</td><td class="ex">Systems feature-complete</td></tr><tr><td class="wkc">W4</td><td class="foc">Act 4</td><td>Act 4 Nobody and Runner phases; principal cast in; shrine, tankers, hawala shops, gambling den.</td><td class="ex">Act 4 first half playable</td></tr><tr><td class="wkc">W5</td><td class="foc">Act 4 + Acts 1-2</td><td>Inside, the branch, the Rangers raid; Act 1 collection run and wedding; Delhi locations dressed.</td><td class="ex">Act 4 playable start to finish</td></tr><tr><td class="wkc">W6</td><td class="foc">Acts 1-2</td><td>Arrest, Dasna, Khoda Colony, the Nizamuddin begging loop with Mangal; Khanna on the platform.</td><td class="ex">Part 1 playable</td></tr><tr><td class="wkc">W7</td><td class="foc">Acts 3, 5, 6</td><td>Farm, goodbye, jetty and tide boat, empty house, hunt, balcony fight, rewind, coda.</td><td class="ex">All acts playable</td></tr><tr><td class="wkc">W8</td><td class="foc">Polish</td><td>Performance to 60 fps on RTX 3070; playtests; bug triage; voice and subtitles locked.</td><td class="ex">Release candidate</td></tr><tr><td class="wkc">W9</td><td class="foc">Ship</td><td>Rating, legal and sensitivity sign-off, store page, trailer, final build.</td><td class="ex">Launch on 10 January 2027</td></tr></table>
+  <p class="note">Assumptions: two full-time developers directing Claude as the main implementer; voice, motion capture and legal
+    review contracted in weeks 4 to 9; Unreal Engine 5.8.4 on an RTX 3070. Scope is the full storyline bible.
+    If two consecutive milestones slip, apply the cut line from the top.</p>
+</section>
+</body></html>

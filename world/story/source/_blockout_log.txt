@@ -1,0 +1,15 @@
+== nizamuddin
+BUILT 1047 buildings; area 1662 x 1336 m -> C:\Users\Rayaan\Desktop\game\world\story\nizamuddin_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== sarai_kale_khan
+BUILT 312 buildings; area 1564 x 1336 m -> C:\Users\Rayaan\Desktop\game\world\story\sarai_kale_khan_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== vasundhara
+BUILT 1792 buildings; area 1661 x 1670 m -> C:\Users\Rayaan\Desktop\game\world\story\vasundhara_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== khoda_colony
+BUILT 117 buildings; area 1759 x 1558 m -> C:\Users\Rayaan\Desktop\game\world\story\khoda_colony_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== loni_flyover
+BUILT 182 buildings; area 1757 x 2560 m -> C:\Users\Rayaan\Desktop\game\world\story\loni_flyover_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
