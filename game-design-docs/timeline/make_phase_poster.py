@@ -9,8 +9,18 @@ HERE = Path(__file__).resolve().parent
 D = dt.date
 START, END = D(2026, 11, 10), D(2027, 1, 10)
 
+import os
+BW = os.environ.get("BW") == "1"   # black-and-white print version
 BG, BG2, INK, DIM, LINE = "#0a0c12", "#11141d", "#f3ede2", "#8c8a92", "#232736"
 GOLD, RED, TEAL, VIOLET, BLUE, SAFF = "#e9b44c", "#e2553a", "#3fb5a3", "#9b7bd8", "#4f8fe0", "#f08a24"
+OVL = "10,12,18"     # header overlay colour (rgb)
+BARTXT = "#0a0c12"   # text on bars
+GLOWBG, BODY, IMGOP, IMGF = "#1b2236", "#d0cbc2", ".55", "none"
+if BW:
+    GLOWBG, BODY, IMGOP, IMGF = "#ffffff", "#1a1a1a", ".28", "grayscale(1)"
+    BG, BG2, INK, DIM, LINE = "#ffffff", "#ffffff", "#000000", "#5a5a5a", "#cfcfcf"
+    GOLD, RED, TEAL, VIOLET, BLUE, SAFF = "#000000", "#000000", "#222222", "#4a4a4a", "#6e6e6e", "#3a3a3a"
+    OVL, BARTXT = "255,255,255", "#ffffff"
 
 # Ops: code, codename, subtitle, start, end, gradient (a, b), objectives, exit, milestone label
 OPS = [
@@ -66,6 +76,20 @@ while d <= END:
     d += dt.timedelta(days=7)
 
 W, H = 1520, 830
+
+
+def gcol(c):
+    """Colour in colour mode; luminance-matched grey (darkened for print) in BW mode."""
+    if not BW:
+        return c
+    c = c.lstrip("#")
+    r, g, b = int(c[0:2], 16), int(c[2:4], 16), int(c[4:6], 16)
+    y = int((0.299 * r + 0.587 * g + 0.114 * b) * 0.55)
+    return f"#{y:02x}{y:02x}{y:02x}"
+
+
+def GLOW(i):
+    return "" if BW else f'filter="url(#glow{i})"'
 GX0, GX1 = 300, W - 20
 DAYS = (END - START).days + 1
 
@@ -77,7 +101,7 @@ def X(day):
 def grad_defs():
     out = ['<defs>']
     for i, op in enumerate(OPS):
-        a, b = op[5]
+        a, b = gcol(op[5][0]), gcol(op[5][1])
         out.append(f'<linearGradient id="g{i}" x1="0" x2="1"><stop offset="0" stop-color="{a}"/><stop offset="1" stop-color="{b}"/></linearGradient>')
         out.append(f'<filter id="glow{i}" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/>'
                    f'<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>')
@@ -122,7 +146,7 @@ def poster():
             s.append(f'<text x="16" y="{ry + 14}" class="trk">{label}</text>')
             s.append(f'<text x="16" y="{ry + 26}" class="own">{owner}</text>')
             bx0, bx1 = X(ta), X(tb + dt.timedelta(days=1)) - 3
-            s.append(f'<rect x="{bx0:.1f}" y="{ry + 4}" width="{bx1 - bx0:.1f}" height="20" rx="10" fill="url(#g{i})" filter="url(#glow{i})"/>')
+            s.append(f'<rect x="{bx0:.1f}" y="{ry + 4}" width="{bx1 - bx0:.1f}" height="20" rx="10" fill="url(#g{i})" {GLOW(i)}/>')
             s.append(f'<text x="{bx0 + 11:.1f}" y="{ry + 18}" class="bar">{txt}</text>')
             ry += 27
         y += block_h
@@ -133,7 +157,7 @@ def poster():
     for d_, code, name in MILESTONES:
         x = X(d_ + dt.timedelta(days=1)) - 2
         s.append(f'<line x1="{x:.1f}" y1="40" x2="{x:.1f}" y2="{my - 10}" stroke="{GOLD}" stroke-width="0.8" stroke-dasharray="2 5" opacity="0.55"/>')
-        s.append(f'<path d="M{x:.1f},{my - 9} l9,9 l-9,9 l-9,-9 z" fill="{GOLD}" filter="url(#glow0)"/>')
+        s.append(f'<path d="M{x:.1f},{my - 9} l9,9 l-9,9 l-9,-9 z" fill="{GOLD}" {GLOW(0)}/>')
         anchor = "end" if code == "M6" else "middle"
         dx = -12 if code == "M6" else 0
         drop = 30 if code == "M5" else 0          # second line so labels never collide
@@ -150,7 +174,7 @@ def cards():
     for i, (code, name, sub, a, b, (ca, cb), objs, exit_) in enumerate(OPS):
         li = "".join(f"<li>{o}</li>" for o in objs)
         days = (b - a).days + 1
-        out.append(f"""<div class="card" style="--a:{ca};--b:{cb}">
+        out.append(f"""<div class="card" style="--a:{gcol(ca)};--b:{gcol(cb)}">
   <div class="num">{code}</div>
   <div class="cb"><div class="kick">OPERATION · {sub.upper()}</div><h3>{name}</h3>
   <div class="dt">{a.strftime('%d %b').upper()} &rarr; {b.strftime('%d %b %Y').upper()} &nbsp;·&nbsp; {days} DAYS</div>
@@ -165,12 +189,12 @@ HTML = f"""<!doctype html><html><head><meta charset="utf-8"><title>Dhurandhar Ph
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 body {{ background: {BG}; color: {INK}; font-family: Inter, "Segoe UI", sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
 .sheet {{ width: 420mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always;
-  background: radial-gradient(1200px 500px at 85% -10%, #1b2236 0%, {BG} 60%); }}
+  background: radial-gradient(1200px 500px at 85% -10%, {GLOWBG} 0%, {BG} 60%); }}
 .sheet:last-child {{ page-break-after: auto; }}
 .hero {{ position: relative; height: 62mm; padding: 13mm 16mm 0; }}
-.hero::before {{ content: ""; position: absolute; inset: 0; background: url(moodboard/st_41.jpg) center 62%/cover; opacity: .55; }}
-.hero::after {{ content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, {BG} 8%, rgba(10,12,18,.55) 55%, rgba(10,12,18,.2)),
-  linear-gradient(0deg, {BG} 0%, rgba(10,12,18,0) 55%); }}
+.hero::before {{ content: ""; position: absolute; inset: 0; background: url(moodboard/st_41.jpg) center 62%/cover; opacity: {IMGOP}; filter: {IMGF}; }}
+.hero::after {{ content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, {BG} 8%, rgba({OVL},.55) 55%, rgba({OVL},.2)),
+  linear-gradient(0deg, {BG} 0%, rgba({OVL},0) 55%); }}
 .hero > * {{ position: relative; z-index: 1; }}
 .mono {{ font-family: "JetBrains Mono", Consolas, monospace; }}
 .class {{ font-family: "JetBrains Mono", monospace; font-size: 8pt; letter-spacing: 3px; color: {GOLD}; }}
@@ -193,11 +217,11 @@ h1 span {{ color: {GOLD}; }}
 .dg .opsub {{ font-family: "JetBrains Mono", monospace; font-size: 8.5px; letter-spacing: 2px; fill: {INK}; opacity: .85; }}
 .dg .trk {{ font-size: 11.5px; font-weight: 600; fill: {INK}; }}
 .dg .own {{ font-family: "JetBrains Mono", monospace; font-size: 8.5px; fill: {DIM}; }}
-.dg .bar {{ font-size: 10px; font-weight: 700; fill: #0a0c12; letter-spacing: .2px; }}
+.dg .bar {{ font-size: 10px; font-weight: 700; fill: {BARTXT}; letter-spacing: .2px; }}
 .dg .msc {{ font-family: "JetBrains Mono", monospace; font-size: 10px; font-weight: 600; fill: {GOLD}; letter-spacing: 1px; }}
 .dg .msn {{ font-family: "Bebas Neue", sans-serif; font-size: 15px; letter-spacing: 1.5px; fill: {INK}; }}
 .foot {{ position: absolute; left: 16mm; right: 16mm; bottom: 9mm; display: grid; grid-template-columns: 1fr 1.25fr 1fr; gap: 12mm;
-  border-top: 1px solid {LINE}; padding-top: 4mm; font-size: 8.5pt; color: #c9c4bb; line-height: 1.55; }}
+  border-top: 1px solid {LINE}; padding-top: 4mm; font-size: 8.5pt; color: {BODY}; line-height: 1.55; }}
 .foot h4 {{ font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 3px; color: {GOLD}; font-weight: 600; margin-bottom: 1.5mm; }}
 .foot ol {{ padding-left: 4.5mm; }}
 .coords {{ font-family: "JetBrains Mono", monospace; font-size: 7.5pt; color: {DIM}; letter-spacing: 1.5px; }}
@@ -206,7 +230,7 @@ h1 span {{ color: {GOLD}; }}
 .p2head h2 {{ font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 54pt; letter-spacing: 3px; line-height: .9; }}
 .p2head h2 span {{ color: {GOLD}; }}
 .grid {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 7mm; padding: 9mm 16mm 0; }}
-.card {{ position: relative; background: linear-gradient(160deg, {BG2}, #0d1017); border: 1px solid {LINE}; border-radius: 4mm;
+.card {{ position: relative; background: linear-gradient(160deg, {BG2}, {BG2}); border: 1px solid {LINE}; border-radius: 4mm;
   padding: 7mm 7mm 6mm; overflow: hidden; min-height: 92mm; }}
 .card::before {{ content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: linear-gradient(90deg, var(--a), var(--b)); }}
 .num {{ position: absolute; right: 6mm; top: 2mm; font-family: "Bebas Neue", sans-serif; font-size: 96pt; line-height: 1;
@@ -215,10 +239,10 @@ h1 span {{ color: {GOLD}; }}
 .kick {{ font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 2.5px; color: var(--a); font-weight: 600; }}
 .card h3 {{ font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 34pt; letter-spacing: 2px; line-height: 1; margin-top: 2mm; }}
 .dt {{ font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: {DIM}; margin-top: 2mm; }}
-.card ul {{ list-style: none; margin-top: 5mm; font-size: 10pt; line-height: 1.75; color: #d9d4cb; }}
+.card ul {{ list-style: none; margin-top: 5mm; font-size: 10pt; line-height: 1.75; color: {BODY}; }}
 .card li::before {{ content: "▸  "; color: var(--a); }}
 .exit {{ margin-top: 5mm; padding-top: 3.5mm; border-top: 1px dashed {LINE}; font-size: 10pt; font-weight: 600; }}
-.exit span {{ font-family: "JetBrains Mono", monospace; font-size: 7pt; letter-spacing: 2px; color: #0a0c12; background: var(--a);
+.exit span {{ font-family: "JetBrains Mono", monospace; font-size: 7pt; letter-spacing: 2px; color: {BARTXT}; background: var(--a);
   padding: .6mm 2mm; border-radius: 1mm; margin-right: 3mm; }}
 </style></head><body>
 

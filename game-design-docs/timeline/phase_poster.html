@@ -8,7 +8,7 @@ body { background: #0a0c12; color: #f3ede2; font-family: Inter, "Segoe UI", sans
   background: radial-gradient(1200px 500px at 85% -10%, #1b2236 0%, #0a0c12 60%); }
 .sheet:last-child { page-break-after: auto; }
 .hero { position: relative; height: 62mm; padding: 13mm 16mm 0; }
-.hero::before { content: ""; position: absolute; inset: 0; background: url(moodboard/st_41.jpg) center 62%/cover; opacity: .55; }
+.hero::before { content: ""; position: absolute; inset: 0; background: url(moodboard/st_41.jpg) center 62%/cover; opacity: .55; filter: none; }
 .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #0a0c12 8%, rgba(10,12,18,.55) 55%, rgba(10,12,18,.2)),
   linear-gradient(0deg, #0a0c12 0%, rgba(10,12,18,0) 55%); }
 .hero > * { position: relative; z-index: 1; }
@@ -37,7 +37,7 @@ h1 span { color: #e9b44c; }
 .dg .msc { font-family: "JetBrains Mono", monospace; font-size: 10px; font-weight: 600; fill: #e9b44c; letter-spacing: 1px; }
 .dg .msn { font-family: "Bebas Neue", sans-serif; font-size: 15px; letter-spacing: 1.5px; fill: #f3ede2; }
 .foot { position: absolute; left: 16mm; right: 16mm; bottom: 9mm; display: grid; grid-template-columns: 1fr 1.25fr 1fr; gap: 12mm;
-  border-top: 1px solid #232736; padding-top: 4mm; font-size: 8.5pt; color: #c9c4bb; line-height: 1.55; }
+  border-top: 1px solid #232736; padding-top: 4mm; font-size: 8.5pt; color: #d0cbc2; line-height: 1.55; }
 .foot h4 { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 3px; color: #e9b44c; font-weight: 600; margin-bottom: 1.5mm; }
 .foot ol { padding-left: 4.5mm; }
 .coords { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; color: #8c8a92; letter-spacing: 1.5px; }
@@ -46,7 +46,7 @@ h1 span { color: #e9b44c; }
 .p2head h2 { font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 54pt; letter-spacing: 3px; line-height: .9; }
 .p2head h2 span { color: #e9b44c; }
 .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7mm; padding: 9mm 16mm 0; }
-.card { position: relative; background: linear-gradient(160deg, #11141d, #0d1017); border: 1px solid #232736; border-radius: 4mm;
+.card { position: relative; background: linear-gradient(160deg, #11141d, #11141d); border: 1px solid #232736; border-radius: 4mm;
   padding: 7mm 7mm 6mm; overflow: hidden; min-height: 92mm; }
 .card::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: linear-gradient(90deg, var(--a), var(--b)); }
 .num { position: absolute; right: 6mm; top: 2mm; font-family: "Bebas Neue", sans-serif; font-size: 96pt; line-height: 1;
@@ -55,7 +55,7 @@ h1 span { color: #e9b44c; }
 .kick { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 2.5px; color: var(--a); font-weight: 600; }
 .card h3 { font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 34pt; letter-spacing: 2px; line-height: 1; margin-top: 2mm; }
 .dt { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: #8c8a92; margin-top: 2mm; }
-.card ul { list-style: none; margin-top: 5mm; font-size: 10pt; line-height: 1.75; color: #d9d4cb; }
+.card ul { list-style: none; margin-top: 5mm; font-size: 10pt; line-height: 1.75; color: #d0cbc2; }
 .card li::before { content: "▸  "; color: var(--a); }
 .exit { margin-top: 5mm; padding-top: 3.5mm; border-top: 1px dashed #232736; font-size: 10pt; font-weight: 600; }
 .exit span { font-family: "JetBrains Mono", monospace; font-size: 7pt; letter-spacing: 2px; color: #0a0c12; background: var(--a);
