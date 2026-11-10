@@ -1,0 +1,275 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Dhurandhar Phase Poster</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=block" rel="stylesheet">
+<style>
+@page { size: A3 landscape; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0a0c12; color: #f3ede2; font-family: Inter, "Segoe UI", sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.sheet { width: 420mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always;
+  background: radial-gradient(1200px 500px at 85% -10%, #1b2236 0%, #0a0c12 60%); }
+.sheet:last-child { page-break-after: auto; }
+.hero { position: relative; height: 62mm; padding: 13mm 16mm 0; }
+.hero::before { content: ""; position: absolute; inset: 0; background: url(moodboard/st_41.jpg) center 62%/cover; opacity: .55; }
+.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #0a0c12 8%, rgba(10,12,18,.55) 55%, rgba(10,12,18,.2)),
+  linear-gradient(0deg, #0a0c12 0%, rgba(10,12,18,0) 55%); }
+.hero > * { position: relative; z-index: 1; }
+.mono { font-family: "JetBrains Mono", Consolas, monospace; }
+.class { font-family: "JetBrains Mono", monospace; font-size: 8pt; letter-spacing: 3px; color: #e9b44c; }
+.class b { color: #e2553a; }
+h1 { font-family: "Bebas Neue", Impact, sans-serif; font-size: 66pt; letter-spacing: 3px; line-height: .9; margin-top: 3mm; font-weight: 400; }
+h1 span { color: #e9b44c; }
+.tag { font-family: "JetBrains Mono", monospace; font-size: 8.5pt; letter-spacing: 2px; color: #8c8a92; margin-top: 2.5mm; }
+.stats { position: absolute; right: 16mm; top: 14mm; display: flex; gap: 9mm; text-align: right; z-index: 2; }
+.stats div { font-family: "JetBrains Mono", monospace; font-size: 7pt; letter-spacing: 2px; color: #8c8a92; }
+.stats b { display: block; font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 30pt; letter-spacing: 1.5px; color: #f3ede2; line-height: 1; }
+.stats .g b { color: #e9b44c; }
+.stamp { position: absolute; right: 18mm; top: 42mm; z-index: 2; border: 2px solid #e2553a; color: #e2553a; font-family: "JetBrains Mono", monospace;
+  font-weight: 600; font-size: 9pt; letter-spacing: 4px; padding: 1.5mm 4mm; transform: rotate(-4deg); opacity: .85; }
+.dg { width: calc(100% - 28mm); margin: 2mm 14mm 0; display: block; }
+.dg .wk { font-family: "Bebas Neue", sans-serif; font-size: 19px; letter-spacing: 1.5px; text-anchor: middle; fill: #f3ede2; }
+.dg .wkd { font-family: "JetBrains Mono", monospace; font-size: 8.5px; text-anchor: middle; fill: #8c8a92; letter-spacing: .5px; }
+.dg .month { font-family: "JetBrains Mono", monospace; font-size: 10px; font-weight: 600; letter-spacing: 3px; fill: #e9b44c; }
+.dg .opn { font-family: "JetBrains Mono", monospace; font-size: 10px; font-weight: 600; letter-spacing: 2px; fill: #8c8a92; }
+.dg .opc { font-family: "Bebas Neue", sans-serif; font-size: 19px; letter-spacing: 1.8px; fill: #f3ede2; }
+.dg .opsub { font-family: "JetBrains Mono", monospace; font-size: 8.5px; letter-spacing: 2px; fill: #f3ede2; opacity: .85; }
+.dg .trk { font-size: 11.5px; font-weight: 600; fill: #f3ede2; }
+.dg .own { font-family: "JetBrains Mono", monospace; font-size: 8.5px; fill: #8c8a92; }
+.dg .bar { font-size: 10px; font-weight: 700; fill: #0a0c12; letter-spacing: .2px; }
+.dg .msc { font-family: "JetBrains Mono", monospace; font-size: 10px; font-weight: 600; fill: #e9b44c; letter-spacing: 1px; }
+.dg .msn { font-family: "Bebas Neue", sans-serif; font-size: 15px; letter-spacing: 1.5px; fill: #f3ede2; }
+.foot { position: absolute; left: 16mm; right: 16mm; bottom: 9mm; display: grid; grid-template-columns: 1fr 1.25fr 1fr; gap: 12mm;
+  border-top: 1px solid #232736; padding-top: 4mm; font-size: 8.5pt; color: #c9c4bb; line-height: 1.55; }
+.foot h4 { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 3px; color: #e9b44c; font-weight: 600; margin-bottom: 1.5mm; }
+.foot ol { padding-left: 4.5mm; }
+.coords { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; color: #8c8a92; letter-spacing: 1.5px; }
+/* page 2 */
+.p2head { padding: 15mm 16mm 0; display: flex; justify-content: space-between; align-items: flex-end; }
+.p2head h2 { font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 54pt; letter-spacing: 3px; line-height: .9; }
+.p2head h2 span { color: #e9b44c; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7mm; padding: 9mm 16mm 0; }
+.card { position: relative; background: linear-gradient(160deg, #11141d, #0d1017); border: 1px solid #232736; border-radius: 4mm;
+  padding: 7mm 7mm 6mm; overflow: hidden; min-height: 92mm; }
+.card::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: linear-gradient(90deg, var(--a), var(--b)); }
+.num { position: absolute; right: 6mm; top: 2mm; font-family: "Bebas Neue", sans-serif; font-size: 96pt; line-height: 1;
+  color: var(--a); opacity: .16; }
+.cb { position: relative; }
+.kick { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 2.5px; color: var(--a); font-weight: 600; }
+.card h3 { font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 34pt; letter-spacing: 2px; line-height: 1; margin-top: 2mm; }
+.dt { font-family: "JetBrains Mono", monospace; font-size: 7.5pt; letter-spacing: 1.5px; color: #8c8a92; margin-top: 2mm; }
+.card ul { list-style: none; margin-top: 5mm; font-size: 10pt; line-height: 1.75; color: #d9d4cb; }
+.card li::before { content: "▸  "; color: var(--a); }
+.exit { margin-top: 5mm; padding-top: 3.5mm; border-top: 1px dashed #232736; font-size: 10pt; font-weight: 600; }
+.exit span { font-family: "JetBrains Mono", monospace; font-size: 7pt; letter-spacing: 2px; color: #0a0c12; background: var(--a);
+  padding: .6mm 2mm; border-radius: 1mm; margin-right: 3mm; }
+</style></head><body>
+
+<section class="sheet">
+  <div class="hero">
+    <div class="class">PRODUCTION SCHEDULE // <b>EYES ONLY</b> // WORKING TITLE</div>
+    <h1>DHURANDHAR<span>:</span> THE GAME</h1>
+    <div class="tag">PART 1 · KATORA&nbsp;&nbsp;/&nbsp;&nbsp;PART 2 · WAPSI&nbsp;&nbsp;//&nbsp;&nbsp;SIX ACTS&nbsp;&nbsp;//&nbsp;&nbsp;UNREAL ENGINE 5.8</div>
+  </div>
+  <div class="stats"><div><b>10.11.26</b>START</div><div class="g"><b>10.01.27</b>LAUNCH</div><div><b>09</b>WEEKS</div><div><b>06</b>OPS</div><div><b>25</b>BEATS</div></div>
+  <div class="stamp">9-WEEK OPERATION</div>
+  <svg viewBox="0 0 1520 830" class="dg" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g0" x1="0" x2="1"><stop offset="0" stop-color="#3fb5a3"/><stop offset="1" stop-color="#2a7f9e"/></linearGradient><filter id="glow0" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#e2553a"/><stop offset="1" stop-color="#f08a24"/></linearGradient><filter id="glow1" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#e9b44c"/><stop offset="1" stop-color="#f08a24"/></linearGradient><filter id="glow2" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#9b7bd8"/><stop offset="1" stop-color="#c45fb0"/></linearGradient><filter id="glow3" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="g4" x1="0" x2="1"><stop offset="0" stop-color="#4f8fe0"/><stop offset="1" stop-color="#3fb5a3"/></linearGradient><filter id="glow4" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="g5" x1="0" x2="1"><stop offset="0" stop-color="#f3ede2"/><stop offset="1" stop-color="#e9b44c"/></linearGradient><filter id="glow5" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="300.0" y="40" width="116.1" height="790" fill="#ffffff" opacity="0.025"/>
+<line x1="300.0" y1="40" x2="300.0" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="358.1" y="62" class="wk">W01</text>
+<text x="358.1" y="78" class="wkd">10-15 NOV</text>
+<line x1="416.1" y1="40" x2="416.1" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="483.9" y="62" class="wk">W02</text>
+<text x="483.9" y="78" class="wkd">16-22 NOV</text>
+<rect x="551.6" y="40" width="135.5" height="790" fill="#ffffff" opacity="0.025"/>
+<line x1="551.6" y1="40" x2="551.6" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="619.4" y="62" class="wk">W03</text>
+<text x="619.4" y="78" class="wkd">23-29 NOV</text>
+<line x1="687.1" y1="40" x2="687.1" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="754.8" y="62" class="wk">W04</text>
+<text x="754.8" y="78" class="wkd">30 NOV-6 DEC</text>
+<rect x="822.6" y="40" width="135.5" height="790" fill="#ffffff" opacity="0.025"/>
+<line x1="822.6" y1="40" x2="822.6" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="890.3" y="62" class="wk">W05</text>
+<text x="890.3" y="78" class="wkd">7-13 DEC</text>
+<line x1="958.1" y1="40" x2="958.1" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="1025.8" y="62" class="wk">W06</text>
+<text x="1025.8" y="78" class="wkd">14-20 DEC</text>
+<rect x="1093.5" y="40" width="135.5" height="790" fill="#ffffff" opacity="0.025"/>
+<line x1="1093.5" y1="40" x2="1093.5" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="1161.3" y="62" class="wk">W07</text>
+<text x="1161.3" y="78" class="wkd">21-27 DEC</text>
+<line x1="1229.0" y1="40" x2="1229.0" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="1296.8" y="62" class="wk">W08</text>
+<text x="1296.8" y="78" class="wkd">28 DEC-3 JAN</text>
+<rect x="1364.5" y="40" width="135.5" height="790" fill="#ffffff" opacity="0.025"/>
+<line x1="1364.5" y1="40" x2="1364.5" y2="760" stroke="#232736" stroke-width="1"/>
+<text x="1432.3" y="62" class="wk">W09</text>
+<text x="1432.3" y="78" class="wkd">4-10 JAN</text>
+<text x="305.0" y="30" class="month">NOV 2026</text>
+<line x1="300.0" y1="16" x2="300.0" y2="40" stroke="#e9b44c" stroke-width="2"/>
+<text x="711.5" y="30" class="month">DEC 2026</text>
+<line x1="706.5" y1="16" x2="706.5" y2="40" stroke="#e9b44c" stroke-width="2"/>
+<text x="1311.5" y="30" class="month">JAN 2027</text>
+<line x1="1306.5" y1="16" x2="1306.5" y2="40" stroke="#e9b44c" stroke-width="2"/>
+<rect x="300.0" y="98" width="113.1" height="4" fill="url(#g0)"/>
+<rect x="416.1" y="98" width="268.0" height="4" fill="url(#g1)"/>
+<rect x="416.1" y="98" width="538.9" height="4" fill="url(#g2)"/>
+<rect x="551.6" y="98" width="538.9" height="4" fill="url(#g3)"/>
+<rect x="822.6" y="98" width="403.5" height="4" fill="url(#g4)"/>
+<rect x="1229.0" y="98" width="268.0" height="4" fill="url(#g5)"/>
+<rect x="0" y="150" width="4" height="41" fill="url(#g0)"/>
+<text x="16" y="165" class="opn">OP 01</text>
+<text x="62" y="165" class="opc">COLLECTION RUN</text>
+<rect x="300.0" y="153" width="113.1" height="16" rx="3" fill="url(#g0)" opacity="0.18"/>
+<text x="308.0" y="165" class="opsub">SETUP</text>
+<text x="16" y="188" class="trk">Engine, tools, pipeline</text>
+<text x="16" y="200" class="own">Claude · Rayan</text>
+<rect x="300.0" y="178" width="113.1" height="20" rx="10" fill="url(#g0)" filter="url(#glow0)"/>
+<text x="311.0" y="192" class="bar">UE 5.8 · MCP</text>
+<rect x="0" y="201" width="4" height="95" fill="url(#g1)"/>
+<text x="16" y="216" class="opn">OP 02</text>
+<text x="62" y="216" class="opc">THE LEDGER</text>
+<rect x="416.1" y="204" width="268.0" height="16" rx="3" fill="url(#g1)" opacity="0.18"/>
+<text x="424.1" y="216" class="opsub">CORE SYSTEMS</text>
+<text x="16" y="239" class="trk">Body, money, suspicion</text>
+<text x="16" y="251" class="own">Rayan · Claude</text>
+<rect x="416.1" y="229" width="268.0" height="20" rx="10" fill="url(#g1)" filter="url(#glow1)"/>
+<text x="427.1" y="243" class="bar">Vitals · disease · ledger · suspicion</text>
+<text x="16" y="266" class="trk">Physics, combat, vehicles</text>
+<text x="16" y="278" class="own">Rayan</text>
+<rect x="416.1" y="256" width="403.5" height="20" rx="10" fill="url(#g1)" filter="url(#glow1)"/>
+<text x="427.1" y="270" class="bar">Falls · rails · ballistics · cars · boat</text>
+<text x="16" y="293" class="trk">Crowds, weather, calendar</text>
+<text x="16" y="305" class="own">Claude</text>
+<rect x="416.1" y="283" width="268.0" height="20" rx="10" fill="url(#g1)" filter="url(#glow1)"/>
+<text x="427.1" y="297" class="bar">Governor · climate · clock</text>
+<rect x="0" y="306" width="4" height="68" fill="url(#g2)"/>
+<text x="16" y="321" class="opn">OP 03</text>
+<text x="62" y="321" class="opc">GULBAHAR LINES</text>
+<rect x="416.1" y="309" width="538.9" height="16" rx="3" fill="url(#g2)" opacity="0.18"/>
+<text x="424.1" y="321" class="opsub">KARACHI · ACT 4</text>
+<text x="16" y="344" class="trk">Karachi world</text>
+<text x="16" y="356" class="own">Claude</text>
+<rect x="416.1" y="334" width="403.5" height="20" rx="10" fill="url(#g2)" filter="url(#glow2)"/>
+<text x="427.1" y="348" class="bar">Lyari slice · shrine · tankers · hawala</text>
+<text x="16" y="371" class="trk">Act 4 gameplay</text>
+<text x="16" y="383" class="own">Tarun · Rayan</text>
+<rect x="687.1" y="361" width="268.0" height="20" rx="10" fill="url(#g2)" filter="url(#glow2)"/>
+<text x="698.1" y="375" class="bar">Nobody · Runner · Inside · raid</text>
+<rect x="0" y="384" width="4" height="95" fill="url(#g3)"/>
+<text x="16" y="399" class="opn">OP 04</text>
+<text x="62" y="399" class="opc">KATORA</text>
+<rect x="551.6" y="387" width="538.9" height="16" rx="3" fill="url(#g3)" opacity="0.18"/>
+<text x="559.6" y="399" class="opsub">DELHI NCR · ACTS 1 & 2</text>
+<text x="16" y="422" class="trk">Delhi NCR world</text>
+<text x="16" y="434" class="own">Claude</text>
+<rect x="551.6" y="412" width="403.5" height="20" rx="10" fill="url(#g3)" filter="url(#glow3)"/>
+<text x="562.6" y="426" class="bar">Vasundhara · Khoda · Loni · Nizamuddin</text>
+<text x="16" y="449" class="trk">Acts 1 & 2 gameplay</text>
+<text x="16" y="461" class="own">Tarun · Rayan</text>
+<rect x="822.6" y="439" width="268.0" height="20" rx="10" fill="url(#g3)" filter="url(#glow3)"/>
+<text x="833.6" y="453" class="bar">Collection run · fall · begging loop</text>
+<text x="16" y="476" class="trk">Cast, voice, motion</text>
+<text x="16" y="488" class="own">Tarun · contract</text>
+<rect x="551.6" y="466" width="674.4" height="20" rx="10" fill="url(#g3)" filter="url(#glow3)"/>
+<text x="562.6" y="480" class="bar">10 MetaHumans · 12 crowd types · VO · mocap</text>
+<rect x="0" y="489" width="4" height="68" fill="url(#g4)"/>
+<text x="16" y="504" class="opn">OP 05</text>
+<text x="62" y="504" class="opc">WAPSI</text>
+<rect x="822.6" y="492" width="403.5" height="16" rx="3" fill="url(#g4)" opacity="0.18"/>
+<text x="830.6" y="504" class="opsub">ACTS 3, 5 & 6</text>
+<text x="16" y="527" class="trk">Small sets</text>
+<text x="16" y="539" class="own">Claude · Rayan</text>
+<rect x="687.1" y="517" width="268.0" height="20" rx="10" fill="url(#g4)" filter="url(#glow4)"/>
+<text x="698.1" y="531" class="bar">Farm · dhaba · jetty · Dasna</text>
+<text x="16" y="554" class="trk">Acts 3, 5, 6 gameplay</text>
+<text x="16" y="566" class="own">Tarun · Rayan</text>
+<rect x="958.1" y="544" width="268.0" height="20" rx="10" fill="url(#g4)" filter="url(#glow4)"/>
+<text x="969.1" y="558" class="bar">Farm · jetty · hunt · balcony · rewind</text>
+<rect x="0" y="567" width="4" height="41" fill="url(#g5)"/>
+<text x="16" y="582" class="opn">OP 06</text>
+<text x="62" y="582" class="opc">THE BALCONY</text>
+<rect x="1229.0" y="570" width="268.0" height="16" rx="3" fill="url(#g5)" opacity="0.18"/>
+<text x="1237.0" y="582" class="opsub">POLISH & LAUNCH</text>
+<text x="16" y="605" class="trk">Polish and release</text>
+<text x="16" y="617" class="own">Everyone</text>
+<rect x="1229.0" y="595" width="268.0" height="20" rx="10" fill="url(#g5)" filter="url(#glow5)"/>
+<text x="1240.0" y="609" class="bar">60 fps · fixes · rating · build</text>
+<line x1="300" y1="640" x2="1500" y2="640" stroke="#e9b44c" stroke-width="1.5"/>
+<text x="16" y="644" class="opn">MILESTONES</text>
+<line x1="414.1" y1="40" x2="414.1" y2="630" stroke="#e9b44c" stroke-width="0.8" stroke-dasharray="2 5" opacity="0.55"/>
+<path d="M414.1,631 l9,9 l-9,9 l-9,-9 z" fill="#e9b44c" filter="url(#glow0)"/>
+<text x="414.1" y="668" class="msc" text-anchor="middle">M1 · 15 NOV</text>
+<text x="414.1" y="683" class="msn" text-anchor="middle">FIRST LIGHT</text>
+<line x1="685.1" y1="40" x2="685.1" y2="630" stroke="#e9b44c" stroke-width="0.8" stroke-dasharray="2 5" opacity="0.55"/>
+<path d="M685.1,631 l9,9 l-9,9 l-9,-9 z" fill="#e9b44c" filter="url(#glow0)"/>
+<text x="685.1" y="668" class="msc" text-anchor="middle">M2 · 29 NOV</text>
+<text x="685.1" y="683" class="msn" text-anchor="middle">LEDGER OPEN</text>
+<line x1="956.1" y1="40" x2="956.1" y2="630" stroke="#e9b44c" stroke-width="0.8" stroke-dasharray="2 5" opacity="0.55"/>
+<path d="M956.1,631 l9,9 l-9,9 l-9,-9 z" fill="#e9b44c" filter="url(#glow0)"/>
+<text x="956.1" y="668" class="msc" text-anchor="middle">M3 · 13 DEC</text>
+<text x="956.1" y="683" class="msn" text-anchor="middle">GULBAHAR LIVE</text>
+<line x1="1227.0" y1="40" x2="1227.0" y2="630" stroke="#e9b44c" stroke-width="0.8" stroke-dasharray="2 5" opacity="0.55"/>
+<path d="M1227.0,631 l9,9 l-9,9 l-9,-9 z" fill="#e9b44c" filter="url(#glow0)"/>
+<text x="1227.0" y="668" class="msc" text-anchor="middle">M4 · 27 DEC</text>
+<text x="1227.0" y="683" class="msn" text-anchor="middle">ALL ACTS</text>
+<line x1="1401.2" y1="40" x2="1401.2" y2="630" stroke="#e9b44c" stroke-width="0.8" stroke-dasharray="2 5" opacity="0.55"/>
+<path d="M1401.2,631 l9,9 l-9,9 l-9,-9 z" fill="#e9b44c" filter="url(#glow0)"/>
+<line x1="1401.2" y1="650" x2="1401.2" y2="686" stroke="#e9b44c" stroke-width="0.8" opacity="0.6"/>
+<text x="1401.2" y="698" class="msc" text-anchor="middle">M5 · 5 JAN</text>
+<text x="1401.2" y="713" class="msn" text-anchor="middle">RELEASE CANDIDATE</text>
+<line x1="1498.0" y1="40" x2="1498.0" y2="630" stroke="#e9b44c" stroke-width="0.8" stroke-dasharray="2 5" opacity="0.55"/>
+<path d="M1498.0,631 l9,9 l-9,9 l-9,-9 z" fill="#e9b44c" filter="url(#glow0)"/>
+<text x="1486.0" y="668" class="msc" text-anchor="end">M6 · 10 JAN</text>
+<text x="1486.0" y="683" class="msn" text-anchor="end">LAUNCH</text>
+</svg>
+  <div class="foot">
+    <div><h4>THE TEAM</h4>Tarun · story, script, direction<br>Rayan · engine, gameplay, physics<br>Claude · worlds, C++, data, tools<br>Contract · voice, motion capture, legal
+      <div class="coords" style="margin-top:2mm">28.65°N 77.23°E &nbsp;//&nbsp; 24.87°N 66.99°E</div></div>
+    <div><h4>HOW NINE WEEKS WORKS</h4>Worlds are generated from real maps, so the team's time goes into systems and story.
+      Systems land first because the story is told through them. Karachi, half the game, is built before Delhi.
+      Every Sunday ends with a playable build and a milestone review.</div>
+    <div><h4>CUT LINE · IF A MILESTONE SLIPS</h4><ol><li>Side content: tea stall, cricket, Kasur trip</li><li>Act 3 farm and route in as cinematics</li><li>Delhi hubs reduced to playable interiors</li><li>Crowds limited to 12 archetypes</li><li>Part 2 Wapsi as a later release</li></ol></div>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="p2head"><div><div class="class">OPERATIONS BRIEF // 06 PHASES</div><h2>SIX OPS<span>.</span> NINE WEEKS<span>.</span> ONE STORY<span>.</span></h2></div>
+    <div class="stats" style="position:static"><div><b>13</b>TRACKS</div><div><b>06</b>MILESTONES</div><div class="g"><b>01</b>LAUNCH</div></div></div>
+  <div class="grid"><div class="card" style="--a:#3fb5a3;--b:#2a7f9e">
+  <div class="num">01</div>
+  <div class="cb"><div class="kick">OPERATION · SETUP</div><h3>COLLECTION RUN</h3>
+  <div class="dt">10 NOV &rarr; 15 NOV 2026 &nbsp;·&nbsp; 6 DAYS</div>
+  <ul><li>Unreal Engine 5.8.4 compiled with our C++</li><li>Terrain, Lyari and Delhi data imported</li><li>Unreal MCP live in the editor</li></ul><div class="exit"><span>EXIT</span>First lit street in engine</div></div></div>
+<div class="card" style="--a:#e2553a;--b:#f08a24">
+  <div class="num">02</div>
+  <div class="cb"><div class="kick">OPERATION · CORE SYSTEMS</div><h3>THE LEDGER</h3>
+  <div class="dt">16 NOV &rarr; 29 NOV 2026 &nbsp;·&nbsp; 14 DAYS</div>
+  <ul><li>Vitals, disease curve, coughing fits</li><li>Money ledger, hidden suspicion, notebook</li><li>Falls, rail heights, ballistics, katta misfire</li></ul><div class="exit"><span>EXIT</span>One in-game day runs end to end</div></div></div>
+<div class="card" style="--a:#e9b44c;--b:#f08a24">
+  <div class="num">03</div>
+  <div class="cb"><div class="kick">OPERATION · KARACHI · ACT 4</div><h3>GULBAHAR LINES</h3>
+  <div class="dt">16 NOV &rarr; 13 DEC 2026 &nbsp;·&nbsp; 28 DAYS</div>
+  <ul><li>District built from the Lyari slice</li><li>Shrine, tankers, hawala shops, gambling den</li><li>Sattar or Shahzaib, the Rangers raid</li></ul><div class="exit"><span>EXIT</span>Act 4 playable start to finish</div></div></div>
+<div class="card" style="--a:#9b7bd8;--b:#c45fb0">
+  <div class="num">04</div>
+  <div class="cb"><div class="kick">OPERATION · DELHI NCR · ACTS 1 & 2</div><h3>KATORA</h3>
+  <div class="dt">23 NOV &rarr; 20 DEC 2026 &nbsp;·&nbsp; 28 DAYS</div>
+  <ul><li>Vasundhara, Khoda Colony, Loni flyover</li><li>Nizamuddin begging loop with Mangal</li><li>Collection run, the wedding, the arrest</li></ul><div class="exit"><span>EXIT</span>Part 1 playable</div></div></div>
+<div class="card" style="--a:#4f8fe0;--b:#3fb5a3">
+  <div class="num">05</div>
+  <div class="cb"><div class="kick">OPERATION · ACTS 3, 5 & 6</div><h3>WAPSI</h3>
+  <div class="dt">07 DEC &rarr; 27 DEC 2026 &nbsp;·&nbsp; 21 DAYS</div>
+  <ul><li>Farm, goodbye, jetty and the tide boat</li><li>Empty house, the hunt, the balcony fight</li><li>The rewind and the coda</li></ul><div class="exit"><span>EXIT</span>All acts playable</div></div></div>
+<div class="card" style="--a:#f3ede2;--b:#e9b44c">
+  <div class="num">06</div>
+  <div class="cb"><div class="kick">OPERATION · POLISH & LAUNCH</div><h3>THE BALCONY</h3>
+  <div class="dt">28 DEC &rarr; 10 JAN 2027 &nbsp;·&nbsp; 14 DAYS</div>
+  <ul><li>60 fps on an RTX 3070</li><li>Playtests, rating, legal and sensitivity</li><li>Store page, trailer, final build</li></ul><div class="exit"><span>EXIT</span>Launch · 10 January 2027</div></div></div></div>
+  <div class="foot" style="grid-template-columns:2fr 1fr">
+    <div><h4>RULES OF ENGAGEMENT</h4>A phase is done only when its exit criterion is met in a playable build. One engine version for the whole
+      project. 60 fps on an RTX 3070 at every milestone. Real places; fictional brands and people. If two milestones slip in a row,
+      apply the cut line from the top.</div>
+    <div><h4>CREDITS</h4>Header image: India–Pakistan border at night, ISS Expedition 45 crew, NASA, public domain.</div>
+  </div>
+</section>
+</body></html>

@@ -13,3 +13,24 @@ Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
 == loni_flyover
 BUILT 182 buildings; area 1757 x 2560 m -> C:\Users\Rayaan\Desktop\game\world\story\loni_flyover_blockout.blend / .fbx
 Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== sahibabad
+BUILT 733 buildings; area 1856 x 1558 m -> C:\Users\Rayaan\Desktop\game\world\story\sahibabad_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== dasna_jail
+BUILT 0 buildings; area 1172 x 1113 m -> C:\Users\Rayaan\Desktop\game\world\story\dasna_jail_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== karachi_orangi
+BUILT 50 buildings; area 2019 x 2004 m -> C:\Users\Rayaan\Desktop\game\world\story\karachi_orangi_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== karachi_korangi_checkpoint
+BUILT 218 buildings; area 1718 x 1336 m -> C:\Users\Rayaan\Desktop\game\world\story\karachi_korangi_checkpoint_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== karachi_ibrahim_hyderi
+BUILT 39 buildings; area 3032 x 2226 m -> C:\Users\Rayaan\Desktop\game\world\story\karachi_ibrahim_hyderi_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== dehradun_farm
+BUILT 0 buildings; area 1633 x 1670 m -> C:\Users\Rayaan\Desktop\game\world\story\dehradun_farm_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+== mamdot
+BUILT 4 buildings; area 1433 x 1447 m -> C:\Users\Rayaan\Desktop\game\world\story\mamdot_blockout.blend / .fbx
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
