@@ -1,4 +1,4 @@
-#include "Physics/RailingComponent.h"
+﻿#include "Physics/RailingComponent.h"
 
 #include "Components/CapsuleComponent.h"
 #include "DayaVitalsComponent.h"
@@ -47,14 +47,14 @@ void URailingComponent::OnRegister()
 }
 
 bool URailingComponent::EvaluateOverRail(float ComHeightM, float RailHeightM, float ComDistanceM, float PushSpeedMS,
-                                         float PushEfficiency, float GripFactor, FRailEvaluation& OutEval)
+                                         float InPushEfficiency, float GripFactor, FRailEvaluation& OutEval)
 {
 	constexpr float G = 9.81f;
 	const float Lever = ComHeightM - RailHeightM;
 	const float D = FMath::Max(ComDistanceM, 0.05f);
 	const float R = FMath::Sqrt(D * D + Lever * Lever);
 	const float EnergyPerKg = G * (R - Lever) * FMath::Max(GripFactor, 1.f);
-	const float Eff = FMath::Clamp(PushEfficiency, 0.05f, 1.f);
+	const float Eff = FMath::Clamp(InPushEfficiency, 0.05f, 1.f);
 
 	OutEval.ComHeightM = ComHeightM;
 	OutEval.RailHeightM = RailHeightM;

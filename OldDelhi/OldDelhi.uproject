@@ -1,25 +1,100 @@
-{
-	"FileVersion": 3,
-	"EngineAssociation": "5.8",
-	"Category": "",
-	"Description": "delhi6 - hyper-realistic open world, Phase 1: Old Delhi",
-	"Modules": [
-		{
-			"Name": "OldDelhi",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [ "Engine" ]
-		}
-	],
-	"Plugins": [
-		{ "Name": "PythonScriptPlugin", "Enabled": true },
-		{ "Name": "EditorScriptingUtilities", "Enabled": true },
-		{ "Name": "PCG", "Enabled": true },
-		{ "Name": "GeoReferencing", "Enabled": true },
-		{ "Name": "ChaosVehiclesPlugin", "Enabled": true },
-		{ "Name": "StateTree", "Enabled": true },
-		{ "Name": "ZoneGraph", "Enabled": true },
-		{ "Name": "ModelingToolsEditorMode", "Enabled": true, "TargetAllowList": [ "Editor" ] }
-	],
-	"TargetPlatforms": [ "Windows" ]
+﻿{
+    "FileVersion":  3,
+    "EngineAssociation":  "5.8",
+    "Category":  "",
+    "Description":  "delhi6 - hyper-realistic open world, Phase 1: Old Delhi",
+    "Modules":  [
+                    {
+                        "Name":  "OldDelhi",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default",
+                        "AdditionalDependencies":  [
+                                                       "Engine"
+                                                   ]
+                    }
+                ],
+    "Plugins":  [
+                    {
+                        "Name":  "PythonScriptPlugin",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EditorScriptingUtilities",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "PCG",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GeoReferencing",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ChaosVehiclesPlugin",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "StateTree",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ZoneGraph",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ModelingToolsEditorMode",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "EnhancedInput",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "MassGameplay",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "MassCrowd",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "MassAI",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "MoverExamples",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "ModelContextProtocol",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "AllToolsets",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "MetaHumanCharacter",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    }
+                ],
+    "TargetPlatforms":  [
+                            "Windows"
+                        ]
 }

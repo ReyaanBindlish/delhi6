@@ -1,4 +1,4 @@
-#include "Vehicles/DelhiVehiclePawn.h"
+﻿#include "Vehicles/DelhiVehiclePawn.h"
 
 #include "ChaosWheeledVehicleMovementComponent.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -295,8 +295,8 @@ void ADelhiMotorbikePawn::Tick(float DeltaSeconds)
 
 void ADelhiMotorbikePawn::StepLean(float Dt)
 {
-	USkeletalMeshComponent* Mesh = GetMesh();
-	if (!Mesh || Dt <= KINDA_SMALL_NUMBER)
+	USkeletalMeshComponent* LeanMesh = GetMesh();
+	if (!LeanMesh || Dt <= KINDA_SMALL_NUMBER)
 	{
 		return;
 	}
@@ -313,5 +313,5 @@ void ADelhiMotorbikePawn::StepLean(float Dt)
 	const float Target = FMath::Clamp((LastSteerInput * SpeedFactor + RiderLeanInput) * MaxLeanRad, -MaxLeanRad, MaxLeanRad);
 
 	const float Accel = LeanKp * (Target - Roll) - LeanKd * RollRate; // rad/s^2 about the forward axis
-	Mesh->AddTorqueInRadians(GetActorForwardVector() * (Accel * LeanTorqueSign), NAME_None, /*bAccelChange*/ true);
+	LeanMesh->AddTorqueInRadians(GetActorForwardVector() * (Accel * LeanTorqueSign), NAME_None, /*bAccelChange*/ true);
 }

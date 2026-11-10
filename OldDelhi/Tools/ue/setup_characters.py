@@ -28,7 +28,7 @@ except ImportError:  # dry run
     unreal = None
     IN_EDITOR = False
 
-REPO = Path(__file__).resolve().parents[3]
+REPO = Path(os.environ.get("DHURANDHAR_REPO") or Path(__file__).resolve().parents[3])
 CSV_PATH = REPO / "OldDelhi" / "Data" / "DT_Cast.csv"
 RECIPE_DIR = REPO / "characters" / "cast"
 
@@ -214,17 +214,21 @@ def create_data_asset(table, mh_assets):
     # Per-character visuals: mannequin fallback + MetaHuman asset (first one for Daya).
     rows = load_rows()
     visuals = {}
+    missing = set()
     for r in rows:
         v = unreal.CastVisualSet()
         mannequin = find_mannequin(r["FallbackMesh"])
         if mannequin is not None:
             setp(v, "fallback_mesh", mannequin)
         else:
-            warn("mannequin", r["FallbackMesh"], "not found under /Game/Characters/Mannequins; assign it by hand")
+            missing.add(r["FallbackMesh"])
         assets = mh_assets.get(r["Name"], [])
         if assets:
             setp(v, ["meta_human_character", "metahuman_character"], assets[0])
         visuals[unreal.Name(r["Name"])] = v
+    for m in sorted(missing):
+        warn("mannequin", m, "not found under /Game/Characters/Mannequins (add the UE third-person template content, "
+             "then re-run this script); fallback_mesh left empty")
     setp(da, "visuals", visuals)
 
     # Run the story-invariant check implemented in C++.

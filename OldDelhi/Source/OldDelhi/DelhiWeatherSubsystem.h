@@ -48,6 +48,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Delhi|Weather")
 	void SetCity(EAtmosphereCity NewCity);
 
+	/** Re-seed the weather dice (0 = random). */
+	UFUNCTION(BlueprintCallable, Category = "Delhi|Weather")
+	void SetRandomSeed(int32 NewSeed);
+
 	// ---------------------------------------------------------------- time control
 	UFUNCTION(BlueprintCallable, Category = "Delhi|Time")
 	void SetTimeOfDay(float Hours);

@@ -146,6 +146,12 @@ void UDelhiWeatherSubsystem::SetCity(EAtmosphereCity NewCity)
 	if (bHasRolled && !bManualOverride) { RollDay(GetLocalDateTime(), false); }
 }
 
+void UDelhiWeatherSubsystem::SetRandomSeed(int32 NewSeed)
+{
+	RandomSeed = NewSeed;
+	Stream.Initialize(NewSeed != 0 ? NewSeed : (int32)(FDateTime::UtcNow().GetTicks() & 0x7fffffff));
+}
+
 void UDelhiWeatherSubsystem::RerollDailyWeather()
 {
 	RollDay(GetLocalDateTime(), false);

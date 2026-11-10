@@ -1,8 +1,8 @@
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "SuspicionComponent.h"
+#include "../SuspicionComponent.h"
 #include "CastTellComponent.generated.h"
 
 class UAnimMontage;

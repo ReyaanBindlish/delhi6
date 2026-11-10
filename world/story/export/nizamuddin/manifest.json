@@ -1,6 +1,26 @@
 {
  "location": "nizamuddin",
  "title": "Hazrat Nizamuddin",
+ "player_starts": [
+  {
+   "name": "Platform_2_3",
+   "location_m": [
+    0.828,
+    -23.587,
+    7.4
+   ],
+   "yaw_deg": 0.0
+  },
+  {
+   "name": "Street_nearest_centre",
+   "location_m": [
+    -67.86,
+    -7.98,
+    7.275
+   ],
+   "yaw_deg": 0.0
+  }
+ ],
  "map_name": "Nizamuddin",
  "slice_center_latlon": [
   28.5889,
@@ -937,6 +957,10950 @@
    "area_m2": 93.0,
    "religious": false,
    "fbx": "buildings/Bldg_0039.fbx"
+  },
+  {
+   "id": "Bldg_0040",
+   "location_m": [
+    171.487,
+    29.889,
+    6.693
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1140,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 18.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0040.fbx"
+  },
+  {
+   "id": "Bldg_0041",
+   "location_m": [
+    -177.847,
+    11.184,
+    7.63
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3744,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 160.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0041.fbx"
+  },
+  {
+   "id": "Bldg_0042",
+   "location_m": [
+    -63.328,
+    -163.965,
+    6.417
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 842,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 34.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0042.fbx"
+  },
+  {
+   "id": "Bldg_0043",
+   "location_m": [
+    -172.396,
+    20.453,
+    7.7
+   ],
+   "floors": 6,
+   "height_m": 18.3,
+   "faces": 6029,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 129.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0043.fbx"
+  },
+  {
+   "id": "Bldg_0044",
+   "location_m": [
+    -67.643,
+    -163.372,
+    6.42
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1840,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 33.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0044.fbx"
+  },
+  {
+   "id": "Bldg_0045",
+   "location_m": [
+    -118.582,
+    131.457,
+    8.002
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4593,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 198.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0045.fbx"
+  },
+  {
+   "id": "Bldg_0046",
+   "location_m": [
+    176.79,
+    11.391,
+    6.692
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1307,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 43.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0046.fbx"
+  },
+  {
+   "id": "Bldg_0047",
+   "location_m": [
+    -162.719,
+    -71.15,
+    7.055
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 661,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 11.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0047.fbx"
+  },
+  {
+   "id": "Bldg_0048",
+   "location_m": [
+    -171.575,
+    45.955,
+    7.844
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4869,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 130.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0048.fbx"
+  },
+  {
+   "id": "Bldg_0049",
+   "location_m": [
+    143.248,
+    111.62,
+    6.266
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2067,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 170.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0049.fbx"
+  },
+  {
+   "id": "Bldg_0050",
+   "location_m": [
+    148.891,
+    104.223,
+    6.341
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1179,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 35.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0050.fbx"
+  },
+  {
+   "id": "Bldg_0051",
+   "location_m": [
+    145.935,
+    -107.572,
+    6.488
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2538,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 178.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0051.fbx"
+  },
+  {
+   "id": "Bldg_0052",
+   "location_m": [
+    -147.016,
+    107.017,
+    8.082
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3939,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 117.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0052.fbx"
+  },
+  {
+   "id": "Bldg_0053",
+   "location_m": [
+    180.392,
+    20.358,
+    6.688
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2772,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 58.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0053.fbx"
+  },
+  {
+   "id": "Bldg_0054",
+   "location_m": [
+    -182.085,
+    -5.755,
+    7.531
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4191,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 182.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0054.fbx"
+  },
+  {
+   "id": "Bldg_0055",
+   "location_m": [
+    179.349,
+    35.024,
+    6.675
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3253,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 79.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0055.fbx"
+  },
+  {
+   "id": "Bldg_0056",
+   "location_m": [
+    -137.359,
+    -120.626,
+    6.675
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2690,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 84.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0056.fbx"
+  },
+  {
+   "id": "Bldg_0057",
+   "location_m": [
+    168.618,
+    70.621,
+    6.59
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2117,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 39.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0057.fbx"
+  },
+  {
+   "id": "Bldg_0058",
+   "location_m": [
+    176.956,
+    48.847,
+    6.662
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 587,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 18.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0058.fbx"
+  },
+  {
+   "id": "Bldg_0059",
+   "location_m": [
+    -163.511,
+    -83.467,
+    6.896
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3606,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 266.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0059.fbx"
+  },
+  {
+   "id": "Bldg_0060",
+   "location_m": [
+    -180.749,
+    -37.554,
+    7.288
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4939,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 142.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0060.fbx"
+  },
+  {
+   "id": "Bldg_0061",
+   "location_m": [
+    -180.294,
+    45.435,
+    7.882
+   ],
+   "floors": 6,
+   "height_m": 18.3,
+   "faces": 3329,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 134.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0061.fbx"
+  },
+  {
+   "id": "Bldg_0062",
+   "location_m": [
+    181.659,
+    49.446,
+    6.658
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 928,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 31.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0062.fbx"
+  },
+  {
+   "id": "Bldg_0063",
+   "location_m": [
+    -189.52,
+    -13.711,
+    7.484
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1684,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 124.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0063.fbx"
+  },
+  {
+   "id": "Bldg_0064",
+   "location_m": [
+    188.898,
+    16.344,
+    6.682
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 440,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 28.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0064.fbx"
+  },
+  {
+   "id": "Bldg_0065",
+   "location_m": [
+    -55.892,
+    -181.818,
+    6.321
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3942,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 198.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0065.fbx"
+  },
+  {
+   "id": "Bldg_0066",
+   "location_m": [
+    111.334,
+    -155.163,
+    6.427
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1239,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 17.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0066.fbx"
+  },
+  {
+   "id": "Bldg_0067",
+   "location_m": [
+    -58.717,
+    185.152,
+    7.72
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 9505,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 890.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0067.fbx"
+  },
+  {
+   "id": "Bldg_0068",
+   "location_m": [
+    -189.167,
+    45.24,
+    7.925
+   ],
+   "floors": 6,
+   "height_m": 18.3,
+   "faces": 2793,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 138.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0068.fbx"
+  },
+  {
+   "id": "Bldg_0069",
+   "location_m": [
+    129.984,
+    145.202,
+    6.294
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1366,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 39.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0069.fbx"
+  },
+  {
+   "id": "Bldg_0070",
+   "location_m": [
+    188.331,
+    50.241,
+    6.645
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2136,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 63.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0070.fbx"
+  },
+  {
+   "id": "Bldg_0071",
+   "location_m": [
+    168.555,
+    -103.624,
+    6.462
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 3561,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 260.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0071.fbx"
+  },
+  {
+   "id": "Bldg_0072",
+   "location_m": [
+    194.326,
+    19.865,
+    6.676
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1640,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 72.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0072.fbx"
+  },
+  {
+   "id": "Bldg_0073",
+   "location_m": [
+    -176.58,
+    85.115,
+    8.115
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 3685,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 192.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0073.fbx"
+  },
+  {
+   "id": "Bldg_0074",
+   "location_m": [
+    183.816,
+    69.477,
+    6.601
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 817,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 12.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0074.fbx"
+  },
+  {
+   "id": "Bldg_0075",
+   "location_m": [
+    -191.699,
+    -47.169,
+    7.263
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4564,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 86.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0075.fbx"
+  },
+  {
+   "id": "Bldg_0076",
+   "location_m": [
+    194.023,
+    39.017,
+    6.663
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1102,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 22.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0076.fbx"
+  },
+  {
+   "id": "Bldg_0077",
+   "location_m": [
+    -196.001,
+    -22.586,
+    7.454
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4020,
+   "ucx": 12,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 160.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0077.fbx"
+  },
+  {
+   "id": "Bldg_0078",
+   "location_m": [
+    90.888,
+    -177.761,
+    6.389
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1390,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 25.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0078.fbx"
+  },
+  {
+   "id": "Bldg_0079",
+   "location_m": [
+    179.522,
+    -88.555,
+    6.483
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 6197,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 200.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0079.fbx"
+  },
+  {
+   "id": "Bldg_0080",
+   "location_m": [
+    197.964,
+    -31.206,
+    6.593
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2486,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 201.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0080.fbx"
+  },
+  {
+   "id": "Bldg_0081",
+   "location_m": [
+    131.264,
+    151.701,
+    6.253
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2584,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 81.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0081.fbx"
+  },
+  {
+   "id": "Bldg_0082",
+   "location_m": [
+    136.386,
+    147.245,
+    6.241
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1375,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 35.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0082.fbx"
+  },
+  {
+   "id": "Bldg_0083",
+   "location_m": [
+    196.594,
+    43.927,
+    6.656
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 793,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 18.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0083.fbx"
+  },
+  {
+   "id": "Bldg_0084",
+   "location_m": [
+    199.668,
+    28.309,
+    6.67
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 965,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 13.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0084.fbx"
+  },
+  {
+   "id": "Bldg_0085",
+   "location_m": [
+    171.328,
+    106.388,
+    6.317
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 706,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 37.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0085.fbx"
+  },
+  {
+   "id": "Bldg_0086",
+   "location_m": [
+    154.79,
+    127.58,
+    6.122
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 14886,
+   "ucx": 8,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 562.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0086.fbx"
+  },
+  {
+   "id": "Bldg_0087",
+   "location_m": [
+    -175.898,
+    101.941,
+    8.229
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4876,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 139.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0087.fbx"
+  },
+  {
+   "id": "Bldg_0088",
+   "location_m": [
+    -198.46,
+    45.079,
+    7.97
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3436,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 145.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0088.fbx"
+  },
+  {
+   "id": "Bldg_0089",
+   "location_m": [
+    -153.507,
+    133.831,
+    8.256
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4787,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 161.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0089.fbx"
+  },
+  {
+   "id": "Bldg_0090",
+   "location_m": [
+    125.539,
+    161.474,
+    6.321
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1338,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 27.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0090.fbx"
+  },
+  {
+   "id": "Bldg_0091",
+   "location_m": [
+    203.795,
+    19.528,
+    6.667
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3549,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 70.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0091.fbx"
+  },
+  {
+   "id": "Bldg_0092",
+   "location_m": [
+    202.419,
+    44.378,
+    6.65
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1328,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 37.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0092.fbx"
+  },
+  {
+   "id": "Bldg_0093",
+   "location_m": [
+    152.314,
+    -139.553,
+    6.417
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1363,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 34.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0093.fbx"
+  },
+  {
+   "id": "Bldg_0094",
+   "location_m": [
+    176.985,
+    106.583,
+    6.334
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 333,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 37.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0094.fbx"
+  },
+  {
+   "id": "Bldg_0095",
+   "location_m": [
+    -202.097,
+    -47.238,
+    7.289
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4598,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 59.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0095.fbx"
+  },
+  {
+   "id": "Bldg_0096",
+   "location_m": [
+    131.494,
+    161.227,
+    6.257
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1850,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 36.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0096.fbx"
+  },
+  {
+   "id": "Bldg_0097",
+   "location_m": [
+    -205.596,
+    -35.895,
+    7.422
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1177,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 16.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0097.fbx"
+  },
+  {
+   "id": "Bldg_0098",
+   "location_m": [
+    -207.5,
+    -22.993,
+    7.475
+   ],
+   "floors": 6,
+   "height_m": 18.3,
+   "faces": 3658,
+   "ucx": 1,
+   "kind": "house",
+   "name": "Ganga Kutir",
+   "lod": 0,
+   "area_m2": 154.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0098.fbx"
+  },
+  {
+   "id": "Bldg_0099",
+   "location_m": [
+    -198.563,
+    66.054,
+    8.117
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4360,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 183.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0099.fbx"
+  },
+  {
+   "id": "Bldg_0100",
+   "location_m": [
+    -149.318,
+    148.525,
+    8.317
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4189,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 80.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0100.fbx"
+  },
+  {
+   "id": "Bldg_0101",
+   "location_m": [
+    173.274,
+    119.904,
+    6.198
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3220,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 65.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0101.fbx"
+  },
+  {
+   "id": "Bldg_0102",
+   "location_m": [
+    203.157,
+    57.647,
+    6.626
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 597,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 10.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0102.fbx"
+  },
+  {
+   "id": "Bldg_0103",
+   "location_m": [
+    122.77,
+    172.289,
+    6.364
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1196,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 20.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0103.fbx"
+  },
+  {
+   "id": "Bldg_0104",
+   "location_m": [
+    125.217,
+    169.321,
+    6.295
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2722,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 97.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0104.fbx"
+  },
+  {
+   "id": "Bldg_0105",
+   "location_m": [
+    -207.463,
+    44.906,
+    8.016
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 2775,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 127.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0105.fbx"
+  },
+  {
+   "id": "Bldg_0106",
+   "location_m": [
+    131.704,
+    -166.779,
+    6.364
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 8583,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 430.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0106.fbx"
+  },
+  {
+   "id": "Bldg_0107",
+   "location_m": [
+    206.093,
+    52.545,
+    6.629
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1577,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 56.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0107.fbx"
+  },
+  {
+   "id": "Bldg_0108",
+   "location_m": [
+    141.738,
+    159.705,
+    6.207
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 904,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 19.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0108.fbx"
+  },
+  {
+   "id": "Bldg_0109",
+   "location_m": [
+    -175.419,
+    -121.856,
+    6.637
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 3762,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 372.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0109.fbx"
+  },
+  {
+   "id": "Bldg_0110",
+   "location_m": [
+    213.844,
+    26.062,
+    6.656
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2382,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 132.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0110.fbx"
+  },
+  {
+   "id": "Bldg_0111",
+   "location_m": [
+    160.67,
+    -141.259,
+    6.374
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 6874,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 303.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0111.fbx"
+  },
+  {
+   "id": "Bldg_0112",
+   "location_m": [
+    213.066,
+    -40.192,
+    6.566
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1296,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 40.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0112.fbx"
+  },
+  {
+   "id": "Bldg_0113",
+   "location_m": [
+    143.686,
+    162.916,
+    6.185
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 442,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 18.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0113.fbx"
+  },
+  {
+   "id": "Bldg_0114",
+   "location_m": [
+    -216.307,
+    -23.803,
+    7.504
+   ],
+   "floors": 6,
+   "height_m": 18.3,
+   "faces": 3020,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 125.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0114.fbx"
+  },
+  {
+   "id": "Bldg_0115",
+   "location_m": [
+    138.727,
+    167.672,
+    6.2
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2323,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 68.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0115.fbx"
+  },
+  {
+   "id": "Bldg_0116",
+   "location_m": [
+    -116.931,
+    183.644,
+    8.155
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 5727,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 303.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0116.fbx"
+  },
+  {
+   "id": "Bldg_0117",
+   "location_m": [
+    178.801,
+    125.337,
+    6.205
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1171,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 15.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0117.fbx"
+  },
+  {
+   "id": "Bldg_0118",
+   "location_m": [
+    -51.71,
+    -207.277,
+    6.138
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 4050,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 451.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0118.fbx"
+  },
+  {
+   "id": "Bldg_0119",
+   "location_m": [
+    -213.181,
+    -49.704,
+    7.275
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3383,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 115.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0119.fbx"
+  },
+  {
+   "id": "Bldg_0120",
+   "location_m": [
+    215.982,
+    37.231,
+    6.647
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 894,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 60.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0120.fbx"
+  },
+  {
+   "id": "Bldg_0121",
+   "location_m": [
+    -179.038,
+    127.299,
+    8.379
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4086,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 201.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0121.fbx"
+  },
+  {
+   "id": "Bldg_0122",
+   "location_m": [
+    212.468,
+    57.012,
+    6.612
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2202,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 88.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0122.fbx"
+  },
+  {
+   "id": "Bldg_0123",
+   "location_m": [
+    -216.917,
+    45.88,
+    8.057
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3164,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 123.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0123.fbx"
+  },
+  {
+   "id": "Bldg_0124",
+   "location_m": [
+    -167.954,
+    -137.556,
+    6.47
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 11586,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 432.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0124.fbx"
+  },
+  {
+   "id": "Bldg_0125",
+   "location_m": [
+    -151.86,
+    160.45,
+    8.361
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3834,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 174.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0125.fbx"
+  },
+  {
+   "id": "Bldg_0126",
+   "location_m": [
+    148.17,
+    165.09,
+    6.151
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 715,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 24.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0126.fbx"
+  },
+  {
+   "id": "Bldg_0127",
+   "location_m": [
+    136.13,
+    175.904,
+    6.216
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3631,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 70.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0127.fbx"
+  },
+  {
+   "id": "Bldg_0128",
+   "location_m": [
+    179.869,
+    134.953,
+    6.147
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2891,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 89.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0128.fbx"
+  },
+  {
+   "id": "Bldg_0129",
+   "location_m": [
+    210.569,
+    -79.343,
+    6.465
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1391,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 18.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0129.fbx"
+  },
+  {
+   "id": "Bldg_0130",
+   "location_m": [
+    221.993,
+    37.286,
+    6.645
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 624,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 49.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0130.fbx"
+  },
+  {
+   "id": "Bldg_0131",
+   "location_m": [
+    224.007,
+    26.099,
+    6.649
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2488,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 89.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0131.fbx"
+  },
+  {
+   "id": "Bldg_0132",
+   "location_m": [
+    -224.911,
+    -24.031,
+    7.529
+   ],
+   "floors": 6,
+   "height_m": 18.3,
+   "faces": 2392,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 135.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0132.fbx"
+  },
+  {
+   "id": "Bldg_0133",
+   "location_m": [
+    -179.092,
+    138.337,
+    8.439
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3353,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 201.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0133.fbx"
+  },
+  {
+   "id": "Bldg_0134",
+   "location_m": [
+    159.034,
+    161.146,
+    6.109
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1784,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 19.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0134.fbx"
+  },
+  {
+   "id": "Bldg_0135",
+   "location_m": [
+    221.13,
+    50.578,
+    6.626
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 939,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 47.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0135.fbx"
+  },
+  {
+   "id": "Bldg_0136",
+   "location_m": [
+    -217.174,
+    65.768,
+    8.222
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 5960,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 165.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0136.fbx"
+  },
+  {
+   "id": "Bldg_0137",
+   "location_m": [
+    116.568,
+    192.986,
+    6.322
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2619,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 93.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0137.fbx"
+  },
+  {
+   "id": "Bldg_0138",
+   "location_m": [
+    178.009,
+    141.615,
+    6.129
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 2737,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 52.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0138.fbx"
+  },
+  {
+   "id": "Bldg_0139",
+   "location_m": [
+    -222.382,
+    -47.948,
+    7.324
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3570,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 105.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0139.fbx"
+  },
+  {
+   "id": "Bldg_0140",
+   "location_m": [
+    147.996,
+    174.26,
+    6.15
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1370,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 16.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0140.fbx"
+  },
+  {
+   "id": "Bldg_0141",
+   "location_m": [
+    -121.619,
+    -194.01,
+    6.198
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1564,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 120.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0141.fbx"
+  },
+  {
+   "id": "Bldg_0142",
+   "location_m": [
+    139.636,
+    -182.742,
+    6.332
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3608,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 107.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0142.fbx"
+  },
+  {
+   "id": "Bldg_0143",
+   "location_m": [
+    223.948,
+    -54.371,
+    6.479
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2335,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 255.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0143.fbx"
+  },
+  {
+   "id": "Bldg_0144",
+   "location_m": [
+    168.066,
+    158.394,
+    6.1
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 972,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 19.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0144.fbx"
+  },
+  {
+   "id": "Bldg_0145",
+   "location_m": [
+    -115.669,
+    200.712,
+    8.239
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1157,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 80.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0145.fbx"
+  },
+  {
+   "id": "Bldg_0146",
+   "location_m": [
+    -227.853,
+    45.496,
+    8.116
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4851,
+   "ucx": 1,
+   "kind": "house",
+   "name": "Guru Ram Das Estate",
+   "lod": 1,
+   "area_m2": 112.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0146.fbx"
+  },
+  {
+   "id": "Bldg_0147",
+   "location_m": [
+    -215.912,
+    -86.18,
+    6.945
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 8417,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 598.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0147.fbx"
+  },
+  {
+   "id": "Bldg_0148",
+   "location_m": [
+    164.818,
+    164.572,
+    6.097
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 880,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 16.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0148.fbx"
+  },
+  {
+   "id": "Bldg_0149",
+   "location_m": [
+    -179.146,
+    149.374,
+    8.496
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2464,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 201.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0149.fbx"
+  },
+  {
+   "id": "Bldg_0150",
+   "location_m": [
+    159.259,
+    173.068,
+    6.107
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 555,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 14.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0150.fbx"
+  },
+  {
+   "id": "Bldg_0151",
+   "location_m": [
+    -153.47,
+    178.25,
+    8.447
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 5281,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 153.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0151.fbx"
+  },
+  {
+   "id": "Bldg_0152",
+   "location_m": [
+    -234.079,
+    -24.585,
+    7.556
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1289,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 137.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0152.fbx"
+  },
+  {
+   "id": "Bldg_0153",
+   "location_m": [
+    171.78,
+    161.48,
+    6.096
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1086,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 38.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0153.fbx"
+  },
+  {
+   "id": "Bldg_0154",
+   "location_m": [
+    219.496,
+    -86.261,
+    6.38
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 10349,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 362.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0154.fbx"
+  },
+  {
+   "id": "Bldg_0155",
+   "location_m": [
+    152.681,
+    180.148,
+    6.122
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1613,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 49.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0155.fbx"
+  },
+  {
+   "id": "Bldg_0156",
+   "location_m": [
+    161.133,
+    172.484,
+    6.098
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2258,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 51.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0156.fbx"
+  },
+  {
+   "id": "Bldg_0157",
+   "location_m": [
+    -231.985,
+    -48.819,
+    7.326
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3732,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 103.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0157.fbx"
+  },
+  {
+   "id": "Bldg_0158",
+   "location_m": [
+    139.649,
+    191.598,
+    6.189
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1834,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 36.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0158.fbx"
+  },
+  {
+   "id": "Bldg_0159",
+   "location_m": [
+    128.26,
+    200.817,
+    6.215
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3787,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 70.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0159.fbx"
+  },
+  {
+   "id": "Bldg_0160",
+   "location_m": [
+    237.105,
+    30.129,
+    6.637
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2831,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 112.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0160.fbx"
+  },
+  {
+   "id": "Bldg_0161",
+   "location_m": [
+    231.606,
+    59.353,
+    6.599
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1491,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 121.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0161.fbx"
+  },
+  {
+   "id": "Bldg_0162",
+   "location_m": [
+    201.768,
+    -134.159,
+    6.321
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 7074,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 286.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0162.fbx"
+  },
+  {
+   "id": "Bldg_0163",
+   "location_m": [
+    195.083,
+    139.586,
+    6.208
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1020,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 24.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0163.fbx"
+  },
+  {
+   "id": "Bldg_0164",
+   "location_m": [
+    -62.355,
+    231.965,
+    7.876
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4354,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 427.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0164.fbx"
+  },
+  {
+   "id": "Bldg_0165",
+   "location_m": [
+    136.931,
+    197.506,
+    6.187
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1330,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 25.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0165.fbx"
+  },
+  {
+   "id": "Bldg_0166",
+   "location_m": [
+    158.106,
+    181.584,
+    6.102
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 497,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 43.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0166.fbx"
+  },
+  {
+   "id": "Bldg_0167",
+   "location_m": [
+    -179.39,
+    -162.53,
+    6.264
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 9986,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 328.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0167.fbx"
+  },
+  {
+   "id": "Bldg_0168",
+   "location_m": [
+    -139.824,
+    -193.214,
+    6.108
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 10981,
+   "ucx": 7,
+   "kind": "house",
+   "name": "Delhi Jal Board",
+   "lod": 0,
+   "area_m2": 402.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0168.fbx"
+  },
+  {
+   "id": "Bldg_0169",
+   "location_m": [
+    240.448,
+    -23.569,
+    6.551
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 457,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 49.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0169.fbx"
+  },
+  {
+   "id": "Bldg_0170",
+   "location_m": [
+    193.001,
+    145.556,
+    6.176
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1756,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 26.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0170.fbx"
+  },
+  {
+   "id": "Bldg_0171",
+   "location_m": [
+    -154.924,
+    188.322,
+    8.505
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2146,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 84.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0171.fbx"
+  },
+  {
+   "id": "Bldg_0172",
+   "location_m": [
+    -242.918,
+    -24.874,
+    7.582
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3342,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 126.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0172.fbx"
+  },
+  {
+   "id": "Bldg_0173",
+   "location_m": [
+    200.122,
+    141.011,
+    6.221
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 779,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 18.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0173.fbx"
+  },
+  {
+   "id": "Bldg_0174",
+   "location_m": [
+    164.244,
+    182.531,
+    6.088
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1133,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 57.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0174.fbx"
+  },
+  {
+   "id": "Bldg_0175",
+   "location_m": [
+    241.738,
+    43.721,
+    6.628
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 741,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 30.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0175.fbx"
+  },
+  {
+   "id": "Bldg_0176",
+   "location_m": [
+    242.19,
+    -41.169,
+    6.466
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 6658,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 261.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0176.fbx"
+  },
+  {
+   "id": "Bldg_0177",
+   "location_m": [
+    202.877,
+    123.737,
+    6.187
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 11367,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 1070.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0177.fbx"
+  },
+  {
+   "id": "Bldg_0178",
+   "location_m": [
+    -241.393,
+    -48.875,
+    7.359
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2038,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 87.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0178.fbx"
+  },
+  {
+   "id": "Bldg_0179",
+   "location_m": [
+    136.235,
+    205.312,
+    6.163
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 900,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 25.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0179.fbx"
+  },
+  {
+   "id": "Bldg_0180",
+   "location_m": [
+    60.215,
+    239.359,
+    6.688
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1372,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 56.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0180.fbx"
+  },
+  {
+   "id": "Bldg_0181",
+   "location_m": [
+    198.834,
+    147.493,
+    6.189
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 786,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 28.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0181.fbx"
+  },
+  {
+   "id": "Bldg_0182",
+   "location_m": [
+    -192.84,
+    -156.27,
+    6.337
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 5014,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 396.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0182.fbx"
+  },
+  {
+   "id": "Bldg_0183",
+   "location_m": [
+    -218.865,
+    -116.674,
+    6.667
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 9094,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 341.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0183.fbx"
+  },
+  {
+   "id": "Bldg_0184",
+   "location_m": [
+    -88.95,
+    -231.67,
+    6.043
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4422,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 92.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0184.fbx"
+  },
+  {
+   "id": "Bldg_0185",
+   "location_m": [
+    169.491,
+    181.284,
+    6.078
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1656,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 60.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0185.fbx"
+  },
+  {
+   "id": "Bldg_0186",
+   "location_m": [
+    251.135,
+    25.821,
+    6.4
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 6624,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 2176.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0186.fbx"
+  },
+  {
+   "id": "Bldg_0187",
+   "location_m": [
+    -233.982,
+    84.447,
+    8.443
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4707,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 218.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0187.fbx"
+  },
+  {
+   "id": "Bldg_0188",
+   "location_m": [
+    162.552,
+    -196.871,
+    6.247
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 4920,
+   "ucx": 26,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 2300.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0188.fbx"
+  },
+  {
+   "id": "Bldg_0189",
+   "location_m": [
+    -246.459,
+    44.403,
+    8.205
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2728,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 140.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0189.fbx"
+  },
+  {
+   "id": "Bldg_0190",
+   "location_m": [
+    -155.457,
+    196.994,
+    8.538
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 5248,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 109.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0190.fbx"
+  },
+  {
+   "id": "Bldg_0191",
+   "location_m": [
+    -116.285,
+    222.853,
+    8.271
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 5734,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 470.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0191.fbx"
+  },
+  {
+   "id": "Bldg_0192",
+   "location_m": [
+    250.369,
+    -25.275,
+    6.535
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 668,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 14.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0192.fbx"
+  },
+  {
+   "id": "Bldg_0193",
+   "location_m": [
+    217.72,
+    -119.794,
+    6.262
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 6947,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 519.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0193.fbx"
+  },
+  {
+   "id": "Bldg_0194",
+   "location_m": [
+    210.617,
+    140.704,
+    6.222
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1026,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 43.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0194.fbx"
+  },
+  {
+   "id": "Bldg_0195",
+   "location_m": [
+    -193.544,
+    164.127,
+    8.7
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2895,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 110.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0195.fbx"
+  },
+  {
+   "id": "Bldg_0196",
+   "location_m": [
+    135.635,
+    218.254,
+    5.969
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 9236,
+   "ucx": 23,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 930.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0196.fbx"
+  },
+  {
+   "id": "Bldg_0197",
+   "location_m": [
+    126.836,
+    -221.478,
+    6.286
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2737,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 86.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0197.fbx"
+  },
+  {
+   "id": "Bldg_0198",
+   "location_m": [
+    207.549,
+    148.926,
+    6.178
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1868,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 85.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0198.fbx"
+  },
+  {
+   "id": "Bldg_0199",
+   "location_m": [
+    211.41,
+    144.573,
+    6.203
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 119,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 33.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0199.fbx"
+  },
+  {
+   "id": "Bldg_0200",
+   "location_m": [
+    174.61,
+    187.722,
+    6.064
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1459,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 48.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0200.fbx"
+  },
+  {
+   "id": "Bldg_0201",
+   "location_m": [
+    72.013,
+    247.385,
+    6.504
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5908,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 149.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0201.fbx"
+  },
+  {
+   "id": "Bldg_0202",
+   "location_m": [
+    251.102,
+    52.42,
+    6.592
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3891,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 299.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0202.fbx"
+  },
+  {
+   "id": "Bldg_0203",
+   "location_m": [
+    -252.092,
+    -49.651,
+    7.387
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2673,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 78.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0203.fbx"
+  },
+  {
+   "id": "Bldg_0204",
+   "location_m": [
+    253.668,
+    -41.144,
+    6.457
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2737,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 91.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0204.fbx"
+  },
+  {
+   "id": "Bldg_0205",
+   "location_m": [
+    -217.277,
+    -137.969,
+    6.528
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1415,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 77.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0205.fbx"
+  },
+  {
+   "id": "Bldg_0206",
+   "location_m": [
+    -235.634,
+    103.65,
+    8.624
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2465,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 89.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0206.fbx"
+  },
+  {
+   "id": "Bldg_0207",
+   "location_m": [
+    -51.505,
+    -245.743,
+    5.948
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4447,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 404.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0207.fbx"
+  },
+  {
+   "id": "Bldg_0208",
+   "location_m": [
+    201.305,
+    -162.841,
+    6.262
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4472,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 99.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0208.fbx"
+  },
+  {
+   "id": "Bldg_0209",
+   "location_m": [
+    -255.525,
+    43.601,
+    8.24
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1630,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 126.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0209.fbx"
+  },
+  {
+   "id": "Bldg_0210",
+   "location_m": [
+    -201.564,
+    163.957,
+    8.756
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2556,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 110.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0210.fbx"
+  },
+  {
+   "id": "Bldg_0211",
+   "location_m": [
+    -155.77,
+    208.128,
+    8.572
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 5580,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 145.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0211.fbx"
+  },
+  {
+   "id": "Bldg_0212",
+   "location_m": [
+    186.281,
+    183.221,
+    6.076
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 904,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 31.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0212.fbx"
+  },
+  {
+   "id": "Bldg_0213",
+   "location_m": [
+    190.748,
+    -179.013,
+    6.269
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 548,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 23.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0213.fbx"
+  },
+  {
+   "id": "Bldg_0214",
+   "location_m": [
+    180.24,
+    191.069,
+    6.057
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 840,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 21.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0214.fbx"
+  },
+  {
+   "id": "Bldg_0215",
+   "location_m": [
+    203.48,
+    168.655,
+    6.09
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4115,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 103.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0215.fbx"
+  },
+  {
+   "id": "Bldg_0216",
+   "location_m": [
+    -253.611,
+    -86.639,
+    6.931
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 6699,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 589.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0216.fbx"
+  },
+  {
+   "id": "Bldg_0217",
+   "location_m": [
+    194.083,
+    177.985,
+    6.068
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2197,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 109.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0217.fbx"
+  },
+  {
+   "id": "Bldg_0218",
+   "location_m": [
+    -73.374,
+    255.434,
+    8.079
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 566,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 30.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0218.fbx"
+  },
+  {
+   "id": "Bldg_0219",
+   "location_m": [
+    -233.618,
+    126.704,
+    8.755
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2818,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 147.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0219.fbx"
+  },
+  {
+   "id": "Bldg_0220",
+   "location_m": [
+    -81.997,
+    -253.641,
+    5.951
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 843,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 10.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0220.fbx"
+  },
+  {
+   "id": "Bldg_0221",
+   "location_m": [
+    198.744,
+    -178.362,
+    6.246
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1741,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 53.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0221.fbx"
+  },
+  {
+   "id": "Bldg_0222",
+   "location_m": [
+    160.271,
+    213.664,
+    6.015
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1115,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 26.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0222.fbx"
+  },
+  {
+   "id": "Bldg_0223",
+   "location_m": [
+    267.108,
+    -4.673,
+    6.54
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1916,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 163.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0223.fbx"
+  },
+  {
+   "id": "Bldg_0224",
+   "location_m": [
+    -267.937,
+    -0.392,
+    7.911
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1506,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 149.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0224.fbx"
+  },
+  {
+   "id": "Bldg_0225",
+   "location_m": [
+    -269.532,
+    -9.037,
+    7.828
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3363,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 123.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0225.fbx"
+  },
+  {
+   "id": "Bldg_0226",
+   "location_m": [
+    -265.22,
+    9.15,
+    7.998
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 1922,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 150.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0226.fbx"
+  },
+  {
+   "id": "Bldg_0227",
+   "location_m": [
+    209.817,
+    162.763,
+    6.084
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3741,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 133.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0227.fbx"
+  },
+  {
+   "id": "Bldg_0228",
+   "location_m": [
+    -212.736,
+    163.475,
+    8.836
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3450,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 96.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0228.fbx"
+  },
+  {
+   "id": "Bldg_0229",
+   "location_m": [
+    -255.992,
+    81.08,
+    8.555
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4156,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 159.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0229.fbx"
+  },
+  {
+   "id": "Bldg_0230",
+   "location_m": [
+    -270.221,
+    20.132,
+    8.081
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2075,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 143.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0230.fbx"
+  },
+  {
+   "id": "Bldg_0231",
+   "location_m": [
+    -265.371,
+    46.496,
+    8.277
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2181,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 173.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0231.fbx"
+  },
+  {
+   "id": "Bldg_0232",
+   "location_m": [
+    265.855,
+    -40.145,
+    6.374
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4498,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 391.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0232.fbx"
+  },
+  {
+   "id": "Bldg_0233",
+   "location_m": [
+    -264.569,
+    -48.374,
+    7.422
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2946,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 97.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0233.fbx"
+  },
+  {
+   "id": "Bldg_0234",
+   "location_m": [
+    185.299,
+    195.227,
+    6.033
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1280,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 24.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0234.fbx"
+  },
+  {
+   "id": "Bldg_0235",
+   "location_m": [
+    -193.033,
+    187.757,
+    8.804
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2220,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 86.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0235.fbx"
+  },
+  {
+   "id": "Bldg_0236",
+   "location_m": [
+    172.836,
+    206.926,
+    5.999
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1516,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 39.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0236.fbx"
+  },
+  {
+   "id": "Bldg_0237",
+   "location_m": [
+    222.335,
+    153.098,
+    6.11
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2241,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 81.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0237.fbx"
+  },
+  {
+   "id": "Bldg_0238",
+   "location_m": [
+    185.792,
+    -197.091,
+    6.25
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 910,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 22.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0238.fbx"
+  },
+  {
+   "id": "Bldg_0239",
+   "location_m": [
+    -224.949,
+    -147.157,
+    6.388
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5857,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 265.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0239.fbx"
+  },
+  {
+   "id": "Bldg_0240",
+   "location_m": [
+    101.566,
+    248.999,
+    6.281
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1949,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 105.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0240.fbx"
+  },
+  {
+   "id": "Bldg_0241",
+   "location_m": [
+    189.36,
+    -195.266,
+    6.247
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 824,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 15.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0241.fbx"
+  },
+  {
+   "id": "Bldg_0242",
+   "location_m": [
+    166.541,
+    215.562,
+    5.98
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 841,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 24.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0242.fbx"
+  },
+  {
+   "id": "Bldg_0243",
+   "location_m": [
+    206.354,
+    -177.922,
+    6.234
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1300,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 19.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0243.fbx"
+  },
+  {
+   "id": "Bldg_0244",
+   "location_m": [
+    -234.554,
+    139.169,
+    8.846
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2510,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 107.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0244.fbx"
+  },
+  {
+   "id": "Bldg_0245",
+   "location_m": [
+    -64.049,
+    266.623,
+    7.842
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3539,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 164.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0245.fbx"
+  },
+  {
+   "id": "Bldg_0246",
+   "location_m": [
+    -87.63,
+    -259.191,
+    5.9
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 622,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 18.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0246.fbx"
+  },
+  {
+   "id": "Bldg_0247",
+   "location_m": [
+    -255.462,
+    97.983,
+    8.698
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3115,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 100.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0247.fbx"
+  },
+  {
+   "id": "Bldg_0248",
+   "location_m": [
+    -219.796,
+    163.325,
+    8.884
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3905,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 96.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0248.fbx"
+  },
+  {
+   "id": "Bldg_0249",
+   "location_m": [
+    -199.888,
+    187.612,
+    8.853
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2290,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 86.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0249.fbx"
+  },
+  {
+   "id": "Bldg_0250",
+   "location_m": [
+    214.701,
+    172.234,
+    6.065
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1191,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 27.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0250.fbx"
+  },
+  {
+   "id": "Bldg_0251",
+   "location_m": [
+    106.841,
+    256.056,
+    6.166
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2510,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 171.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0251.fbx"
+  },
+  {
+   "id": "Bldg_0252",
+   "location_m": [
+    202.537,
+    -186.953,
+    6.223
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2445,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 47.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0252.fbx"
+  },
+  {
+   "id": "Bldg_0253",
+   "location_m": [
+    195.289,
+    -195.135,
+    6.232
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1850,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 24.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0253.fbx"
+  },
+  {
+   "id": "Bldg_0254",
+   "location_m": [
+    -156.747,
+    227.314,
+    8.65
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1670,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 116.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0254.fbx"
+  },
+  {
+   "id": "Bldg_0255",
+   "location_m": [
+    171.607,
+    217.095,
+    5.955
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 714,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 16.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0255.fbx"
+  },
+  {
+   "id": "Bldg_0256",
+   "location_m": [
+    -272.861,
+    -46.37,
+    7.488
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2949,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 62.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0256.fbx"
+  },
+  {
+   "id": "Bldg_0257",
+   "location_m": [
+    247.593,
+    -124.029,
+    6.189
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4979,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 194.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0257.fbx"
+  },
+  {
+   "id": "Bldg_0258",
+   "location_m": [
+    -179.859,
+    211.031,
+    8.765
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3740,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 134.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0258.fbx"
+  },
+  {
+   "id": "Bldg_0259",
+   "location_m": [
+    128.092,
+    -245.924,
+    6.243
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 7349,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 557.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0259.fbx"
+  },
+  {
+   "id": "Bldg_0260",
+   "location_m": [
+    230.001,
+    -155.658,
+    6.206
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 425,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 20.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0260.fbx"
+  },
+  {
+   "id": "Bldg_0261",
+   "location_m": [
+    -234.534,
+    149.229,
+    8.904
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2714,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 109.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0261.fbx"
+  },
+  {
+   "id": "Bldg_0262",
+   "location_m": [
+    -275.888,
+    42.738,
+    8.339
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3001,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 136.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0262.fbx"
+  },
+  {
+   "id": "Bldg_0263",
+   "location_m": [
+    -271.717,
+    63.335,
+    8.488
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2640,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 128.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0263.fbx"
+  },
+  {
+   "id": "Bldg_0264",
+   "location_m": [
+    179.146,
+    -214.566,
+    6.229
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3096,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 76.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0264.fbx"
+  },
+  {
+   "id": "Bldg_0265",
+   "location_m": [
+    -245.951,
+    -133.828,
+    6.499
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5210,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 164.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0265.fbx"
+  },
+  {
+   "id": "Bldg_0266",
+   "location_m": [
+    201.24,
+    194.438,
+    5.949
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 6666,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 123.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0266.fbx"
+  },
+  {
+   "id": "Bldg_0267",
+   "location_m": [
+    167.838,
+    -227.138,
+    6.231
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1760,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 126.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0267.fbx"
+  },
+  {
+   "id": "Bldg_0268",
+   "location_m": [
+    229.999,
+    -164.135,
+    6.187
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1060,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 29.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0268.fbx"
+  },
+  {
+   "id": "Bldg_0269",
+   "location_m": [
+    -211.91,
+    187.529,
+    8.937
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1579,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 93.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0269.fbx"
+  },
+  {
+   "id": "Bldg_0270",
+   "location_m": [
+    272.836,
+    -75.383,
+    6.208
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 6292,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 357.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0270.fbx"
+  },
+  {
+   "id": "Bldg_0271",
+   "location_m": [
+    285.167,
+    8.189,
+    6.535
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1541,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 59.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0271.fbx"
+  },
+  {
+   "id": "Bldg_0272",
+   "location_m": [
+    215.356,
+    -184.359,
+    6.194
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2399,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 48.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0272.fbx"
+  },
+  {
+   "id": "Bldg_0273",
+   "location_m": [
+    246.357,
+    -140.825,
+    6.179
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 300,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 26.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0273.fbx"
+  },
+  {
+   "id": "Bldg_0274",
+   "location_m": [
+    274.434,
+    72.447,
+    6.497
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3768,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 294.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0274.fbx"
+  },
+  {
+   "id": "Bldg_0275",
+   "location_m": [
+    235.309,
+    -158.781,
+    6.173
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2254,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 58.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0275.fbx"
+  },
+  {
+   "id": "Bldg_0276",
+   "location_m": [
+    154.963,
+    -238.171,
+    6.241
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1085,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 70.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0276.fbx"
+  },
+  {
+   "id": "Bldg_0277",
+   "location_m": [
+    264.2,
+    104.824,
+    6.362
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 666,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 20.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0277.fbx"
+  },
+  {
+   "id": "Bldg_0278",
+   "location_m": [
+    -180.05,
+    220.001,
+    8.79
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 951,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 130.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0278.fbx"
+  },
+  {
+   "id": "Bldg_0279",
+   "location_m": [
+    267.02,
+    98.07,
+    6.404
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 896,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 24.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0279.fbx"
+  },
+  {
+   "id": "Bldg_0280",
+   "location_m": [
+    -156.671,
+    238.641,
+    8.675
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2535,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 105.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0280.fbx"
+  },
+  {
+   "id": "Bldg_0281",
+   "location_m": [
+    -255.955,
+    126.657,
+    8.88
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5933,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 199.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0281.fbx"
+  },
+  {
+   "id": "Bldg_0282",
+   "location_m": [
+    222.462,
+    -182.174,
+    6.173
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1951,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 69.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0282.fbx"
+  },
+  {
+   "id": "Bldg_0283",
+   "location_m": [
+    242.963,
+    -155.434,
+    6.154
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1283,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 44.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0283.fbx"
+  },
+  {
+   "id": "Bldg_0284",
+   "location_m": [
+    247.63,
+    -146.747,
+    6.157
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 338,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 39.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0284.fbx"
+  },
+  {
+   "id": "Bldg_0285",
+   "location_m": [
+    180.397,
+    -224.415,
+    6.224
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 146,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 20.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0285.fbx"
+  },
+  {
+   "id": "Bldg_0286",
+   "location_m": [
+    -218.904,
+    187.379,
+    8.986
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2642,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 93.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0286.fbx"
+  },
+  {
+   "id": "Bldg_0287",
+   "location_m": [
+    213.533,
+    -193.56,
+    6.187
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3448,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 34.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0287.fbx"
+  },
+  {
+   "id": "Bldg_0288",
+   "location_m": [
+    112.355,
+    265.416,
+    6.12
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1599,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 33.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0288.fbx"
+  },
+  {
+   "id": "Bldg_0289",
+   "location_m": [
+    -288.559,
+    3.145,
+    8.041
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1614,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 97.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0289.fbx"
+  },
+  {
+   "id": "Bldg_0290",
+   "location_m": [
+    -288.916,
+    -6.612,
+    7.939
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1968,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 126.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0290.fbx"
+  },
+  {
+   "id": "Bldg_0291",
+   "location_m": [
+    198.382,
+    -211.827,
+    6.193
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4871,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 142.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0291.fbx"
+  },
+  {
+   "id": "Bldg_0292",
+   "location_m": [
+    185.344,
+    -224.858,
+    6.197
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2073,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 154.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0292.fbx"
+  },
+  {
+   "id": "Bldg_0293",
+   "location_m": [
+    -264.01,
+    -122.201,
+    6.58
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 5006,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 225.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0293.fbx"
+  },
+  {
+   "id": "Bldg_0294",
+   "location_m": [
+    -290.685,
+    12.106,
+    8.126
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2450,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 130.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0294.fbx"
+  },
+  {
+   "id": "Bldg_0295",
+   "location_m": [
+    254.313,
+    -141.785,
+    6.129
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2561,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 101.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0295.fbx"
+  },
+  {
+   "id": "Bldg_0296",
+   "location_m": [
+    -256.234,
+    138.907,
+    8.974
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2856,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 138.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0296.fbx"
+  },
+  {
+   "id": "Bldg_0297",
+   "location_m": [
+    -33.307,
+    -289.84,
+    5.881
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 425,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 31.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0297.fbx"
+  },
+  {
+   "id": "Bldg_0298",
+   "location_m": [
+    248.851,
+    -152.433,
+    6.144
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 598,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 24.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0298.fbx"
+  },
+  {
+   "id": "Bldg_0299",
+   "location_m": [
+    170.133,
+    -237.531,
+    6.227
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 792,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 19.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0299.fbx"
+  },
+  {
+   "id": "Bldg_0300",
+   "location_m": [
+    -180.57,
+    230.506,
+    8.817
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3107,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 100.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0300.fbx"
+  },
+  {
+   "id": "Bldg_0301",
+   "location_m": [
+    176.12,
+    -234.055,
+    6.222
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1049,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0301.fbx"
+  },
+  {
+   "id": "Bldg_0302",
+   "location_m": [
+    -292.405,
+    20.06,
+    8.221
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 2508,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 85.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0302.fbx"
+  },
+  {
+   "id": "Bldg_0303",
+   "location_m": [
+    293.561,
+    10.684,
+    6.527
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 920,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 14.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0303.fbx"
+  },
+  {
+   "id": "Bldg_0304",
+   "location_m": [
+    -290.958,
+    42.154,
+    8.382
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4956,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 218.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0304.fbx"
+  },
+  {
+   "id": "Bldg_0305",
+   "location_m": [
+    273.926,
+    111.339,
+    6.234
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2481,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 60.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0305.fbx"
+  },
+  {
+   "id": "Bldg_0306",
+   "location_m": [
+    283.29,
+    86.991,
+    6.455
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1122,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 18.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0306.fbx"
+  },
+  {
+   "id": "Bldg_0307",
+   "location_m": [
+    271.658,
+    -118.561,
+    6.12
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1875,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 57.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0307.fbx"
+  },
+  {
+   "id": "Bldg_0308",
+   "location_m": [
+    -256.481,
+    149.182,
+    9.037
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1657,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 138.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0308.fbx"
+  },
+  {
+   "id": "Bldg_0309",
+   "location_m": [
+    226.116,
+    -192.252,
+    6.146
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 926,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 50.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0309.fbx"
+  },
+  {
+   "id": "Bldg_0310",
+   "location_m": [
+    -157.974,
+    251.393,
+    8.705
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2411,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 131.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0310.fbx"
+  },
+  {
+   "id": "Bldg_0311",
+   "location_m": [
+    280.597,
+    -97.669,
+    6.091
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2512,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 251.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0311.fbx"
+  },
+  {
+   "id": "Bldg_0312",
+   "location_m": [
+    87.708,
+    284.034,
+    6.176
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3161,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 80.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0312.fbx"
+  },
+  {
+   "id": "Bldg_0313",
+   "location_m": [
+    251.571,
+    -158.814,
+    6.123
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 598,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0313.fbx"
+  },
+  {
+   "id": "Bldg_0314",
+   "location_m": [
+    197.427,
+    223.048,
+    5.658
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 1273,
+   "ucx": 1,
+   "kind": "religious",
+   "name": "",
+   "lod": 0,
+   "area_m2": 300.6,
+   "religious": true,
+   "fbx": "buildings/Bldg_0314.fbx"
+  },
+  {
+   "id": "Bldg_0315",
+   "location_m": [
+    -39.526,
+    -296.305,
+    5.838
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 678,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0315.fbx"
+  },
+  {
+   "id": "Bldg_0316",
+   "location_m": [
+    237.014,
+    -182.853,
+    6.131
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 852,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 33.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0316.fbx"
+  },
+  {
+   "id": "Bldg_0317",
+   "location_m": [
+    184.4,
+    -236.27,
+    6.205
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1365,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 18.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0317.fbx"
+  },
+  {
+   "id": "Bldg_0318",
+   "location_m": [
+    -180.854,
+    239.061,
+    8.832
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2395,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 98.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0318.fbx"
+  },
+  {
+   "id": "Bldg_0319",
+   "location_m": [
+    -292.933,
+    63.703,
+    8.574
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5879,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 241.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0319.fbx"
+  },
+  {
+   "id": "Bldg_0320",
+   "location_m": [
+    190.286,
+    -234.186,
+    6.194
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1480,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 30.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0320.fbx"
+  },
+  {
+   "id": "Bldg_0321",
+   "location_m": [
+    94.932,
+    -287.19,
+    6.181
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1647,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 44.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0321.fbx"
+  },
+  {
+   "id": "Bldg_0322",
+   "location_m": [
+    266.578,
+    142.97,
+    5.951
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 7036,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 572.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0322.fbx"
+  },
+  {
+   "id": "Bldg_0323",
+   "location_m": [
+    187.058,
+    -240.383,
+    6.197
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 226,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 16.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0323.fbx"
+  },
+  {
+   "id": "Bldg_0324",
+   "location_m": [
+    -49.436,
+    -300.897,
+    5.769
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1064,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 56.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0324.fbx"
+  },
+  {
+   "id": "Bldg_0325",
+   "location_m": [
+    237.344,
+    -191.528,
+    6.108
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1121,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 79.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0325.fbx"
+  },
+  {
+   "id": "Bldg_0326",
+   "location_m": [
+    -137.425,
+    -272.563,
+    5.661
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1902,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 55.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0326.fbx"
+  },
+  {
+   "id": "Bldg_0327",
+   "location_m": [
+    283.356,
+    113.563,
+    6.212
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 733,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 11.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0327.fbx"
+  },
+  {
+   "id": "Bldg_0328",
+   "location_m": [
+    -286.042,
+    -106.772,
+    6.651
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2857,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 389.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0328.fbx"
+  },
+  {
+   "id": "Bldg_0329",
+   "location_m": [
+    225.155,
+    -208.162,
+    6.114
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1983,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 182.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0329.fbx"
+  },
+  {
+   "id": "Bldg_0330",
+   "location_m": [
+    253.414,
+    174.042,
+    5.932
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1001,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 17.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0330.fbx"
+  },
+  {
+   "id": "Bldg_0331",
+   "location_m": [
+    -181.052,
+    249.745,
+    8.841
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3260,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 165.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0331.fbx"
+  },
+  {
+   "id": "Bldg_0332",
+   "location_m": [
+    219.242,
+    -218.952,
+    6.131
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1140,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 0,
+   "area_m2": 57.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0332.fbx"
+  },
+  {
+   "id": "Bldg_0333",
+   "location_m": [
+    -173.809,
+    -256.77,
+    5.564
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 5394,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 745.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0333.fbx"
+  },
+  {
+   "id": "Bldg_0334",
+   "location_m": [
+    289.446,
+    -111.921,
+    5.98
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2549,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 228.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0334.fbx"
+  },
+  {
+   "id": "Bldg_0335",
+   "location_m": [
+    187.604,
+    249.994,
+    5.604
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5247,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 136.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0335.fbx"
+  },
+  {
+   "id": "Bldg_0336",
+   "location_m": [
+    286.467,
+    -120.562,
+    6.046
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 761,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 26.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0336.fbx"
+  },
+  {
+   "id": "Bldg_0337",
+   "location_m": [
+    281.317,
+    -134.871,
+    5.997
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4549,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 173.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0337.fbx"
+  },
+  {
+   "id": "Bldg_0338",
+   "location_m": [
+    204.672,
+    -232.715,
+    6.16
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2073,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 54.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0338.fbx"
+  },
+  {
+   "id": "Bldg_0339",
+   "location_m": [
+    -234.165,
+    -206.617,
+    5.735
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 4402,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 491.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0339.fbx"
+  },
+  {
+   "id": "Bldg_0340",
+   "location_m": [
+    -236.286,
+    205.337,
+    9.165
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2834,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 103.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0340.fbx"
+  },
+  {
+   "id": "Bldg_0341",
+   "location_m": [
+    -30.739,
+    -311.572,
+    5.71
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 5370,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 303.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0341.fbx"
+  },
+  {
+   "id": "Bldg_0342",
+   "location_m": [
+    111.138,
+    -293.85,
+    6.181
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2169,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 123.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0342.fbx"
+  },
+  {
+   "id": "Bldg_0343",
+   "location_m": [
+    -313.9,
+    -17.018,
+    7.935
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2029,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 35.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0343.fbx"
+  },
+  {
+   "id": "Bldg_0344",
+   "location_m": [
+    257.948,
+    -183.065,
+    6.019
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3665,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 276.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0344.fbx"
+  },
+  {
+   "id": "Bldg_0345",
+   "location_m": [
+    134.651,
+    -285.415,
+    6.208
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 622,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 31.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0345.fbx"
+  },
+  {
+   "id": "Bldg_0346",
+   "location_m": [
+    -208.629,
+    -237.519,
+    5.671
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1324,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 31.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0346.fbx"
+  },
+  {
+   "id": "Bldg_0347",
+   "location_m": [
+    219.52,
+    -228.831,
+    6.114
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2433,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 222.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0347.fbx"
+  },
+  {
+   "id": "Bldg_0348",
+   "location_m": [
+    193.058,
+    -254.135,
+    6.147
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 10383,
+   "ucx": 14,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 435.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0348.fbx"
+  },
+  {
+   "id": "Bldg_0349",
+   "location_m": [
+    62.899,
+    317.223,
+    5.766
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 5849,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 360.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0349.fbx"
+  },
+  {
+   "id": "Bldg_0350",
+   "location_m": [
+    146.078,
+    -283.141,
+    6.205
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 780,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 52.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0350.fbx"
+  },
+  {
+   "id": "Bldg_0351",
+   "location_m": [
+    140.545,
+    -287.04,
+    6.203
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 294,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 47.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0351.fbx"
+  },
+  {
+   "id": "Bldg_0352",
+   "location_m": [
+    -272.619,
+    167.335,
+    9.243
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1675,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 123.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0352.fbx"
+  },
+  {
+   "id": "Bldg_0353",
+   "location_m": [
+    -318.763,
+    27.86,
+    8.41
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 417,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 26.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0353.fbx"
+  },
+  {
+   "id": "Bldg_0354",
+   "location_m": [
+    152.857,
+    -282.003,
+    6.202
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 362,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 45.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0354.fbx"
+  },
+  {
+   "id": "Bldg_0355",
+   "location_m": [
+    246.821,
+    -204.9,
+    6.062
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1325,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 65.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0355.fbx"
+  },
+  {
+   "id": "Bldg_0356",
+   "location_m": [
+    -315.786,
+    -58.607,
+    7.509
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 314,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 14.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0356.fbx"
+  },
+  {
+   "id": "Bldg_0357",
+   "location_m": [
+    -238.19,
+    215.854,
+    9.195
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2509,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 94.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0357.fbx"
+  },
+  {
+   "id": "Bldg_0358",
+   "location_m": [
+    180.101,
+    -266.95,
+    6.184
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 922,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 29.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0358.fbx"
+  },
+  {
+   "id": "Bldg_0359",
+   "location_m": [
+    159.997,
+    -279.657,
+    6.198
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 813,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 33.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0359.fbx"
+  },
+  {
+   "id": "Bldg_0360",
+   "location_m": [
+    288.916,
+    143.574,
+    5.961
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1171,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 34.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0360.fbx"
+  },
+  {
+   "id": "Bldg_0361",
+   "location_m": [
+    135.156,
+    -295.442,
+    6.197
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1355,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 15.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0361.fbx"
+  },
+  {
+   "id": "Bldg_0362",
+   "location_m": [
+    -130.671,
+    -293.476,
+    5.424
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 6517,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 524.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0362.fbx"
+  },
+  {
+   "id": "Bldg_0363",
+   "location_m": [
+    254.834,
+    -201.811,
+    6.022
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1224,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 137.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0363.fbx"
+  },
+  {
+   "id": "Bldg_0364",
+   "location_m": [
+    135.673,
+    -296.572,
+    6.197
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 627,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0364.fbx"
+  },
+  {
+   "id": "Bldg_0365",
+   "location_m": [
+    241.432,
+    -219.681,
+    6.076
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1026,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 25.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0365.fbx"
+  },
+  {
+   "id": "Bldg_0366",
+   "location_m": [
+    275.715,
+    174.994,
+    5.94
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 271,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 24.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0366.fbx"
+  },
+  {
+   "id": "Bldg_0367",
+   "location_m": [
+    168.037,
+    -279.475,
+    6.188
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 336,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 47.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0367.fbx"
+  },
+  {
+   "id": "Bldg_0368",
+   "location_m": [
+    -326.604,
+    -15.529,
+    7.962
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2847,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 164.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0368.fbx"
+  },
+  {
+   "id": "Bldg_0369",
+   "location_m": [
+    -327.237,
+    -5.783,
+    8.062
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1164,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 162.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0369.fbx"
+  },
+  {
+   "id": "Bldg_0370",
+   "location_m": [
+    -327.538,
+    0.813,
+    8.153
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 651,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 63.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0370.fbx"
+  },
+  {
+   "id": "Bldg_0371",
+   "location_m": [
+    -327.545,
+    5.168,
+    8.191
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 1081,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 83.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0371.fbx"
+  },
+  {
+   "id": "Bldg_0372",
+   "location_m": [
+    156.712,
+    284.274,
+    5.668
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 15142,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 673.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0372.fbx"
+  },
+  {
+   "id": "Bldg_0373",
+   "location_m": [
+    187.677,
+    -269.132,
+    6.17
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 342,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 27.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0373.fbx"
+  },
+  {
+   "id": "Bldg_0374",
+   "location_m": [
+    -282.503,
+    167.116,
+    9.299
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1086,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 122.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0374.fbx"
+  },
+  {
+   "id": "Bldg_0375",
+   "location_m": [
+    -62.382,
+    -322.39,
+    5.615
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1043,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0375.fbx"
+  },
+  {
+   "id": "Bldg_0376",
+   "location_m": [
+    -238.7,
+    225.878,
+    9.209
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2455,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 112.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0376.fbx"
+  },
+  {
+   "id": "Bldg_0377",
+   "location_m": [
+    -328.432,
+    12.409,
+    8.244
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1286,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 145.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0377.fbx"
+  },
+  {
+   "id": "Bldg_0378",
+   "location_m": [
+    150.198,
+    -292.353,
+    6.193
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3314,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 69.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0378.fbx"
+  },
+  {
+   "id": "Bldg_0379",
+   "location_m": [
+    178.031,
+    -277.244,
+    6.18
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 359,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 23.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0379.fbx"
+  },
+  {
+   "id": "Bldg_0380",
+   "location_m": [
+    161.053,
+    -287.644,
+    6.19
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1023,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 52.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0380.fbx"
+  },
+  {
+   "id": "Bldg_0381",
+   "location_m": [
+    -329.036,
+    21.524,
+    8.341
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2484,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 126.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0381.fbx"
+  },
+  {
+   "id": "Bldg_0382",
+   "location_m": [
+    93.029,
+    314.557,
+    5.998
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4612,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 78.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0382.fbx"
+  },
+  {
+   "id": "Bldg_0383",
+   "location_m": [
+    -9.735,
+    -327.204,
+    5.723
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 5817,
+   "ucx": 8,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 351.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0383.fbx"
+  },
+  {
+   "id": "Bldg_0384",
+   "location_m": [
+    -328.386,
+    39.382,
+    8.514
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1072,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 149.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0384.fbx"
+  },
+  {
+   "id": "Bldg_0385",
+   "location_m": [
+    -328.699,
+    -36.646,
+    7.725
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3169,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 158.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0385.fbx"
+  },
+  {
+   "id": "Bldg_0386",
+   "location_m": [
+    233.063,
+    -234.72,
+    6.09
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1791,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 34.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0386.fbx"
+  },
+  {
+   "id": "Bldg_0387",
+   "location_m": [
+    -328.415,
+    48.368,
+    8.605
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1980,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 137.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0387.fbx"
+  },
+  {
+   "id": "Bldg_0388",
+   "location_m": [
+    254.601,
+    -212.999,
+    6.027
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1639,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 56.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0388.fbx"
+  },
+  {
+   "id": "Bldg_0389",
+   "location_m": [
+    115.337,
+    -313.32,
+    6.162
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2354,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 78.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0389.fbx"
+  },
+  {
+   "id": "Bldg_0390",
+   "location_m": [
+    142.105,
+    -301.239,
+    6.19
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1524,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 41.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0390.fbx"
+  },
+  {
+   "id": "Bldg_0391",
+   "location_m": [
+    278.452,
+    -190.251,
+    5.898
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 9718,
+   "ucx": 10,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 546.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0391.fbx"
+  },
+  {
+   "id": "Bldg_0392",
+   "location_m": [
+    289.429,
+    167.046,
+    5.944
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1379,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 85.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0392.fbx"
+  },
+  {
+   "id": "Bldg_0393",
+   "location_m": [
+    -333.114,
+    30.326,
+    8.447
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 696,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 55.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0393.fbx"
+  },
+  {
+   "id": "Bldg_0394",
+   "location_m": [
+    -238.63,
+    235.076,
+    9.206
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2311,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 73.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0394.fbx"
+  },
+  {
+   "id": "Bldg_0395",
+   "location_m": [
+    265.4,
+    -204.438,
+    5.991
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 855,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 62.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0395.fbx"
+  },
+  {
+   "id": "Bldg_0396",
+   "location_m": [
+    127.218,
+    -310.178,
+    6.176
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1794,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 64.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0396.fbx"
+  },
+  {
+   "id": "Bldg_0397",
+   "location_m": [
+    148.966,
+    -300.357,
+    6.188
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 623,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 32.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0397.fbx"
+  },
+  {
+   "id": "Bldg_0398",
+   "location_m": [
+    248.522,
+    -225.046,
+    6.039
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1957,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 108.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0398.fbx"
+  },
+  {
+   "id": "Bldg_0399",
+   "location_m": [
+    176.8,
+    -285.685,
+    6.175
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 829,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 19.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0399.fbx"
+  },
+  {
+   "id": "Bldg_0400",
+   "location_m": [
+    255.452,
+    -219.425,
+    6.022
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 744,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 29.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0400.fbx"
+  },
+  {
+   "id": "Bldg_0401",
+   "location_m": [
+    -97.197,
+    -322.765,
+    5.451
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2676,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 72.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0401.fbx"
+  },
+  {
+   "id": "Bldg_0402",
+   "location_m": [
+    228.608,
+    -248.248,
+    6.092
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 488,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 38.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0402.fbx"
+  },
+  {
+   "id": "Bldg_0403",
+   "location_m": [
+    -331.912,
+    61.729,
+    8.704
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 7744,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 329.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0403.fbx"
+  },
+  {
+   "id": "Bldg_0404",
+   "location_m": [
+    -119.369,
+    -313.978,
+    5.396
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4198,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 160.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0404.fbx"
+  },
+  {
+   "id": "Bldg_0405",
+   "location_m": [
+    -333.42,
+    -55.203,
+    7.534
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3146,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 136.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0405.fbx"
+  },
+  {
+   "id": "Bldg_0406",
+   "location_m": [
+    136.33,
+    -309.685,
+    6.18
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1006,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 62.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0406.fbx"
+  },
+  {
+   "id": "Bldg_0407",
+   "location_m": [
+    293.239,
+    -167.131,
+    5.88
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2572,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 71.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0407.fbx"
+  },
+  {
+   "id": "Bldg_0408",
+   "location_m": [
+    153.832,
+    -301.768,
+    6.184
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 697,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 39.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0408.fbx"
+  },
+  {
+   "id": "Bldg_0409",
+   "location_m": [
+    207.82,
+    -268.464,
+    6.129
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1662,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 53.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0409.fbx"
+  },
+  {
+   "id": "Bldg_0410",
+   "location_m": [
+    167.66,
+    -295.94,
+    6.176
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 994,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 47.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0410.fbx"
+  },
+  {
+   "id": "Bldg_0411",
+   "location_m": [
+    -296.691,
+    167.366,
+    9.353
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4211,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 246.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0411.fbx"
+  },
+  {
+   "id": "Bldg_0412",
+   "location_m": [
+    -284.705,
+    -187.187,
+    5.459
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 4810,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 869.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0412.fbx"
+  },
+  {
+   "id": "Bldg_0413",
+   "location_m": [
+    150.076,
+    -309.017,
+    6.179
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1794,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 72.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0413.fbx"
+  },
+  {
+   "id": "Bldg_0414",
+   "location_m": [
+    195.132,
+    -282.918,
+    6.148
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1213,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 29.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0414.fbx"
+  },
+  {
+   "id": "Bldg_0415",
+   "location_m": [
+    177.587,
+    -294.663,
+    6.165
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1122,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 72.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0415.fbx"
+  },
+  {
+   "id": "Bldg_0416",
+   "location_m": [
+    -238.996,
+    248.434,
+    9.191
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2978,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 102.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0416.fbx"
+  },
+  {
+   "id": "Bldg_0417",
+   "location_m": [
+    -272.804,
+    -210.942,
+    5.342
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 3312,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 426.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0417.fbx"
+  },
+  {
+   "id": "Bldg_0418",
+   "location_m": [
+    263.545,
+    -222.711,
+    5.995
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1052,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 20.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0418.fbx"
+  },
+  {
+   "id": "Bldg_0419",
+   "location_m": [
+    188.231,
+    -289.642,
+    6.156
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1430,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 28.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0419.fbx"
+  },
+  {
+   "id": "Bldg_0420",
+   "location_m": [
+    -313.245,
+    -145.695,
+    5.988
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1872,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 175.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0420.fbx"
+  },
+  {
+   "id": "Bldg_0421",
+   "location_m": [
+    291.973,
+    -184.801,
+    5.891
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 263,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0421.fbx"
+  },
+  {
+   "id": "Bldg_0422",
+   "location_m": [
+    200.758,
+    -281.477,
+    6.14
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1289,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 19.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0422.fbx"
+  },
+  {
+   "id": "Bldg_0423",
+   "location_m": [
+    162.685,
+    -306.287,
+    6.171
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3478,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 96.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0423.fbx"
+  },
+  {
+   "id": "Bldg_0424",
+   "location_m": [
+    -346.163,
+    -25.615,
+    7.924
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 619,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 64.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0424.fbx"
+  },
+  {
+   "id": "Bldg_0425",
+   "location_m": [
+    241.589,
+    -250.01,
+    6.049
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1540,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 93.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0425.fbx"
+  },
+  {
+   "id": "Bldg_0426",
+   "location_m": [
+    214.212,
+    -275.872,
+    6.113
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 807,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 39.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0426.fbx"
+  },
+  {
+   "id": "Bldg_0427",
+   "location_m": [
+    296.644,
+    -181.905,
+    5.815
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3399,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 131.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0427.fbx"
+  },
+  {
+   "id": "Bldg_0428",
+   "location_m": [
+    141.435,
+    -320.133,
+    6.169
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1828,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 118.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0428.fbx"
+  },
+  {
+   "id": "Bldg_0429",
+   "location_m": [
+    182.2,
+    -299.243,
+    6.16
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 705,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 11.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0429.fbx"
+  },
+  {
+   "id": "Bldg_0430",
+   "location_m": [
+    173.305,
+    -304.924,
+    6.165
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 256,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 36.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0430.fbx"
+  },
+  {
+   "id": "Bldg_0431",
+   "location_m": [
+    197.635,
+    -289.781,
+    6.14
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1307,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 31.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0431.fbx"
+  },
+  {
+   "id": "Bldg_0432",
+   "location_m": [
+    -85.309,
+    340.721,
+    7.82
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1566,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 1129.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0432.fbx"
+  },
+  {
+   "id": "Bldg_0433",
+   "location_m": [
+    250.659,
+    -244.81,
+    6.014
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2213,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 71.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0433.fbx"
+  },
+  {
+   "id": "Bldg_0434",
+   "location_m": [
+    263.338,
+    -234.778,
+    5.978
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3881,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 132.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0434.fbx"
+  },
+  {
+   "id": "Bldg_0435",
+   "location_m": [
+    116.53,
+    -333.316,
+    6.111
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 7465,
+   "ucx": 8,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 461.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0435.fbx"
+  },
+  {
+   "id": "Bldg_0436",
+   "location_m": [
+    237.139,
+    261.99,
+    5.646
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1011,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 18.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0436.fbx"
+  },
+  {
+   "id": "Bldg_0437",
+   "location_m": [
+    287.135,
+    -209.245,
+    5.841
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4157,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 216.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0437.fbx"
+  },
+  {
+   "id": "Bldg_0438",
+   "location_m": [
+    -353.419,
+    -21.794,
+    7.972
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 329,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 24.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0438.fbx"
+  },
+  {
+   "id": "Bldg_0439",
+   "location_m": [
+    209.96,
+    -285.682,
+    6.11
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3073,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 90.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0439.fbx"
+  },
+  {
+   "id": "Bldg_0440",
+   "location_m": [
+    298.292,
+    -192.018,
+    5.818
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3036,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 115.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0440.fbx"
+  },
+  {
+   "id": "Bldg_0441",
+   "location_m": [
+    180.045,
+    -306.106,
+    6.157
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 313,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 21.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0441.fbx"
+  },
+  {
+   "id": "Bldg_0442",
+   "location_m": [
+    260.867,
+    241.051,
+    5.727
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1645,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 125.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0442.fbx"
+  },
+  {
+   "id": "Bldg_0443",
+   "location_m": [
+    -12.253,
+    -354.473,
+    5.6
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 858,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 169.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0443.fbx"
+  },
+  {
+   "id": "Bldg_0444",
+   "location_m": [
+    143.124,
+    -325.827,
+    6.167
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 378,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 11.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0444.fbx"
+  },
+  {
+   "id": "Bldg_0445",
+   "location_m": [
+    164.0,
+    -316.456,
+    6.164
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1692,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 50.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0445.fbx"
+  },
+  {
+   "id": "Bldg_0446",
+   "location_m": [
+    -256.796,
+    248.07,
+    9.374
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2057,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 134.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0446.fbx"
+  },
+  {
+   "id": "Bldg_0447",
+   "location_m": [
+    251.796,
+    -253.87,
+    6.01
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1956,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 70.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0447.fbx"
+  },
+  {
+   "id": "Bldg_0448",
+   "location_m": [
+    -90.721,
+    -345.146,
+    5.299
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 625,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 144.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0448.fbx"
+  },
+  {
+   "id": "Bldg_0449",
+   "location_m": [
+    153.683,
+    -323.556,
+    6.164
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2863,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 52.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0449.fbx"
+  },
+  {
+   "id": "Bldg_0450",
+   "location_m": [
+    -350.276,
+    -75.419,
+    7.246
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 924,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 263.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0450.fbx"
+  },
+  {
+   "id": "Bldg_0451",
+   "location_m": [
+    -358.321,
+    4.442,
+    8.129
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 683,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 281.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0451.fbx"
+  },
+  {
+   "id": "Bldg_0452",
+   "location_m": [
+    241.2,
+    -265.344,
+    6.04
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3255,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 122.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0452.fbx"
+  },
+  {
+   "id": "Bldg_0453",
+   "location_m": [
+    170.168,
+    -315.66,
+    6.161
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 208,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 25.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0453.fbx"
+  },
+  {
+   "id": "Bldg_0454",
+   "location_m": [
+    -358.101,
+    19.15,
+    8.293
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 933,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 225.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0454.fbx"
+  },
+  {
+   "id": "Bldg_0455",
+   "location_m": [
+    96.308,
+    -345.502,
+    6.034
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2023,
+   "ucx": 1,
+   "kind": "house",
+   "name": "Parcel Office",
+   "lod": 2,
+   "area_m2": 397.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0455.fbx"
+  },
+  {
+   "id": "Bldg_0456",
+   "location_m": [
+    295.147,
+    204.032,
+    6.006
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 618,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 17.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0456.fbx"
+  },
+  {
+   "id": "Bldg_0457",
+   "location_m": [
+    -358.687,
+    -11.157,
+    8.026
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1156,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 354.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0457.fbx"
+  },
+  {
+   "id": "Bldg_0458",
+   "location_m": [
+    178.618,
+    -311.784,
+    6.149
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1413,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 98.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0458.fbx"
+  },
+  {
+   "id": "Bldg_0459",
+   "location_m": [
+    291.01,
+    -212.398,
+    5.875
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 724,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 15.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0459.fbx"
+  },
+  {
+   "id": "Bldg_0460",
+   "location_m": [
+    280.057,
+    -229.663,
+    5.904
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 3733,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 105.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0460.fbx"
+  },
+  {
+   "id": "Bldg_0461",
+   "location_m": [
+    -336.931,
+    -134.07,
+    6.185
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2905,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 185.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0461.fbx"
+  },
+  {
+   "id": "Bldg_0462",
+   "location_m": [
+    -324.29,
+    162.435,
+    9.468
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2697,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 127.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0462.fbx"
+  },
+  {
+   "id": "Bldg_0463",
+   "location_m": [
+    251.767,
+    -261.153,
+    6.012
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1868,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 44.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0463.fbx"
+  },
+  {
+   "id": "Bldg_0464",
+   "location_m": [
+    227.006,
+    -283.435,
+    6.073
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1991,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 60.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0464.fbx"
+  },
+  {
+   "id": "Bldg_0465",
+   "location_m": [
+    -265.383,
+    247.886,
+    9.46
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1678,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 134.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0465.fbx"
+  },
+  {
+   "id": "Bldg_0466",
+   "location_m": [
+    -361.412,
+    36.496,
+    8.502
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 399,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 128.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0466.fbx"
+  },
+  {
+   "id": "Bldg_0467",
+   "location_m": [
+    174.058,
+    -318.975,
+    6.155
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1242,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 10.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0467.fbx"
+  },
+  {
+   "id": "Bldg_0468",
+   "location_m": [
+    238.397,
+    -276.145,
+    6.053
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1310,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 37.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0468.fbx"
+  },
+  {
+   "id": "Bldg_0469",
+   "location_m": [
+    222.257,
+    -289.703,
+    6.089
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1024,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 26.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0469.fbx"
+  },
+  {
+   "id": "Bldg_0470",
+   "location_m": [
+    -364.498,
+    -32.711,
+    7.843
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 835,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 311.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0470.fbx"
+  },
+  {
+   "id": "Bldg_0471",
+   "location_m": [
+    144.623,
+    -336.379,
+    6.144
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 7422,
+   "ucx": 12,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 347.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0471.fbx"
+  },
+  {
+   "id": "Bldg_0472",
+   "location_m": [
+    209.777,
+    -300.713,
+    6.084
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4227,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 140.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0472.fbx"
+  },
+  {
+   "id": "Bldg_0473",
+   "location_m": [
+    265.999,
+    -252.592,
+    5.967
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1865,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 132.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0473.fbx"
+  },
+  {
+   "id": "Bldg_0474",
+   "location_m": [
+    126.426,
+    -345.285,
+    6.131
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 538,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 72.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0474.fbx"
+  },
+  {
+   "id": "Bldg_0475",
+   "location_m": [
+    -359.415,
+    78.091,
+    8.945
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1538,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 192.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0475.fbx"
+  },
+  {
+   "id": "Bldg_0476",
+   "location_m": [
+    -362.443,
+    -70.71,
+    7.379
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1281,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 221.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0476.fbx"
+  },
+  {
+   "id": "Bldg_0477",
+   "location_m": [
+    191.046,
+    316.765,
+    5.817
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1089,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 21.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0477.fbx"
+  },
+  {
+   "id": "Bldg_0478",
+   "location_m": [
+    231.04,
+    -289.247,
+    6.068
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1055,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 33.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0478.fbx"
+  },
+  {
+   "id": "Bldg_0479",
+   "location_m": [
+    283.038,
+    -238.661,
+    5.897
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1947,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 53.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0479.fbx"
+  },
+  {
+   "id": "Bldg_0480",
+   "location_m": [
+    293.759,
+    -226.53,
+    5.836
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2715,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 88.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0480.fbx"
+  },
+  {
+   "id": "Bldg_0481",
+   "location_m": [
+    -275.874,
+    248.262,
+    9.553
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2343,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 108.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0481.fbx"
+  },
+  {
+   "id": "Bldg_0482",
+   "location_m": [
+    212.023,
+    -305.527,
+    6.082
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3442,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 100.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0482.fbx"
+  },
+  {
+   "id": "Bldg_0483",
+   "location_m": [
+    278.168,
+    -247.775,
+    5.923
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1179,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 68.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0483.fbx"
+  },
+  {
+   "id": "Bldg_0484",
+   "location_m": [
+    165.864,
+    -334.201,
+    6.148
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1058,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 37.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0484.fbx"
+  },
+  {
+   "id": "Bldg_0485",
+   "location_m": [
+    -360.816,
+    96.408,
+    9.109
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1174,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 141.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0485.fbx"
+  },
+  {
+   "id": "Bldg_0486",
+   "location_m": [
+    -337.278,
+    161.213,
+    9.506
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2047,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 90.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0486.fbx"
+  },
+  {
+   "id": "Bldg_0487",
+   "location_m": [
+    -371.739,
+    46.682,
+    8.617
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 741,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 175.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0487.fbx"
+  },
+  {
+   "id": "Bldg_0488",
+   "location_m": [
+    140.296,
+    -347.962,
+    6.141
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 116,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 17.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0488.fbx"
+  },
+  {
+   "id": "Bldg_0489",
+   "location_m": [
+    209.731,
+    -313.247,
+    6.079
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3180,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 119.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0489.fbx"
+  },
+  {
+   "id": "Bldg_0490",
+   "location_m": [
+    122.081,
+    -356.323,
+    6.086
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1166,
+   "ucx": 8,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 282.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0490.fbx"
+  },
+  {
+   "id": "Bldg_0491",
+   "location_m": [
+    75.952,
+    -369.725,
+    5.986
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 313,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 12.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0491.fbx"
+  },
+  {
+   "id": "Bldg_0492",
+   "location_m": [
+    172.724,
+    -335.767,
+    6.137
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 2965,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 116.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0492.fbx"
+  },
+  {
+   "id": "Bldg_0493",
+   "location_m": [
+    298.436,
+    -232.981,
+    5.788
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5675,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 104.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0493.fbx"
+  },
+  {
+   "id": "Bldg_0494",
+   "location_m": [
+    181.958,
+    -332.383,
+    6.134
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 981,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 34.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0494.fbx"
+  },
+  {
+   "id": "Bldg_0495",
+   "location_m": [
+    195.176,
+    -325.053,
+    6.12
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1541,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 26.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0495.fbx"
+  },
+  {
+   "id": "Bldg_0496",
+   "location_m": [
+    254.797,
+    -281.043,
+    5.995
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3715,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 170.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0496.fbx"
+  },
+  {
+   "id": "Bldg_0497",
+   "location_m": [
+    290.702,
+    -244.689,
+    5.876
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 807,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 16.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0497.fbx"
+  },
+  {
+   "id": "Bldg_0498",
+   "location_m": [
+    134.043,
+    -356.072,
+    6.124
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 490,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 53.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0498.fbx"
+  },
+  {
+   "id": "Bldg_0499",
+   "location_m": [
+    154.814,
+    -347.584,
+    6.142
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 493,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 42.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0499.fbx"
+  },
+  {
+   "id": "Bldg_0500",
+   "location_m": [
+    158.497,
+    346.616,
+    5.828
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 527,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 122.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0500.fbx"
+  },
+  {
+   "id": "Bldg_0501",
+   "location_m": [
+    246.298,
+    -291.045,
+    6.032
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1032,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0501.fbx"
+  },
+  {
+   "id": "Bldg_0502",
+   "location_m": [
+    278.975,
+    -260.045,
+    5.92
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1195,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 28.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0502.fbx"
+  },
+  {
+   "id": "Bldg_0503",
+   "location_m": [
+    -292.492,
+    247.018,
+    9.637
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4660,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 229.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0503.fbx"
+  },
+  {
+   "id": "Bldg_0504",
+   "location_m": [
+    215.266,
+    -315.585,
+    6.076
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2400,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 88.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0504.fbx"
+  },
+  {
+   "id": "Bldg_0505",
+   "location_m": [
+    111.61,
+    -363.901,
+    6.069
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1221,
+   "ucx": 8,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 80.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0505.fbx"
+  },
+  {
+   "id": "Bldg_0506",
+   "location_m": [
+    231.953,
+    -304.409,
+    6.062
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1371,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 25.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0506.fbx"
+  },
+  {
+   "id": "Bldg_0507",
+   "location_m": [
+    296.698,
+    -243.411,
+    5.836
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1807,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 52.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0507.fbx"
+  },
+  {
+   "id": "Bldg_0508",
+   "location_m": [
+    -361.441,
+    126.487,
+    9.296
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1357,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 197.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0508.fbx"
+  },
+  {
+   "id": "Bldg_0509",
+   "location_m": [
+    194.165,
+    -330.597,
+    6.122
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1006,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 20.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0509.fbx"
+  },
+  {
+   "id": "Bldg_0510",
+   "location_m": [
+    210.205,
+    -321.374,
+    6.093
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1322,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 39.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0510.fbx"
+  },
+  {
+   "id": "Bldg_0511",
+   "location_m": [
+    184.314,
+    -337.571,
+    6.128
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 916,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 26.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0511.fbx"
+  },
+  {
+   "id": "Bldg_0512",
+   "location_m": [
+    -348.903,
+    162.039,
+    9.539
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 817,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 95.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0512.fbx"
+  },
+  {
+   "id": "Bldg_0513",
+   "location_m": [
+    286.073,
+    -256.783,
+    5.87
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4046,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 112.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0513.fbx"
+  },
+  {
+   "id": "Bldg_0514",
+   "location_m": [
+    171.473,
+    -346.005,
+    6.134
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 443,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 24.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0514.fbx"
+  },
+  {
+   "id": "Bldg_0515",
+   "location_m": [
+    211.637,
+    -324.463,
+    6.089
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1162,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 49.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0515.fbx"
+  },
+  {
+   "id": "Bldg_0516",
+   "location_m": [
+    -332.86,
+    199.17,
+    9.664
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 6137,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 268.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0516.fbx"
+  },
+  {
+   "id": "Bldg_0517",
+   "location_m": [
+    268.755,
+    -279.735,
+    5.961
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2616,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 108.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0517.fbx"
+  },
+  {
+   "id": "Bldg_0518",
+   "location_m": [
+    179.612,
+    -343.913,
+    6.126
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 430,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 53.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0518.fbx"
+  },
+  {
+   "id": "Bldg_0519",
+   "location_m": [
+    241.951,
+    -304.317,
+    6.036
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1508,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 35.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0519.fbx"
+  },
+  {
+   "id": "Bldg_0520",
+   "location_m": [
+    155.071,
+    -356.523,
+    6.131
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 430,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 44.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0520.fbx"
+  },
+  {
+   "id": "Bldg_0521",
+   "location_m": [
+    -361.238,
+    147.025,
+    9.424
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1218,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 170.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0521.fbx"
+  },
+  {
+   "id": "Bldg_0522",
+   "location_m": [
+    -377.946,
+    97.31,
+    9.14
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 946,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 147.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0522.fbx"
+  },
+  {
+   "id": "Bldg_0523",
+   "location_m": [
+    166.566,
+    -352.994,
+    6.131
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 395,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 21.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0523.fbx"
+  },
+  {
+   "id": "Bldg_0524",
+   "location_m": [
+    -385.284,
+    -62.99,
+    7.493
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1660,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 443.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0524.fbx"
+  },
+  {
+   "id": "Bldg_0525",
+   "location_m": [
+    202.402,
+    -334.395,
+    6.103
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1866,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 49.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0525.fbx"
+  },
+  {
+   "id": "Bldg_0526",
+   "location_m": [
+    -370.212,
+    -130.305,
+    6.383
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1633,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 282.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0526.fbx"
+  },
+  {
+   "id": "Bldg_0527",
+   "location_m": [
+    125.39,
+    -372.728,
+    6.092
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 217,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 20.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0527.fbx"
+  },
+  {
+   "id": "Bldg_0528",
+   "location_m": [
+    -13.14,
+    -393.969,
+    5.298
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1333,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 213.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0528.fbx"
+  },
+  {
+   "id": "Bldg_0529",
+   "location_m": [
+    256.009,
+    -300.446,
+    6.002
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2682,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 69.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0529.fbx"
+  },
+  {
+   "id": "Bldg_0530",
+   "location_m": [
+    211.207,
+    -333.563,
+    6.093
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1179,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 16.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0530.fbx"
+  },
+  {
+   "id": "Bldg_0531",
+   "location_m": [
+    -332.814,
+    212.915,
+    9.735
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1777,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 130.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0531.fbx"
+  },
+  {
+   "id": "Bldg_0532",
+   "location_m": [
+    147.613,
+    -366.564,
+    6.115
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 825,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 78.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0532.fbx"
+  },
+  {
+   "id": "Bldg_0533",
+   "location_m": [
+    116.091,
+    -377.672,
+    6.054
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 791,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 109.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0533.fbx"
+  },
+  {
+   "id": "Bldg_0534",
+   "location_m": [
+    276.819,
+    -284.388,
+    5.936
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 996,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 54.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0534.fbx"
+  },
+  {
+   "id": "Bldg_0535",
+   "location_m": [
+    -318.851,
+    237.077,
+    9.812
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1387,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 26.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0535.fbx"
+  },
+  {
+   "id": "Bldg_0536",
+   "location_m": [
+    226.046,
+    -329.088,
+    6.058
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4469,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 128.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0536.fbx"
+  },
+  {
+   "id": "Bldg_0537",
+   "location_m": [
+    130.404,
+    -376.622,
+    6.085
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 731,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 67.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0537.fbx"
+  },
+  {
+   "id": "Bldg_0538",
+   "location_m": [
+    218.137,
+    -333.602,
+    6.079
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1139,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 34.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0538.fbx"
+  },
+  {
+   "id": "Bldg_0539",
+   "location_m": [
+    -388.327,
+    90.525,
+    9.108
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 932,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 151.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0539.fbx"
+  },
+  {
+   "id": "Bldg_0540",
+   "location_m": [
+    -353.558,
+    184.896,
+    9.674
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1431,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 167.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0540.fbx"
+  },
+  {
+   "id": "Bldg_0541",
+   "location_m": [
+    225.199,
+    330.652,
+    5.91
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1243,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 19.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0541.fbx"
+  },
+  {
+   "id": "Bldg_0542",
+   "location_m": [
+    265.158,
+    -299.594,
+    5.976
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1548,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 64.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0542.fbx"
+  },
+  {
+   "id": "Bldg_0543",
+   "location_m": [
+    200.63,
+    -346.206,
+    6.101
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 351,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 16.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0543.fbx"
+  },
+  {
+   "id": "Bldg_0544",
+   "location_m": [
+    -397.275,
+    49.554,
+    8.683
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1082,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 220.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0544.fbx"
+  },
+  {
+   "id": "Bldg_0545",
+   "location_m": [
+    296.826,
+    -269.154,
+    5.801
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 4145,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 223.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0545.fbx"
+  },
+  {
+   "id": "Bldg_0546",
+   "location_m": [
+    143.963,
+    -375.03,
+    6.099
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 449,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 46.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0546.fbx"
+  },
+  {
+   "id": "Bldg_0547",
+   "location_m": [
+    -332.1,
+    225.194,
+    9.779
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2843,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 163.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0547.fbx"
+  },
+  {
+   "id": "Bldg_0548",
+   "location_m": [
+    250.775,
+    -313.654,
+    6.017
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 630,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 17.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0548.fbx"
+  },
+  {
+   "id": "Bldg_0549",
+   "location_m": [
+    -351.965,
+    195.299,
+    9.716
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1115,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 121.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0549.fbx"
+  },
+  {
+   "id": "Bldg_0550",
+   "location_m": [
+    162.871,
+    -368.122,
+    6.116
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 396,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 12.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0550.fbx"
+  },
+  {
+   "id": "Bldg_0551",
+   "location_m": [
+    159.257,
+    -369.759,
+    6.116
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 227,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 10.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0551.fbx"
+  },
+  {
+   "id": "Bldg_0552",
+   "location_m": [
+    239.229,
+    -326.699,
+    6.032
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2680,
+   "ucx": 10,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 182.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0552.fbx"
+  },
+  {
+   "id": "Bldg_0553",
+   "location_m": [
+    -397.605,
+    65.901,
+    8.933
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 700,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 126.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0553.fbx"
+  },
+  {
+   "id": "Bldg_0554",
+   "location_m": [
+    152.097,
+    -374.501,
+    6.106
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 412,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 42.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0554.fbx"
+  },
+  {
+   "id": "Bldg_0555",
+   "location_m": [
+    -367.692,
+    167.23,
+    9.542
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1048,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 179.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0555.fbx"
+  },
+  {
+   "id": "Bldg_0556",
+   "location_m": [
+    182.535,
+    -362.181,
+    6.102
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 956,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 127.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0556.fbx"
+  },
+  {
+   "id": "Bldg_0557",
+   "location_m": [
+    -384.759,
+    129.523,
+    9.235
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1230,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 266.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0557.fbx"
+  },
+  {
+   "id": "Bldg_0558",
+   "location_m": [
+    249.103,
+    -320.887,
+    6.023
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 803,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 12.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0558.fbx"
+  },
+  {
+   "id": "Bldg_0559",
+   "location_m": [
+    213.619,
+    -345.84,
+    6.067
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 715,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 175.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0559.fbx"
+  },
+  {
+   "id": "Bldg_0560",
+   "location_m": [
+    276.702,
+    -298.277,
+    5.929
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 4546,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 101.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0560.fbx"
+  },
+  {
+   "id": "Bldg_0561",
+   "location_m": [
+    -388.246,
+    -124.514,
+    6.567
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 1995,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 244.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0561.fbx"
+  },
+  {
+   "id": "Bldg_0562",
+   "location_m": [
+    -330.275,
+    239.253,
+    9.825
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 4032,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 245.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0562.fbx"
+  },
+  {
+   "id": "Bldg_0563",
+   "location_m": [
+    264.029,
+    -311.363,
+    5.985
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 856,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 22.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0563.fbx"
+  },
+  {
+   "id": "Bldg_0564",
+   "location_m": [
+    121.052,
+    -389.908,
+    6.036
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 918,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 99.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0564.fbx"
+  },
+  {
+   "id": "Bldg_0565",
+   "location_m": [
+    -93.915,
+    -398.563,
+    4.916
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 310,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 55.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0565.fbx"
+  },
+  {
+   "id": "Bldg_0566",
+   "location_m": [
+    -353.047,
+    208.206,
+    9.76
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 783,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 144.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0566.fbx"
+  },
+  {
+   "id": "Bldg_0567",
+   "location_m": [
+    91.264,
+    -399.818,
+    5.885
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 3696,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 640.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0567.fbx"
+  },
+  {
+   "id": "Bldg_0568",
+   "location_m": [
+    291.007,
+    -289.598,
+    5.89
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2413,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 74.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0568.fbx"
+  },
+  {
+   "id": "Bldg_0569",
+   "location_m": [
+    -362.932,
+    192.964,
+    9.752
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 414,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 11.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0569.fbx"
+  },
+  {
+   "id": "Bldg_0570",
+   "location_m": [
+    146.677,
+    -384.269,
+    6.091
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 199,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 20.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0570.fbx"
+  },
+  {
+   "id": "Bldg_0571",
+   "location_m": [
+    250.494,
+    -326.564,
+    6.016
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 730,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 28.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0571.fbx"
+  },
+  {
+   "id": "Bldg_0572",
+   "location_m": [
+    270.383,
+    -310.537,
+    5.963
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 821,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 35.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0572.fbx"
+  },
+  {
+   "id": "Bldg_0573",
+   "location_m": [
+    182.931,
+    -370.894,
+    6.098
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 218,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 30.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0573.fbx"
+  },
+  {
+   "id": "Bldg_0574",
+   "location_m": [
+    -384.297,
+    152.892,
+    9.357
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1619,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 214.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0574.fbx"
+  },
+  {
+   "id": "Bldg_0575",
+   "location_m": [
+    140.413,
+    -389.474,
+    6.073
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 795,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 62.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0575.fbx"
+  },
+  {
+   "id": "Bldg_0576",
+   "location_m": [
+    148.084,
+    -388.552,
+    6.085
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 262,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 12.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0576.fbx"
+  },
+  {
+   "id": "Bldg_0577",
+   "location_m": [
+    207.68,
+    -360.72,
+    6.07
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 675,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 134.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0577.fbx"
+  },
+  {
+   "id": "Bldg_0578",
+   "location_m": [
+    175.464,
+    -377.447,
+    6.091
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 903,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 70.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0578.fbx"
+  },
+  {
+   "id": "Bldg_0579",
+   "location_m": [
+    258.409,
+    -328.582,
+    5.994
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2852,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 101.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0579.fbx"
+  },
+  {
+   "id": "Bldg_0580",
+   "location_m": [
+    183.239,
+    -376.519,
+    6.09
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 319,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 28.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0580.fbx"
+  },
+  {
+   "id": "Bldg_0581",
+   "location_m": [
+    287.899,
+    -306.254,
+    5.898
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1355,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 88.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0581.fbx"
+  },
+  {
+   "id": "Bldg_0582",
+   "location_m": [
+    219.344,
+    -358.919,
+    6.059
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 612,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 44.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0582.fbx"
+  },
+  {
+   "id": "Bldg_0583",
+   "location_m": [
+    243.451,
+    -346.435,
+    6.018
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 701,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 87.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0583.fbx"
+  },
+  {
+   "id": "Bldg_0584",
+   "location_m": [
+    162.502,
+    -390.879,
+    6.081
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 178,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 34.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0584.fbx"
+  },
+  {
+   "id": "Bldg_0585",
+   "location_m": [
+    168.936,
+    388.218,
+    5.889
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1202,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 114.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0585.fbx"
+  },
+  {
+   "id": "Bldg_0586",
+   "location_m": [
+    201.75,
+    -373.967,
+    6.071
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 618,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 63.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0586.fbx"
+  },
+  {
+   "id": "Bldg_0587",
+   "location_m": [
+    275.172,
+    -323.389,
+    5.942
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 5193,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 182.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0587.fbx"
+  },
+  {
+   "id": "Bldg_0588",
+   "location_m": [
+    243.282,
+    -348.219,
+    6.029
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 151,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 11.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0588.fbx"
+  },
+  {
+   "id": "Bldg_0589",
+   "location_m": [
+    -347.793,
+    246.834,
+    9.969
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 266,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 37.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0589.fbx"
+  },
+  {
+   "id": "Bldg_0590",
+   "location_m": [
+    -205.44,
+    374.841,
+    8.981
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 3221,
+   "ucx": 1,
+   "kind": "house",
+   "name": "Barber's Tomb",
+   "lod": 2,
+   "area_m2": 697.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0590.fbx"
+  },
+  {
+   "id": "Bldg_0591",
+   "location_m": [
+    191.589,
+    -382.149,
+    6.074
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 524,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 34.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0591.fbx"
+  },
+  {
+   "id": "Bldg_0592",
+   "location_m": [
+    -365.407,
+    222.798,
+    9.861
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1442,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 128.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0592.fbx"
+  },
+  {
+   "id": "Bldg_0593",
+   "location_m": [
+    182.557,
+    -387.308,
+    6.076
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 800,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 40.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0593.fbx"
+  },
+  {
+   "id": "Bldg_0594",
+   "location_m": [
+    230.021,
+    -362.871,
+    6.037
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 662,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 77.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0594.fbx"
+  },
+  {
+   "id": "Bldg_0595",
+   "location_m": [
+    -356.608,
+    241.352,
+    9.936
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1117,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 145.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0595.fbx"
+  },
+  {
+   "id": "Bldg_0596",
+   "location_m": [
+    -315.087,
+    296.136,
+    9.73
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 2111,
+   "ucx": 6,
+   "kind": "house",
+   "name": "Royal Gateway",
+   "lod": 1,
+   "area_m2": 897.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0596.fbx"
+  },
+  {
+   "id": "Bldg_0597",
+   "location_m": [
+    264.31,
+    -341.806,
+    5.983
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 402,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 51.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0597.fbx"
+  },
+  {
+   "id": "Bldg_0598",
+   "location_m": [
+    257.136,
+    -347.62,
+    5.995
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 641,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 89.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0598.fbx"
+  },
+  {
+   "id": "Bldg_0599",
+   "location_m": [
+    247.449,
+    -354.672,
+    6.011
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 320,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 46.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0599.fbx"
+  },
+  {
+   "id": "Bldg_0600",
+   "location_m": [
+    190.167,
+    -390.509,
+    6.064
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 789,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 23.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0600.fbx"
+  },
+  {
+   "id": "Bldg_0601",
+   "location_m": [
+    200.97,
+    -385.288,
+    6.057
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 549,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 47.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0601.fbx"
+  },
+  {
+   "id": "Bldg_0602",
+   "location_m": [
+    276.937,
+    -335.022,
+    5.953
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1141,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 75.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0602.fbx"
+  },
+  {
+   "id": "Bldg_0603",
+   "location_m": [
+    294.235,
+    -320.375,
+    5.895
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2344,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 97.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0603.fbx"
+  },
+  {
+   "id": "Bldg_0604",
+   "location_m": [
+    222.87,
+    -376.24,
+    6.033
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 717,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 123.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0604.fbx"
+  },
+  {
+   "id": "Bldg_0605",
+   "location_m": [
+    -377.689,
+    224.991,
+    9.93
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1319,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 100.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0605.fbx"
+  },
+  {
+   "id": "Bldg_0606",
+   "location_m": [
+    251.002,
+    -363.364,
+    6.006
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 306,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 21.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0606.fbx"
+  },
+  {
+   "id": "Bldg_0607",
+   "location_m": [
+    231.885,
+    -377.752,
+    6.024
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 171,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 46.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0607.fbx"
+  },
+  {
+   "id": "Bldg_0608",
+   "location_m": [
+    196.359,
+    -398.947,
+    6.045
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 348,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 27.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0608.fbx"
+  },
+  {
+   "id": "Bldg_0609",
+   "location_m": [
+    290.201,
+    -337.22,
+    5.922
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 2281,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 99.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0609.fbx"
+  },
+  {
+   "id": "Bldg_0610",
+   "location_m": [
+    277.227,
+    -346.758,
+    5.945
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 840,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 67.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0610.fbx"
+  },
+  {
+   "id": "Bldg_0611",
+   "location_m": [
+    225.712,
+    -384.418,
+    6.025
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 358,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 43.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0611.fbx"
+  },
+  {
+   "id": "Bldg_0612",
+   "location_m": [
+    240.888,
+    -374.12,
+    6.01
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 693,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 121.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0612.fbx"
+  },
+  {
+   "id": "Bldg_0613",
+   "location_m": [
+    261.242,
+    -362.889,
+    5.977
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 1645,
+   "ucx": 10,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 105.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0613.fbx"
+  },
+  {
+   "id": "Bldg_0614",
+   "location_m": [
+    -377.352,
+    246.818,
+    10.075
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 1191,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 99.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0614.fbx"
+  },
+  {
+   "id": "Bldg_0615",
+   "location_m": [
+    250.178,
+    -378.236,
+    5.996
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 601,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 53.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0615.fbx"
+  },
+  {
+   "id": "Bldg_0616",
+   "location_m": [
+    280.555,
+    -356.148,
+    5.94
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1384,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 139.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0616.fbx"
+  },
+  {
+   "id": "Bldg_0617",
+   "location_m": [
+    265.241,
+    -370.967,
+    5.975
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 503,
+   "ucx": 6,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 51.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0617.fbx"
+  },
+  {
+   "id": "Bldg_0618",
+   "location_m": [
+    230.438,
+    -392.006,
+    6.002
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 534,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 92.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0618.fbx"
+  },
+  {
+   "id": "Bldg_0619",
+   "location_m": [
+    254.247,
+    -382.438,
+    5.991
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 294,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 20.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0619.fbx"
+  },
+  {
+   "id": "Bldg_0620",
+   "location_m": [
+    242.041,
+    -393.022,
+    5.983
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 1443,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 308.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0620.fbx"
+  },
+  {
+   "id": "Bldg_0621",
+   "location_m": [
+    256.573,
+    385.001,
+    5.818
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 420,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 30.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0621.fbx"
+  },
+  {
+   "id": "Bldg_0622",
+   "location_m": [
+    265.016,
+    -379.356,
+    5.968
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 622,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 118.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0622.fbx"
+  },
+  {
+   "id": "Bldg_0623",
+   "location_m": [
+    -312.531,
+    -341.592,
+    2.663
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 176,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 10.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0623.fbx"
+  },
+  {
+   "id": "Bldg_0624",
+   "location_m": [
+    255.129,
+    -389.29,
+    5.984
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 376,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 25.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0624.fbx"
+  },
+  {
+   "id": "Bldg_0625",
+   "location_m": [
+    283.618,
+    -369.564,
+    5.944
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 819,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 139.3,
+   "religious": false,
+   "fbx": "buildings/Bldg_0625.fbx"
+  },
+  {
+   "id": "Bldg_0626",
+   "location_m": [
+    -381.712,
+    -270.623,
+    3.665
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 314,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 21.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0626.fbx"
+  },
+  {
+   "id": "Bldg_0627",
+   "location_m": [
+    263.856,
+    -385.837,
+    5.972
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 290,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 39.6,
+   "religious": false,
+   "fbx": "buildings/Bldg_0627.fbx"
+  },
+  {
+   "id": "Bldg_0628",
+   "location_m": [
+    271.272,
+    -386.128,
+    5.965
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 167,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 36.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0628.fbx"
+  },
+  {
+   "id": "Bldg_0629",
+   "location_m": [
+    255.699,
+    -396.99,
+    5.974
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 457,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 54.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0629.fbx"
+  },
+  {
+   "id": "Bldg_0630",
+   "location_m": [
+    296.444,
+    -367.752,
+    5.929
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 373,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 14.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0630.fbx"
+  },
+  {
+   "id": "Bldg_0631",
+   "location_m": [
+    -372.463,
+    -290.413,
+    2.038
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1009,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 198.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0631.fbx"
+  },
+  {
+   "id": "Bldg_0632",
+   "location_m": [
+    268.65,
+    388.989,
+    5.793
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 258,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 21.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0632.fbx"
+  },
+  {
+   "id": "Bldg_0633",
+   "location_m": [
+    -261.537,
+    -395.001,
+    4.111
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 356,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 33.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0633.fbx"
+  },
+  {
+   "id": "Bldg_0634",
+   "location_m": [
+    264.322,
+    -393.546,
+    5.966
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 262,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 43.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0634.fbx"
+  },
+  {
+   "id": "Bldg_0635",
+   "location_m": [
+    -336.665,
+    -334.135,
+    1.109
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 2995,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 1,
+   "area_m2": 415.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0635.fbx"
+  },
+  {
+   "id": "Bldg_0636",
+   "location_m": [
+    267.599,
+    -397.274,
+    5.964
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 319,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 14.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0636.fbx"
+  },
+  {
+   "id": "Bldg_0637",
+   "location_m": [
+    275.412,
+    -391.123,
+    5.954
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 1080,
+   "ucx": 4,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 86.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0637.fbx"
+  },
+  {
+   "id": "Bldg_0638",
+   "location_m": [
+    -392.447,
+    -276.44,
+    3.22
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 600,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 115.7,
+   "religious": false,
+   "fbx": "buildings/Bldg_0638.fbx"
+  },
+  {
+   "id": "Bldg_0639",
+   "location_m": [
+    297.92,
+    -378.898,
+    5.929
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 288,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 43.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0639.fbx"
+  },
+  {
+   "id": "Bldg_0640",
+   "location_m": [
+    -383.4,
+    -292.459,
+    1.952
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1015,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 117.4,
+   "religious": false,
+   "fbx": "buildings/Bldg_0640.fbx"
+  },
+  {
+   "id": "Bldg_0641",
+   "location_m": [
+    -374.938,
+    -306.362,
+    1.263
+   ],
+   "floors": 1,
+   "height_m": 3.05,
+   "faces": 261,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 50.0,
+   "religious": false,
+   "fbx": "buildings/Bldg_0641.fbx"
+  },
+  {
+   "id": "Bldg_0642",
+   "location_m": [
+    -328.185,
+    -375.609,
+    2.88
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 2640,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 357.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0642.fbx"
+  },
+  {
+   "id": "Bldg_0643",
+   "location_m": [
+    -313.489,
+    -392.51,
+    3.772
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1551,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 212.2,
+   "religious": false,
+   "fbx": "buildings/Bldg_0643.fbx"
+  },
+  {
+   "id": "Bldg_0644",
+   "location_m": [
+    -360.598,
+    -364.772,
+    1.547
+   ],
+   "floors": 2,
+   "height_m": 6.1,
+   "faces": 1390,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 400.8,
+   "religious": false,
+   "fbx": "buildings/Bldg_0644.fbx"
+  },
+  {
+   "id": "Bldg_0645",
+   "location_m": [
+    -386.245,
+    -350.592,
+    0.311
+   ],
+   "floors": 3,
+   "height_m": 9.15,
+   "faces": 531,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 87.9,
+   "religious": false,
+   "fbx": "buildings/Bldg_0645.fbx"
+  },
+  {
+   "id": "Bldg_0646",
+   "location_m": [
+    -359.753,
+    -395.229,
+    3.302
+   ],
+   "floors": 5,
+   "height_m": 15.25,
+   "faces": 1908,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 156.1,
+   "religious": false,
+   "fbx": "buildings/Bldg_0646.fbx"
+  },
+  {
+   "id": "Bldg_0647",
+   "location_m": [
+    -394.777,
+    -380.208,
+    2.259
+   ],
+   "floors": 4,
+   "height_m": 12.2,
+   "faces": 1024,
+   "ucx": 1,
+   "kind": "house",
+   "name": "",
+   "lod": 2,
+   "area_m2": 56.5,
+   "religious": false,
+   "fbx": "buildings/Bldg_0647.fbx"
   }
  ],
  "station": [
@@ -3030,7 +13994,7 @@
   }
  ],
  "stats": {
-  "building_faces": 179011,
-  "buildings": 40
+  "building_faces": 1533540,
+  "buildings": 648
  }
 }

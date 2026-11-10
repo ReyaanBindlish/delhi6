@@ -55,7 +55,7 @@ void ADhCrowdCharacter::Acquire(const FDhCrowdAgent& Agent, const FDhCrowdLoaded
 
 	if (SkelMesh->GetSkeletalMeshAsset() != Visual.Mesh)
 	{
-		SkelMesh->SetSkeletalMesh(Visual.Mesh);
+		SkelMesh->SetSkeletalMeshAsset(Visual.Mesh);
 		Mids.Reset();
 	}
 

@@ -1,11 +1,11 @@
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/StreamableManager.h"
-#include "Characters/CastTypes.h"
-#include "Characters/DhurandharCastDataAsset.h"
-#include "DayaVitalsComponent.h"
+#include "CastTypes.h"
+#include "DhurandharCastDataAsset.h"
+#include "../DayaVitalsComponent.h"
 #include "BodyStateComponent.generated.h"
 
 class USkeletalMesh;

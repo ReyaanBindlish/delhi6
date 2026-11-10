@@ -1,0 +1,2186 @@
+﻿terrain frame: slice offset (0.0, 0.0) m
+blender.exe : C:\Users\Rayaan\Desktop\game\world\story\scripts\build_location.py:111: DeprecationWarning: 
+'Material.use_nodes' is expected to be removed in Blender 6.0
+At line:1 char:467
++ ... ar_lines'){ & $b --background --python build_location.py -- $l *> "C: ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Rayaan... in Blender 6.0:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  m.use_nodes = True
+  0/648 buildings, 2049 faces
+  100/648 buildings, 356889 faces
+  200/648 buildings, 683296 faces
+  300/648 buildings, 936025 faces
+  400/648 buildings, 1162825 faces
+  500/648 buildings, 1355660 faces
+  600/648 buildings, 1493377 faces
+C:\Users\Rayaan\Desktop\game\world\story\scripts\build_location.py:969: DeprecationWarning: 'World.use_nodes' is 
+expected to be removed in Blender 6.0
+  world = bpy.data.worlds.new("Sky"); scene.world = world; world.use_nodes = True
+  747 overhead cables from 1597 anchors
+  6 elevated road decks, 483 collision pieces
+  station set: 5 platforms, 42 track pieces, 6 footbridges, 9 stair flights
+Info: Saved as "nizamuddin.blend"
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0000.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0001.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0002.fbx'
+export finished in 0.0173 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0003.fbx'
+export finished in 0.0179 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0004.fbx'
+export finished in 0.0213 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0005.fbx'
+export finished in 0.0256 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0006.fbx'
+export finished in 0.0216 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0007.fbx'
+export finished in 0.0165 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0008.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0009.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0010.fbx'
+export finished in 0.0309 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0011.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0012.fbx'
+export finished in 0.0294 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0013.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0014.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0015.fbx'
+export finished in 0.0177 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0016.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0017.fbx'
+export finished in 0.0080 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0018.fbx'
+export finished in 0.0280 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0019.fbx'
+export finished in 0.0163 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0020.fbx'
+export finished in 0.0143 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0021.fbx'
+export finished in 0.0091 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0022.fbx'
+export finished in 0.0194 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0023.fbx'
+export finished in 0.0087 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0024.fbx'
+export finished in 0.0210 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0025.fbx'
+export finished in 0.0173 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0026.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0027.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0028.fbx'
+export finished in 0.0431 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0029.fbx'
+export finished in 0.0168 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0030.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0031.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0032.fbx'
+export finished in 0.0149 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0033.fbx'
+export finished in 0.0164 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0034.fbx'
+export finished in 0.0192 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0035.fbx'
+export finished in 0.0133 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0036.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0037.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0038.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0039.fbx'
+export finished in 0.0141 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0040.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0041.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0042.fbx'
+export finished in 0.0090 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0043.fbx'
+export finished in 0.0196 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0044.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0045.fbx'
+export finished in 0.0168 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0046.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0047.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0048.fbx'
+export finished in 0.0169 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0049.fbx'
+export finished in 0.0129 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0050.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0051.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0052.fbx'
+export finished in 0.0159 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0053.fbx'
+export finished in 0.0133 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0054.fbx'
+export finished in 0.0166 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0055.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0056.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0057.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0058.fbx'
+export finished in 0.0117 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0059.fbx'
+export finished in 0.0139 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0060.fbx'
+export finished in 0.0184 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0061.fbx'
+export finished in 0.0141 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0062.fbx'
+export finished in 0.0418 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0063.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0064.fbx'
+export finished in 0.0084 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0065.fbx'
+export finished in 0.0153 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0066.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0067.fbx'
+export finished in 0.0237 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0068.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0069.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0070.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0071.fbx'
+export finished in 0.0142 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0072.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0073.fbx'
+export finished in 0.0147 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0074.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0075.fbx'
+export finished in 0.0174 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0076.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0077.fbx'
+export finished in 0.0172 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0078.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0079.fbx'
+export finished in 0.0197 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0080.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0081.fbx'
+export finished in 0.0125 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0082.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0083.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0084.fbx'
+export finished in 0.0084 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0085.fbx'
+export finished in 0.0091 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0086.fbx'
+export finished in 0.0311 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0087.fbx'
+export finished in 0.0173 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0088.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0089.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0090.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0091.fbx'
+export finished in 0.0142 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0092.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0093.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0094.fbx'
+export finished in 0.0105 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0095.fbx'
+export finished in 0.0154 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0096.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0097.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0098.fbx'
+export finished in 0.0153 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0099.fbx'
+export finished in 0.0203 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0100.fbx'
+export finished in 0.0172 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0101.fbx'
+export finished in 0.0152 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0102.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0103.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0104.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0105.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0106.fbx'
+export finished in 0.0224 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0107.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0108.fbx'
+export finished in 0.0101 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0109.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0110.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0111.fbx'
+export finished in 0.0194 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0112.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0113.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0114.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0115.fbx'
+export finished in 0.0105 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0116.fbx'
+export finished in 0.0168 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0117.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0118.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0119.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0120.fbx'
+export finished in 0.0085 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0121.fbx'
+export finished in 0.0157 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0122.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0123.fbx'
+export finished in 0.0163 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0124.fbx'
+export finished in 0.0261 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0125.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0126.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0127.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0128.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0129.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0130.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0131.fbx'
+export finished in 0.0117 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0132.fbx'
+export finished in 0.0117 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0133.fbx'
+export finished in 0.0150 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0134.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0135.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0136.fbx'
+export finished in 0.0199 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0137.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0138.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0139.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0140.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0141.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0142.fbx'
+export finished in 0.0153 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0143.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0144.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0145.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0146.fbx'
+export finished in 0.0169 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0147.fbx'
+export finished in 0.0236 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0148.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0149.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0150.fbx'
+export finished in 0.0085 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0151.fbx'
+export finished in 0.0168 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0152.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0153.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0154.fbx'
+export finished in 0.0288 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0155.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0156.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0157.fbx'
+export finished in 0.0164 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0158.fbx'
+export finished in 0.0129 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0159.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0160.fbx'
+export finished in 0.0133 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0161.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0162.fbx'
+export finished in 0.0221 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0163.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0164.fbx'
+export finished in 0.0137 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0165.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0166.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0167.fbx'
+export finished in 0.0223 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0168.fbx'
+export finished in 0.0263 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0169.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0170.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0171.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0172.fbx'
+export finished in 0.0142 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0173.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0174.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0175.fbx'
+export finished in 0.0093 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0176.fbx'
+export finished in 0.0179 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0177.fbx'
+export finished in 0.0281 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0178.fbx'
+export finished in 0.0137 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0179.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0180.fbx'
+export finished in 0.0117 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0181.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0182.fbx'
+export finished in 0.0159 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0183.fbx'
+export finished in 0.0261 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0184.fbx'
+export finished in 0.0167 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0185.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0186.fbx'
+export finished in 0.0198 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0187.fbx'
+export finished in 0.0163 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0188.fbx'
+export finished in 0.0270 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0189.fbx'
+export finished in 0.0157 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0190.fbx'
+export finished in 0.0194 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0191.fbx'
+export finished in 0.0173 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0192.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0193.fbx'
+export finished in 0.0209 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0194.fbx'
+export finished in 0.0117 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0195.fbx'
+export finished in 0.0154 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0196.fbx'
+export finished in 0.0275 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0197.fbx'
+export finished in 0.0125 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0198.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0199.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0200.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0201.fbx'
+export finished in 0.0177 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0202.fbx'
+export finished in 0.0168 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0203.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0204.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0205.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0206.fbx'
+export finished in 0.0149 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0207.fbx'
+export finished in 0.0152 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0208.fbx'
+export finished in 0.0157 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0209.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0210.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0211.fbx'
+export finished in 0.0168 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0212.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0213.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0214.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0215.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0216.fbx'
+export finished in 0.0510 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0217.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0218.fbx'
+export finished in 0.0084 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0219.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0220.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0221.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0222.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0223.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0224.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0225.fbx'
+export finished in 0.0156 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0226.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0227.fbx'
+export finished in 0.0152 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0228.fbx'
+export finished in 0.0146 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0229.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0230.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0231.fbx'
+export finished in 0.0132 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0232.fbx'
+export finished in 0.0162 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0233.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0234.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0235.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0236.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0237.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0238.fbx'
+export finished in 0.0092 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0239.fbx'
+export finished in 0.0184 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0240.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0241.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0242.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0243.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0244.fbx'
+export finished in 0.0154 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0245.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0246.fbx'
+export finished in 0.0083 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0247.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0248.fbx'
+export finished in 0.0167 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0249.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0250.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0251.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0252.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0253.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0254.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0255.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0256.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0257.fbx'
+export finished in 0.0188 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0258.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0259.fbx'
+export finished in 0.0193 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0260.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0261.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0262.fbx'
+export finished in 0.0143 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0263.fbx'
+export finished in 0.0156 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0264.fbx'
+export finished in 0.0139 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0265.fbx'
+export finished in 0.0162 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0266.fbx'
+export finished in 0.0195 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0267.fbx'
+export finished in 0.0146 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0268.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0269.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0270.fbx'
+export finished in 0.0204 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0271.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0272.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0273.fbx'
+export finished in 0.0087 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0274.fbx'
+export finished in 0.0142 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0275.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0276.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0277.fbx'
+export finished in 0.0090 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0278.fbx'
+export finished in 0.0130 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0279.fbx'
+export finished in 0.0086 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0280.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0281.fbx'
+export finished in 0.0191 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0282.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0283.fbx'
+export finished in 0.0137 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0284.fbx'
+export finished in 0.0072 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0285.fbx'
+export finished in 0.0073 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0286.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0287.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0288.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0289.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0290.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0291.fbx'
+export finished in 0.0174 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0292.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0293.fbx'
+export finished in 0.0192 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0294.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0295.fbx'
+export finished in 0.0133 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0296.fbx'
+export finished in 0.0147 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0297.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0298.fbx'
+export finished in 0.0086 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0299.fbx'
+export finished in 0.0105 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0300.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0301.fbx'
+export finished in 0.0101 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0302.fbx'
+export finished in 0.0143 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0303.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0304.fbx'
+export finished in 0.0185 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0305.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0306.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0307.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0308.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0309.fbx'
+export finished in 0.0100 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0310.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0311.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0312.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0313.fbx'
+export finished in 0.0086 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0314.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0315.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0316.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0317.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0318.fbx'
+export finished in 0.0132 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0319.fbx'
+export finished in 0.0202 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0320.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0321.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0322.fbx'
+export finished in 0.0214 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0323.fbx'
+export finished in 0.0084 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0324.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0325.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0326.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0327.fbx'
+export finished in 0.0105 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0328.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0329.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0330.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0331.fbx'
+export finished in 0.0142 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0332.fbx'
+export finished in 0.0100 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0333.fbx'
+export finished in 0.0161 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0334.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0335.fbx'
+export finished in 0.0192 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0336.fbx'
+export finished in 0.0088 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0337.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0338.fbx'
+export finished in 0.0130 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0339.fbx'
+export finished in 0.0171 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0340.fbx'
+export finished in 0.0155 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0341.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0342.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0343.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0344.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0345.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0346.fbx'
+export finished in 0.0117 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0347.fbx'
+export finished in 0.0152 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0348.fbx'
+export finished in 0.0284 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0349.fbx'
+export finished in 0.0179 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0350.fbx'
+export finished in 0.0105 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0351.fbx'
+export finished in 0.0090 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0352.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0353.fbx'
+export finished in 0.0096 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0354.fbx'
+export finished in 0.0092 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0355.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0356.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0357.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0358.fbx'
+export finished in 0.0087 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0359.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0360.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0361.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0362.fbx'
+export finished in 0.0200 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0363.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0364.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0365.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0366.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0367.fbx'
+export finished in 0.0085 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0368.fbx'
+export finished in 0.0125 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0369.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0370.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0371.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0372.fbx'
+export finished in 0.0341 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0373.fbx'
+export finished in 0.0399 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0374.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0375.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0376.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0377.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0378.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0379.fbx'
+export finished in 0.0084 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0380.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0381.fbx'
+export finished in 0.0139 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0382.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0383.fbx'
+export finished in 0.0194 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0384.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0385.fbx'
+export finished in 0.0146 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0386.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0387.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0388.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0389.fbx'
+export finished in 0.0117 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0390.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0391.fbx'
+export finished in 0.0259 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0392.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0393.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0394.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0395.fbx'
+export finished in 0.0096 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0396.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0397.fbx'
+export finished in 0.0085 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0398.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0399.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0400.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0401.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0402.fbx'
+export finished in 0.0084 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0403.fbx'
+export finished in 0.0215 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0404.fbx'
+export finished in 0.0158 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0405.fbx'
+export finished in 0.0147 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0406.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0407.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0408.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0409.fbx'
+export finished in 0.0139 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0410.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0411.fbx'
+export finished in 0.0182 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0412.fbx'
+export finished in 0.0168 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0413.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0414.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0415.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0416.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0417.fbx'
+export finished in 0.0147 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0418.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0419.fbx'
+export finished in 0.0096 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0420.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0421.fbx'
+export finished in 0.0077 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0422.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0423.fbx'
+export finished in 0.0137 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0424.fbx'
+export finished in 0.0088 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0425.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0426.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0427.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0428.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0429.fbx'
+export finished in 0.0101 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0430.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0431.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0432.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0433.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0434.fbx'
+export finished in 0.0158 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0435.fbx'
+export finished in 0.0224 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0436.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0437.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0438.fbx'
+export finished in 0.0091 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0439.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0440.fbx'
+export finished in 0.0129 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0441.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0442.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0443.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0444.fbx'
+export finished in 0.0081 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0445.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0446.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0447.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0448.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0449.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0450.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0451.fbx'
+export finished in 0.0101 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0452.fbx'
+export finished in 0.0132 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0453.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0454.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0455.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0456.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0457.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0458.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0459.fbx'
+export finished in 0.0092 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0460.fbx'
+export finished in 0.0154 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0461.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0462.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0463.fbx'
+export finished in 0.0130 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0464.fbx'
+export finished in 0.0132 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0465.fbx'
+export finished in 0.0133 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0466.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0467.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0468.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0469.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0470.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0471.fbx'
+export finished in 0.0242 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0472.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0473.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0474.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0475.fbx'
+export finished in 0.0130 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0476.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0477.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0478.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0479.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0480.fbx'
+export finished in 0.0129 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0481.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0482.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0483.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0484.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0485.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0486.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0487.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0488.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0489.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0490.fbx'
+export finished in 0.0139 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0491.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0492.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0493.fbx'
+export finished in 0.0184 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0494.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0495.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0496.fbx'
+export finished in 0.0147 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0497.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0498.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0499.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0500.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0501.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0502.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0503.fbx'
+export finished in 0.0210 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0504.fbx'
+export finished in 0.0143 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0505.fbx'
+export finished in 0.0182 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0506.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0507.fbx'
+export finished in 0.0156 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0508.fbx'
+export finished in 0.0132 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0509.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0510.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0511.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0512.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0513.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0514.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0515.fbx'
+export finished in 0.0129 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0516.fbx'
+export finished in 0.0236 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0517.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0518.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0519.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0520.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0521.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0522.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0523.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0524.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0525.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0526.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0527.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0528.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0529.fbx'
+export finished in 0.0141 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0530.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0531.fbx'
+export finished in 0.0146 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0532.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0533.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0534.fbx'
+export finished in 0.0118 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0535.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0536.fbx'
+export finished in 0.0180 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0537.fbx'
+export finished in 0.0098 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0538.fbx'
+export finished in 0.0101 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0539.fbx'
+export finished in 0.0105 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0540.fbx'
+export finished in 0.0133 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0541.fbx'
+export finished in 0.0459 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0542.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0543.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0544.fbx'
+export finished in 0.0101 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0545.fbx'
+export finished in 0.0163 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0546.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0547.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0548.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0549.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0550.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0551.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0552.fbx'
+export finished in 0.0183 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0553.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0554.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0555.fbx'
+export finished in 0.0144 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0556.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0557.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0558.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0559.fbx'
+export finished in 0.0142 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0560.fbx'
+export finished in 0.0177 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0561.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0562.fbx'
+export finished in 0.0186 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0563.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0564.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0565.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0566.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0567.fbx'
+export finished in 0.0179 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0568.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0569.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0570.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0571.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0572.fbx'
+export finished in 0.0123 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0573.fbx'
+export finished in 0.0102 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0574.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0575.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0576.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0577.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0578.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0579.fbx'
+export finished in 0.0139 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0580.fbx'
+export finished in 0.0088 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0581.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0582.fbx'
+export finished in 0.0105 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0583.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0584.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0585.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0586.fbx'
+export finished in 0.0130 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0587.fbx'
+export finished in 0.0184 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0588.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0589.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0590.fbx'
+export finished in 0.0166 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0591.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0592.fbx'
+export finished in 0.0120 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0593.fbx'
+export finished in 0.0141 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0594.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0595.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0596.fbx'
+export finished in 0.0172 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0597.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0598.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0599.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0600.fbx'
+export finished in 0.0132 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0601.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0602.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0603.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0604.fbx'
+export finished in 0.0101 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0605.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0606.fbx'
+export finished in 0.0100 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0607.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0608.fbx'
+export finished in 0.0148 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0609.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0610.fbx'
+export finished in 0.0125 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0611.fbx'
+export finished in 0.0124 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0612.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0613.fbx'
+export finished in 0.0165 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0614.fbx'
+export finished in 0.0135 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0615.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0616.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0617.fbx'
+export finished in 0.0136 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0618.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0619.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0620.fbx'
+export finished in 0.0127 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0621.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0622.fbx'
+export finished in 0.0099 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0623.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0624.fbx'
+export finished in 0.0107 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0625.fbx'
+export finished in 0.0108 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0626.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0627.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0628.fbx'
+export finished in 0.0090 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0629.fbx'
+export finished in 0.0122 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0630.fbx'
+export finished in 0.0134 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0631.fbx'
+export finished in 0.0096 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0632.fbx'
+export finished in 0.0116 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0633.fbx'
+export finished in 0.0113 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0634.fbx'
+export finished in 0.0109 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0635.fbx'
+export finished in 0.0138 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0636.fbx'
+export finished in 0.0114 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0637.fbx'
+export finished in 0.0160 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0638.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0639.fbx'
+export finished in 0.0094 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0640.fbx'
+export finished in 0.0147 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0641.fbx'
+export finished in 0.0125 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0642.fbx'
+export finished in 0.0151 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0643.fbx'
+export finished in 0.0140 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0644.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0645.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0646.fbx'
+export finished in 0.0149 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\buildings\\Bldg_0647.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Viaducts.fbx'
+export finished in 0.3428 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Platform_00.fbx'
+export finished in 0.0125 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Canopy_00.fbx'
+export finished in 0.0876 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Platform_01.fbx'
+export finished in 0.0082 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Canopy_01.fbx'
+export finished in 0.0797 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Platform_02.fbx'
+export finished in 0.0081 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Canopy_02.fbx'
+export finished in 0.0639 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Platform_03.fbx'
+export finished in 0.0082 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Canopy_03.fbx'
+export finished in 0.0836 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Platform_04.fbx'
+export finished in 0.0087 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Canopy_04.fbx'
+export finished in 0.0715 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_000.fbx'
+export finished in 0.0194 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_001.fbx'
+export finished in 0.0189 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_002.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_003.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_004.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_005.fbx'
+export finished in 0.0115 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_006.fbx'
+export finished in 0.0112 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_007.fbx'
+export finished in 0.0106 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_008.fbx'
+export finished in 0.0218 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_009.fbx'
+export finished in 0.0091 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_010.fbx'
+export finished in 0.0086 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_011.fbx'
+export finished in 0.0095 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_012.fbx'
+export finished in 0.0202 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_013.fbx'
+export finished in 0.0097 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_014.fbx'
+export finished in 0.0119 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_015.fbx'
+export finished in 0.0077 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_016.fbx'
+export finished in 0.0243 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_017.fbx'
+export finished in 0.0129 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_018.fbx'
+export finished in 0.0222 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_019.fbx'
+export finished in 0.0143 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_020.fbx'
+export finished in 0.0088 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_021.fbx'
+export finished in 0.0137 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_022.fbx'
+export finished in 0.0209 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_023.fbx'
+export finished in 0.0100 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_024.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_025.fbx'
+export finished in 0.0103 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_026.fbx'
+export finished in 0.0128 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_027.fbx'
+export finished in 0.0133 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_028.fbx'
+export finished in 0.0093 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_029.fbx'
+export finished in 0.0131 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_030.fbx'
+export finished in 0.0126 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_031.fbx'
+export finished in 0.0145 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_032.fbx'
+export finished in 0.0141 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_033.fbx'
+export finished in 0.0166 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_034.fbx'
+export finished in 0.0111 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_035.fbx'
+export finished in 0.0096 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_036.fbx'
+export finished in 0.0087 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_037.fbx'
+export finished in 0.0110 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_038.fbx'
+export finished in 0.0125 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_039.fbx'
+export finished in 0.0091 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_040.fbx'
+export finished in 0.0104 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Track_041.fbx'
+export finished in 0.0150 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\FOB_00.fbx'
+export finished in 0.0175 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\FOB_01.fbx'
+export finished in 0.0259 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\FOB_02.fbx'
+export finished in 0.0092 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\FOB_03.fbx'
+export finished in 0.0165 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\FOB_04.fbx'
+export finished in 0.0163 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\FOB_05.fbx'
+export finished in 0.0314 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_00.fbx'
+export finished in 0.0073 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_01.fbx'
+export finished in 0.0074 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_02.fbx'
+export finished in 0.0075 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_03.fbx'
+export finished in 0.0089 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_04.fbx'
+export finished in 0.0076 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_05.fbx'
+export finished in 0.0070 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_06.fbx'
+export finished in 0.0072 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_07.fbx'
+export finished in 0.0072 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Stairs_08.fbx'
+export finished in 0.0080 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\station\\Station_Signals.fbx'
+export finished in 0.0121 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\Roads.fbx'
+export finished in 0.0141 sec.
+
+FBX export starting... 'C:\\Users\\Rayaan\\Desktop\\game\\world\\story\\export\\nizamuddin\\Overhead_Wires.fbx'
+export finished in 0.0447 sec.
+EXPORTED 648 building FBX + 69 station pieces -> C:\Users\Rayaan\Desktop\game\world\story\export\nizamuddin
+DONE 648 buildings, 1533540 building faces -> C:\Users\Rayaan\Desktop\game\world\story\export\nizamuddin\_work\nizamuddin.blend
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

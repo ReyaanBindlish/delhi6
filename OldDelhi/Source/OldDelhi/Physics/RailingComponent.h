@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
 #include "Components/BoxComponent.h"
@@ -84,7 +84,7 @@ public:
 	/** Pure maths so Blueprints, tests and tools can call it. All values in metres / m/s. */
 	UFUNCTION(BlueprintPure, Category = "Rail")
 	static bool EvaluateOverRail(float ComHeightM, float RailHeightM, float ComDistanceM, float PushSpeedMS,
-	                             float PushEfficiency, float GripFactor, FRailEvaluation& OutEval);
+	                             float InPushEfficiency, float GripFactor, FRailEvaluation& OutEval);
 
 	/** Evaluate without acting. PushVelocityCmS is the velocity the shove would give (world cm/s). */
 	UFUNCTION(BlueprintCallable, Category = "Rail")

@@ -16,7 +16,7 @@ void FDhCrowdLaneNetwork::Reset()
 	Cells.Reset();
 }
 
-bool FDhCrowdLaneNetwork::LoadFromJsonFile(const FString& Path)
+bool FDhCrowdLaneNetwork::LoadFromJsonFile(const FString& Path, const FVector& OffsetCm)
 {
 	FString Text;
 	if (!FFileHelper::LoadFileToString(Text, *Path))
@@ -24,10 +24,10 @@ bool FDhCrowdLaneNetwork::LoadFromJsonFile(const FString& Path)
 		UE_LOG(LogDhCrowdLanes, Warning, TEXT("Lane file not found: %s"), *Path);
 		return false;
 	}
-	return LoadFromJsonString(Text);
+	return LoadFromJsonString(Text, OffsetCm);
 }
 
-bool FDhCrowdLaneNetwork::LoadFromJsonString(const FString& Json)
+bool FDhCrowdLaneNetwork::LoadFromJsonString(const FString& Json, const FVector& OffsetCm)
 {
 	TSharedPtr<FJsonObject> Root;
 	const TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(Json);
@@ -67,10 +67,12 @@ bool FDhCrowdLaneNetwork::LoadFromJsonString(const FString& Json)
 			const TArray<TSharedPtr<FJsonValue>>& C = PV->AsArray();
 			if (C.Num() >= 2)
 			{
-				Pts.Add(FVector(C[0]->AsNumber(), C[1]->AsNumber(), C.Num() > 2 ? C[2]->AsNumber() : 0.0));
+				Pts.Add(FVector(C[0]->AsNumber(), C[1]->AsNumber(), C.Num() > 2 ? C[2]->AsNumber() : 0.0) + OffsetCm);
 			}
 		}
-		AddLane(FName(*Street), static_cast<float>(Width), Pts);
+		double Side = 0.0;
+		LaneObj->TryGetNumberField(TEXT("side_cm"), Side);
+		AddLane(FName(*Street), static_cast<float>(Width), Pts, static_cast<float>(Side));
 	}
 
 	Rebuild();
@@ -78,13 +80,14 @@ bool FDhCrowdLaneNetwork::LoadFromJsonString(const FString& Json)
 	return Lanes.Num() > 0;
 }
 
-void FDhCrowdLaneNetwork::AddLane(FName Street, float WidthCm, const TArray<FVector>& Points)
+void FDhCrowdLaneNetwork::AddLane(FName Street, float WidthCm, const TArray<FVector>& Points, float SideCm)
 {
 	if (Points.Num() < 2) { return; }
 	FDhCrowdLane Lane;
 	Lane.Id = Lanes.Num();
 	Lane.Street = Street;
 	Lane.WidthCm = FMath::Clamp(WidthCm, 150.f, 2500.f);
+	Lane.SideCm = FMath::Clamp(SideCm, 0.f, Lane.WidthCm * 0.5f);
 	Lane.Points = Points;
 	Lanes.Add(MoveTemp(Lane));
 }
@@ -221,7 +224,15 @@ bool FDhCrowdLaneNetwork::Advance(FDhCrowdLaneWalker& W, float DeltaCm, FRandomS
 		}
 		W.Lane = Next;
 		const float Half = FMath::Max(0.f, 0.5f * NL.WidthCm - 35.f);
-		W.HomeLateral = FMath::Clamp(W.HomeLateral, -Half, Half);
+		if (NL.SideCm > 0.f)
+		{
+			// footpath: keep the same side of the road
+			W.HomeLateral = (W.HomeLateral >= 0.f ? 1.f : -1.f) * FMath::Min(NL.SideCm, Half);
+		}
+		else
+		{
+			W.HomeLateral = -FMath::Min(FMath::Abs(W.HomeLateral), Half * 0.6f);
+		}
 		W.Lateral = FMath::Clamp(W.Lateral, -Half, Half);
 		bChanged = true;
 	}
@@ -230,14 +241,22 @@ bool FDhCrowdLaneNetwork::Advance(FDhCrowdLaneWalker& W, float DeltaCm, FRandomS
 	return bChanged;
 }
 
-void FDhCrowdLaneNetwork::Place(FDhCrowdLaneWalker& W, int32 LaneIdx, float Dist, int32 Dir, float HomeFraction) const
+void FDhCrowdLaneNetwork::Place(FDhCrowdLaneWalker& W, int32 LaneIdx, float Dist, int32 Dir, float HomeFraction, int32 Side) const
 {
+	const FDhCrowdLane& L = Lanes[LaneIdx];
 	W.Lane = LaneIdx;
 	W.Dir = (Dir >= 0) ? 1 : -1;
-	W.Dist = FMath::Clamp(Dist, 0.f, Lanes[LaneIdx].Length);
-	const float Half = FMath::Max(0.f, 0.5f * Lanes[LaneIdx].WidthCm - 35.f);
-	// Negative = left of the direction of travel, so opposing flows pass on opposite sides.
-	W.HomeLateral = -FMath::Clamp(HomeFraction, 0.f, 1.f) * Half;
+	W.Dist = FMath::Clamp(Dist, 0.f, L.Length);
+	const float Half = FMath::Max(0.f, 0.5f * L.WidthCm - 35.f);
+	if (L.SideCm > 0.f)
+	{
+		W.HomeLateral = (Side >= 0 ? 1.f : -1.f) * FMath::Min(L.SideCm, Half);
+	}
+	else
+	{
+		// Negative = left of the direction of travel, so opposing flows pass on opposite sides.
+		W.HomeLateral = -FMath::Clamp(HomeFraction, 0.f, 1.f) * Half;
+	}
 	W.Lateral = W.HomeLateral;
 }
 

@@ -1,0 +1,13 @@
+Name,H05,H09,H13,H18,H22,H02,StaticDressingFactor
+MainRoad,8,50,120,170,25,3,0.4
+BazaarGalli,6,25,100,140,18,2,0.4
+ResidentialGalli,8,30,12,35,12,2,0.4
+MosqueGate,40,80,150,130,50,5,0.4
+StationForecourt,120,200,150,220,140,60,0.4
+SectorStreet,6,22,10,28,10,2,0.4
+LyariGali,10,38,22,60,22,3,0.5
+ShrineForecourt,30,40,70,110,60,8,0.5
+HarbourFront,70,90,50,30,10,4,0.4
+CheckpointApproach,10,35,40,55,20,6,0.3
+HighwayVerge,6,14,18,22,12,6,0.2
+JailGate,3,22,28,12,2,1,0.3

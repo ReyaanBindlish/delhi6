@@ -10,6 +10,8 @@ struct FDhCrowdLane
 	int32 Id = 0;
 	FName Street;                 // street type = row name of DT_StreetDensity_Story.csv
 	float WidthCm = 400.f;
+	/** Distance of the footpath from the centreline (cm) for wide roads; 0 = people walk in the lane (galis). */
+	float SideCm = 0.f;
 	TArray<FVector> Points;
 	TArray<float> Cum;            // cumulative length at each point
 	float Length = 0.f;
@@ -44,10 +46,10 @@ public:
 	static constexpr float CellSizeCm = 20000.f;
 	static constexpr float SampleStepCm = 500.f;
 
-	bool LoadFromJsonFile(const FString& Path);
-	bool LoadFromJsonString(const FString& Json);
+	bool LoadFromJsonFile(const FString& Path, const FVector& OffsetCm = FVector::ZeroVector);
+	bool LoadFromJsonString(const FString& Json, const FVector& OffsetCm = FVector::ZeroVector);
 	/** For tests / procedural fallback: one straight lane. */
-	void AddLane(FName Street, float WidthCm, const TArray<FVector>& Points);
+	void AddLane(FName Street, float WidthCm, const TArray<FVector>& Points, float SideCm = 0.f);
 	void Rebuild();
 	void Reset();
 
@@ -73,8 +75,12 @@ public:
 	void GetPose(const FDhCrowdLaneWalker& W, FVector& OutPos, FVector& OutDir) const;
 	/** Moves along the lane, switching lanes at nodes. Returns true if the lane changed. */
 	bool Advance(FDhCrowdLaneWalker& W, float DeltaCm, FRandomStream& Rng) const;
-	/** Puts a walker on a lane at a distance with a travel direction and a home side. */
-	void Place(FDhCrowdLaneWalker& W, int32 LaneIdx, float Dist, int32 Dir, float HomeFraction) const;
+	/**
+	 * Puts a walker on a lane at a distance with a travel direction and a home position. On lanes with a footpath
+	 * (SideCm > 0) Side (+1 right / -1 left of travel) picks the footpath; otherwise HomeFraction (0..1) is how far
+	 * from the centre, to the left of travel, the person walks.
+	 */
+	void Place(FDhCrowdLaneWalker& W, int32 LaneIdx, float Dist, int32 Dir, float HomeFraction, int32 Side = -1) const;
 
 private:
 	static FIntPoint NodeKey(const FVector& P)

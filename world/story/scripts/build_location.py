@@ -1024,7 +1024,24 @@ if EXPORT_DIR:
         _export(o, [], EXPORT_DIR / f"{name}.fbx", relative_pivot=False)
     tman = json.load(open(PP["tiles"] / "terrain_manifest.json")) if (PP["tiles"] / "terrain_manifest.json").exists() else None
     pois = json.load(open(PP["work"] / "pois.json"))["pois"] if (PP["work"] / "pois.json").exists() else []
-    man = {"location": _a.location, "title": data["title"], "map_name": LC.LOCATIONS[_a.location]["map_name"],
+    starts = []
+    for stn in STATION:
+        if stn["kind"] == "platform" and stn.get("ref") == "2;3":
+            lx, ly, lz = stn["location_m"]
+            starts.append({"name": "Platform_2_3", "location_m": [lx, ly, round(lz + stn["top_above_pivot_m"] + 0.05, 3)],
+                           "yaw_deg": 0.0})
+    best = None
+    for rd in data["roads"]:
+        if rd["type"] in ("residential", "tertiary", "unclassified", "living_street", "service") and not rd.get("bridge"):
+            for (x, y) in rd["pts"]:
+                d = x * x + y * y
+                if best is None or d < best[0]:
+                    best = (d, x, y)
+    if best:
+        starts.append({"name": "Street_nearest_centre", "location_m": [round(best[1], 2), round(best[2], 2),
+                                                                      round(ground(best[1] + OX, best[2] + OY) + 0.1, 3)],
+                       "yaw_deg": 0.0})
+    man = {"location": _a.location, "title": data["title"], "player_starts": starts, "map_name": LC.LOCATIONS[_a.location]["map_name"],
            "slice_center_latlon": data["center"], "size_m": data["size"], "style": STYLE,
            "world_origin": "slice centre = terrain centre", "terrain": TMETA if TERRAIN else None,
            "terrain_tiles": [dict(t, fbx=f"terrain/{t['fbx']}") for t in tman["tiles"]] if tman else [],

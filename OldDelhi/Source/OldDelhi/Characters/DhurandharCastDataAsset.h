@@ -1,9 +1,9 @@
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "Engine/DataTable.h"
-#include "Characters/CastTypes.h"
+#include "CastTypes.h"
 #include "DhurandharCastDataAsset.generated.h"
 
 class USkeletalMesh;

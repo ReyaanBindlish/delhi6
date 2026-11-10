@@ -98,6 +98,8 @@ public:
 	UPROPERTY(Config, EditAnywhere, Category = "Data", meta = (AllowedClasses = "/Script/Engine.DataTable")) FSoftObjectPath StreetDensityStory;
 	/** Folder holding DT_*.csv, relative to the project directory. */
 	UPROPERTY(Config, EditAnywhere, Category = "Data") FString CsvFolder = TEXT("Data");
+	/** Shifts the lane file (built around the tile centre) into the level frame, cm. Set per location by the world builder. */
+	UPROPERTY(Config, EditAnywhere, Category = "Data") FVector LaneWorldOffsetCm = FVector::ZeroVector;
 	/** Folders searched (relative to the project directory) for <location>_lanes.json. */
 	UPROPERTY(Config, EditAnywhere, Category = "Data") TArray<FString> LaneFolders;
 };

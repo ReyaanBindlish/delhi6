@@ -1,4 +1,4 @@
-#include "Characters/BodyStateComponent.h"
+﻿#include "BodyStateComponent.h"
 
 #include "Animation/AnimInstance.h"
 #include "Animation/AnimMontage.h"
@@ -10,7 +10,7 @@
 #include "GameFramework/Actor.h"
 #include "GameFramework/Character.h"
 #include "Materials/MaterialInstanceDynamic.h"
-#include "StoryCalendarSubsystem.h"
+#include "../StoryCalendarSubsystem.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogBodyState, Log, All);
 
