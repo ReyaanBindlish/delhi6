@@ -1,0 +1,25 @@
+{
+  "centre_latlon": [
+    28.655,
+    77.23
+  ],
+  "extent_m": 3200.0,
+  "size_px": 2017,
+  "pixel_m": 1.5873015873015872,
+  "elev_min_m": 200.47271728515625,
+  "elev_max_m": 232.5198516845703,
+  "base_elev_m": 199.0,
+  "ue_import": {
+    "heightmap": "old_delhi_heightmap_2017.png",
+    "scale_xyz_cm": [
+      158.73015873015873,
+      158.73015873015873,
+      20.0
+    ],
+    "section_size": "63x63 quads",
+    "sections_per_component": "2x2",
+    "components": "16x16",
+    "location_cm_note": "Place landscape centre at world origin; Z = 0 corresponds to base_elev_m + 0 m (heightmap value 32768). World Z(cm) = (elev_m - base_elev_m) * 100."
+  },
+  "source": "Copernicus DEM GLO-30 (DSM) - (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; bare-earth approximated by morphological opening."
+}

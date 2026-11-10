@@ -24,7 +24,41 @@ from mathutils import Vector
 argv = sys.argv[sys.argv.index("--") + 1:]
 SRC, OUT, TEX = argv[0], argv[1], Path(argv[2])
 STYLE = argv[3] if len(argv) > 3 else "karachi"
+TERRAIN = Path(argv[4]) if len(argv) > 4 and argv[4] != "-" else None   # dir with terrain.json + dtm .npy
+EXPORT_DIR = Path(argv[5]) if len(argv) > 5 else None                    # per-building FBX export
 data = json.load(open(SRC))
+
+# ---- world frame: with a terrain, everything is placed relative to the terrain centre, on real ground
+OX = OY = 0.0
+
+
+def ground(x, y):
+    return 0.0
+
+
+if TERRAIN:
+    import numpy as np
+    TMETA = json.load(open(TERRAIN / "terrain.json"))
+    DTM = np.load(TERRAIN / "old_delhi_dtm.npy")
+    tlat, tlon = TMETA["centre_latlon"]
+    _R = 6378137.0
+    _mlat = math.radians(1) * _R
+    _mlon = math.radians(1) * _R * math.cos(math.radians(tlat))
+    slat, slon = data["center"]
+    OX, OY = (slon - tlon) * _mlon, (slat - tlat) * _mlat
+    _half = TMETA["extent_m"] / 2; _px = TMETA["pixel_m"]; _base = TMETA["base_elev_m"]; _n = DTM.shape[0]
+
+    def ground(x, y):
+        """Terrain height (m above base) at world x (east), y (north)."""
+        c = (x + _half) / _px; r = (_half - y) / _px
+        c = min(max(c, 0), _n - 1.001); r = min(max(r, 0), _n - 1.001)
+        c0, r0 = int(c), int(r); fc, fr = c - c0, r - r0
+        h = (DTM[r0, c0] * (1 - fc) * (1 - fr) + DTM[r0, c0 + 1] * fc * (1 - fr)
+             + DTM[r0 + 1, c0] * (1 - fc) * fr + DTM[r0 + 1, c0 + 1] * fc * fr)
+        return float(h) - _base
+
+    print(f"terrain frame: slice offset ({OX:.1f}, {OY:.1f}) m", flush=True)
+MANIFEST = []
 
 FH = 3.05          # floor-to-floor height
 WALL_D = 0.22      # wall depth used for reveals
@@ -292,7 +326,12 @@ total_faces = 0
 ANCHORS = []  # (point, outward normal) on street-facing walls, for overhead cables
 for bi, B in enumerate(data["buildings"]):
     rnd = random.Random(B["seed"])
-    fp = [Vector((x, y)) for x, y in B["footprint"]]
+    # pivot at footprint centroid; geometry built relative to it
+    CX = sum(p[0] for p in B["footprint"]) / len(B["footprint"])
+    CY = sum(p[1] for p in B["footprint"]) / len(B["footprint"])
+    fp = [Vector((x - CX, y - CY)) for x, y in B["footprint"]]
+    ZB = min(ground(x + OX, y + OY) for x, y in B["footprint"])  # sit on lowest ground point
+    WORLD = Vector((CX + OX, CY + OY, ZB))
     nfl = B["floors"]
     H = nfl * FH
     g = G()
@@ -315,7 +354,7 @@ for bi, B in enumerate(data["buildings"]):
                 if rnd.random() < 0.7:
                     u = rnd.uniform(0.2, L - 0.2)
                     zz = rnd.uniform(3.4, min(H - 0.3, 7.5)) if H > 3.8 else H - 0.3
-                    ANCHORS.append((Vector((a.x + t.x * u + n.x * 0.12, a.y + t.y * u + n.y * 0.12, zz)),
+                    ANCHORS.append((Vector((a.x + t.x * u + n.x * 0.12, a.y + t.y * u + n.y * 0.12, zz)) + WORLD,
                                     Vector((n.x, n.y, 0))))
         nb = max(1, round(L / 2.7))
         bw = L / nb
@@ -413,13 +452,17 @@ for bi, B in enumerate(data["buildings"]):
                 for vi in poly.vertices:
                     attr.data[vi].color = (*sign_c, 1)
     ob = bpy.data.objects.new(B["id"], me)
+    ob.location = WORLD
     coll_b.objects.link(ob)
     total_faces += len(me.polygons)
+    MANIFEST.append({"id": B["id"], "location_m": [round(v, 3) for v in WORLD], "floors": nfl,
+                     "height_m": round(H, 2), "faces": len(me.polygons), "ucx": len(B["collision"])})
 
-    # UCX collision: one convex prism per piece (walls + roof; parapet excluded)
+    # UCX collision: one convex prism per piece (walls + roof; parapet excluded), reaching 1 m below grade
     for ci, piece in enumerate(B["collision"]):
+        piece = [(x - CX, y - CY) for x, y in piece]
         cb = bmesh.new()
-        bot = [cb.verts.new((x, y, 0)) for x, y in piece]
+        bot = [cb.verts.new((x, y, -1.0)) for x, y in piece]
         top = [cb.verts.new((x, y, H)) for x, y in piece]
         cb.faces.new(top); cb.faces.new(list(reversed(bot)))
         for i in range(len(piece)):
@@ -430,6 +473,7 @@ for bi, B in enumerate(data["buildings"]):
         cb.to_mesh(cm); cb.free()
         co = bpy.data.objects.new(f"UCX_{B['id']}_{ci:02d}", cm)
         co.display_type = "WIRE"; co.hide_render = True
+        co.location = WORLD
         coll_c.objects.link(co)
     if bi % 100 == 0:
         print(f"  {bi}/{len(data['buildings'])} buildings, {total_faces} faces", flush=True)
@@ -473,18 +517,31 @@ print(f"  {nw} overhead cables from {len(ANCHORS)} anchors")
 
 # ------------------------------------------------------------------ ground + roads
 half = data["size"] / 2 + 40
-gbm = bmesh.new()
-gv = [gbm.verts.new(p) for p in ((-half, -half, 0), (half, -half, 0), (half, half, 0), (-half, half, 0))]
-gbm.faces.new(gv); box_uv(gbm, 3.0)
-gm = bpy.data.meshes.new("Ground"); gbm.to_mesh(gm); gbm.free(); gm.materials.append(M_GROUND)
-gob = bpy.data.objects.new("Ground", gm); coll_g.objects.link(gob)
-# ground collision box
-cb = bmesh.new(); bmesh.ops.create_cube(cb, size=1.0)
-for v in cb.verts:
-    v.co.x *= 2 * half; v.co.y *= 2 * half; v.co.z = v.co.z * 1.0 - 0.5
-cm = bpy.data.meshes.new("UCX_Ground_00"); cb.to_mesh(cm); cb.free()
-co = bpy.data.objects.new("UCX_Ground_00", cm); co.display_type = "WIRE"; co.hide_render = True
-coll_c.objects.link(co)
+if TERRAIN:
+    # draped terrain preview patch for Blender only (in Unreal the Landscape is the ground)
+    gbm = bmesh.new()
+    steps = int(2 * half / 4)
+    grid = [[gbm.verts.new((OX - half + i * 4, OY - half + j * 4, ground(OX - half + i * 4, OY - half + j * 4)))
+             for i in range(steps + 1)] for j in range(steps + 1)]
+    for j in range(steps):
+        for i in range(steps):
+            gbm.faces.new((grid[j][i], grid[j][i + 1], grid[j + 1][i + 1], grid[j + 1][i]))
+    box_uv(gbm, 3.0)
+    gm = bpy.data.meshes.new("TerrainPreview"); gbm.to_mesh(gm); gbm.free(); gm.materials.append(M_GROUND)
+    gob = bpy.data.objects.new("TerrainPreview", gm); coll_g.objects.link(gob)
+else:
+    gbm = bmesh.new()
+    gv = [gbm.verts.new(p) for p in ((-half, -half, 0), (half, -half, 0), (half, half, 0), (-half, half, 0))]
+    gbm.faces.new(gv); box_uv(gbm, 3.0)
+    gm = bpy.data.meshes.new("Ground"); gbm.to_mesh(gm); gbm.free(); gm.materials.append(M_GROUND)
+    gob = bpy.data.objects.new("Ground", gm); coll_g.objects.link(gob)
+    # ground collision box
+    cb = bmesh.new(); bmesh.ops.create_cube(cb, size=1.0)
+    for v in cb.verts:
+        v.co.x *= 2 * half; v.co.y *= 2 * half; v.co.z = v.co.z * 1.0 - 0.5
+    cm = bpy.data.meshes.new("UCX_Ground_00"); cb.to_mesh(cm); cb.free()
+    co = bpy.data.objects.new("UCX_Ground_00", cm); co.display_type = "WIRE"; co.hide_render = True
+    coll_c.objects.link(co)
 
 RW = {"primary": 10, "secondary": 8, "tertiary": 7, "residential": 5, "unclassified": 5, "service": 3.5,
       "living_street": 4, "footway": 1.8, "path": 1.5, "pedestrian": 4}
@@ -493,7 +550,7 @@ for r in data["roads"]:
     w = RW.get(r["type"].replace("_link", ""), 0)
     if not w:
         continue
-    pts = [Vector((x, y, 0.03)) for x, y in r["pts"]]
+    pts = [Vector((x + OX, y + OY, ground(x + OX, y + OY) + 0.05)) for x, y in r["pts"]]
     for p, q in zip(pts, pts[1:]):
         d = q - p
         if d.length < 0.05:
@@ -521,6 +578,53 @@ cam.data.clip_start = 0.1; cam.data.clip_end = 3000
 scene.collection.objects.link(cam); scene.camera = cam
 
 bpy.ops.wm.save_as_mainfile(filepath=OUT + ".blend")
+
+# ------------------------------------------------------------------ per-building FBX + manifest (Unreal)
+if EXPORT_DIR:
+    (EXPORT_DIR / "buildings").mkdir(parents=True, exist_ok=True)
+    vl = bpy.context.view_layer
+    for entry in MANIFEST:
+        ob = bpy.data.objects[entry["id"]]
+        ucx = [o for o in coll_c.objects if o.name.startswith(f"UCX_{entry['id']}_")]
+        group = [ob] + ucx
+        for o in vl.objects:
+            o.select_set(False)
+        saved = [o.location.copy() for o in group]
+        for o in group:
+            o.location = (0, 0, 0)          # pivot = footprint centroid at grade
+            o.select_set(True)
+        vl.objects.active = ob
+        bpy.ops.export_scene.fbx(filepath=str(EXPORT_DIR / "buildings" / f"{entry['id']}.fbx"),
+                                 use_selection=True, apply_unit_scale=True,
+                                 apply_scale_options="FBX_SCALE_UNITS", object_types={"MESH"},
+                                 mesh_smooth_type="FACE", axis_forward="-Y", axis_up="Z",
+                                 path_mode="RELATIVE", embed_textures=False, colors_type="LINEAR")
+        for o, l in zip(group, saved):
+            o.location = l
+        entry["fbx"] = f"buildings/{entry['id']}.fbx"
+    for name in ("Roads", "Overhead_Wires"):
+        o = bpy.data.objects.get(name)
+        if o is None:
+            continue
+        for x in vl.objects:
+            x.select_set(False)
+        o.select_set(True); vl.objects.active = o
+        bpy.ops.export_scene.fbx(filepath=str(EXPORT_DIR / f"{name}.fbx"), use_selection=True,
+                                 apply_unit_scale=True, apply_scale_options="FBX_SCALE_UNITS",
+                                 object_types={"MESH"}, mesh_smooth_type="FACE", axis_forward="-Y",
+                                 axis_up="Z", path_mode="RELATIVE", embed_textures=False)
+    man = {"slice_center_latlon": data["center"], "size_m": data["size"], "style": STYLE,
+           "world_origin": "terrain centre" if TERRAIN else "slice centre",
+           "terrain": (TMETA if TERRAIN else None), "units": "metres, Z up, X east, Y north",
+           "materials": [m.name for m in MAT] + ["M_Asphalt"],
+           "surface_types": {"M_PaintedPlaster": "Plaster", "M_DamagedPlaster": "Plaster", "M_Brick": "Brick",
+                             "M_Concrete": "Concrete", "M_RoofConcrete": "Concrete", "M_Glass": "Glass",
+                             "M_RustyMetal": "Metal", "M_RollingShutter": "Metal", "M_ACUnit": "Metal",
+                             "M_PVCTank": "Plastic", "M_Signboard": "Plastic", "M_Cable": "Metal",
+                             "M_Asphalt": "Asphalt"},
+           "buildings": MANIFEST}
+    json.dump(man, open(EXPORT_DIR / "manifest.json", "w"), indent=1)
+    print(f"EXPORTED {len(MANIFEST)} building FBX -> {EXPORT_DIR}", flush=True)
 # FBX: buildings + UCX collision + ground/roads (Unreal: import with "Combine Meshes" off)
 bpy.ops.export_scene.fbx(filepath=OUT + ".fbx", apply_unit_scale=True, apply_scale_options="FBX_SCALE_UNITS",
                          object_types={"MESH"}, mesh_smooth_type="FACE", axis_forward="-Y", axis_up="Z",

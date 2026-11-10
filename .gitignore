@@ -25,3 +25,12 @@ world/*/scripts/_*.py
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# Regenerable heavy outputs (rebuild with the scripts; keeps GitHub LFS under 1 GB)
+world/delhi/export/**/*.fbx
+world/delhi/old_delhi_vs.blend
+world/delhi/old_delhi_vs.fbx
+world/delhi/terrain/*.npy
+world/delhi_south/*.blend
+world/delhi_south/*.fbx
+world/delhi_south/source/
